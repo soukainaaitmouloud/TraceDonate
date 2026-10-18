@@ -17,7 +17,7 @@ exports.getMyProfile = (
 
     "SELECT * FROM users WHERE id = ?",
 
-    [req.userId],
+    [req.user.id],
 
     (err, result) => {
 
@@ -107,7 +107,7 @@ exports.updateProfile = (
       phone,
       location,
       avatar,
-      req.userId,
+      req.user.id,
     ],
 
     (err) => {
@@ -131,7 +131,7 @@ exports.updateProfile = (
 
         "SELECT * FROM users WHERE id = ?",
 
-        [req.userId],
+        [req.user.id],
 
         (err, result) => {
 
@@ -195,7 +195,7 @@ exports.updatePassword =
 
         "SELECT * FROM users WHERE id = ?",
 
-        [req.userId],
+        [req.user.id],
 
         async (
           err,
@@ -262,7 +262,7 @@ exports.updatePassword =
 
             [
               hashedPassword,
-              req.userId,
+              req.user.id,
             ],
 
             (err) => {
@@ -327,7 +327,7 @@ exports.deleteAccount = (
 
     "DELETE FROM users WHERE id = ?",
 
-    [req.userId],
+    [req.user.id],
 
     (err) => {
 
@@ -382,7 +382,7 @@ exports.getSummary = (
     WHERE id = ?
     `,
 
-    [req.userId],
+    [req.user.id],
 
     (err, result) => {
 
