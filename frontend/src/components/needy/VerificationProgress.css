@@ -1,0 +1,546 @@
+.verification-progress-card {
+  position: relative;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,0.96),
+      rgba(248,250,252,0.95)
+    );
+
+  backdrop-filter: blur(20px);
+
+  border-radius: 34px;
+
+  padding: 42px;
+
+  overflow: hidden;
+
+  border:
+    1px solid rgba(255,255,255,0.7);
+
+  box-shadow:
+    0 20px 60px rgba(15,23,42,0.08);
+
+  transition: 0.4s ease;
+}
+
+/* ================= GLOW ================= */
+
+.verification-progress-card::before {
+  content: "";
+
+  position: absolute;
+
+  top: -120px;
+  right: -120px;
+
+  width: 260px;
+  height: 260px;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(34,197,94,0.18),
+      transparent 70%
+    );
+
+  pointer-events: none;
+}
+
+.verification-progress-card::after {
+  content: "";
+
+  position: absolute;
+
+  bottom: -140px;
+  left: -140px;
+
+  width: 300px;
+  height: 300px;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(59,130,246,0.18),
+      transparent 70%
+    );
+
+  pointer-events: none;
+}
+
+/* ================= DARK MODE ================= */
+
+.dark .verification-progress-card {
+  background:
+    linear-gradient(
+      145deg,
+      rgba(30,41,59,0.96),
+      rgba(15,23,42,0.96)
+    );
+
+  border:
+    1px solid rgba(255,255,255,0.08);
+
+  box-shadow:
+    0 20px 60px rgba(0,0,0,0.55);
+}
+
+/* ================= TITLE ================= */
+
+.verification-progress-card h3 {
+  margin: 0 0 38px;
+
+  font-size: 34px;
+
+  font-weight: 900;
+
+  color: #0f172a;
+
+  letter-spacing: -1px;
+
+  position: relative;
+
+  z-index: 2;
+}
+
+.dark .verification-progress-card h3 {
+  color: white;
+}
+
+/* ================= CONTENT ================= */
+
+.verification-progress-content {
+  display: grid;
+
+  grid-template-columns: 1.1fr 0.9fr;
+
+  gap: 50px;
+
+  align-items: center;
+
+  position: relative;
+
+  z-index: 2;
+}
+
+/* ================= LEFT ================= */
+
+.verification-left {
+  display: flex;
+
+  align-items: center;
+
+  gap: 40px;
+}
+
+/* ================= CIRCLE ================= */
+
+.progress-ring {
+  position: relative;
+}
+
+.progress-ring-inner {
+  position: relative;
+
+  width: 190px;
+  height: 190px;
+
+  animation:
+    floatRing 5s ease-in-out infinite;
+}
+
+.progress-ring-inner::before {
+  content: "";
+
+  position: absolute;
+
+  inset: -12px;
+
+  border-radius: 50%;
+
+  background:
+    conic-gradient(
+      from 180deg,
+      rgba(34,197,94,0.15),
+      rgba(59,130,246,0.18),
+      rgba(34,197,94,0.15)
+    );
+
+  filter: blur(20px);
+
+  z-index: -1;
+
+  animation:
+    rotateAura 8s linear infinite;
+}
+
+@keyframes rotateAura {
+
+  100% {
+    transform:
+      rotate(360deg);
+  }
+
+}
+
+@keyframes floatRing {
+
+  0% {
+    transform:
+      translateY(0px);
+  }
+
+  50% {
+    transform:
+      translateY(-8px);
+  }
+
+  100% {
+    transform:
+      translateY(0px);
+  }
+
+}
+
+.progress-ring svg {
+  filter:
+    drop-shadow(
+      0 0 12px rgba(34,197,94,0.35)
+    )
+    drop-shadow(
+      0 0 28px rgba(34,197,94,0.22)
+    );
+
+  animation:
+    rotateGlow 10s linear infinite;
+}
+
+@keyframes rotateGlow {
+
+  0% {
+    transform:
+      rotate(0deg);
+  }
+
+  100% {
+    transform:
+      rotate(360deg);
+  }
+
+}
+
+.shield-icon {
+  position: absolute;
+
+  top: 45%;
+  left: 47%;
+
+  transform: translate(-50%, -50%);
+
+  width: 70px;
+  height: 70px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 58px;
+
+  z-index: 10;
+
+  pointer-events: none;
+}
+
+@keyframes pulseShield {
+
+  0% {
+    scale: 1;
+  }
+
+  50% {
+    scale: 1.08;
+  }
+
+  100% {
+    scale: 1;
+  }
+
+}
+
+/* ================= INFO ================= */
+
+.verification-info h2 {
+  margin: 0;
+
+  font-size: 40px;
+
+  line-height: 1.05;
+
+  font-weight: 900;
+
+  color: #0f172a;
+
+  letter-spacing: -1px;
+}
+
+.dark .verification-info h2 {
+  color: white;
+}
+
+.complete-text {
+  margin-top: 14px;
+
+  font-size: 24px;
+
+  font-weight: 700;
+
+  color: #64748b;
+}
+
+.dark .complete-text {
+  color: #cbd5e1;
+}
+
+.complete-text span {
+  color: #16a34a;
+
+  font-size: 42px;
+
+  font-weight: 900;
+
+  margin-right: 10px;
+
+  text-shadow:
+    0 0 25px rgba(34,197,94,0.25);
+}
+
+/* ================= MINI BAR ================= */
+
+.mini-progress {
+  width: 260px;
+
+  height: 14px;
+
+  border-radius: 999px;
+
+  background: #e2e8f0;
+
+  overflow: hidden;
+
+  margin-top: 24px;
+
+  position: relative;
+}
+
+.dark .mini-progress {
+  background: #334155;
+}
+
+.mini-progress-fill {
+  width: 80%;
+  height: 100%;
+
+  border-radius: 999px;
+
+  background:
+    linear-gradient(
+      90deg,
+      #16a34a,
+      #22c55e,
+      #4ade80
+    );
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+.mini-progress-fill::after {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: -40%;
+
+  width: 40%;
+  height: 100%;
+
+  background:
+    rgba(255,255,255,0.5);
+
+  filter: blur(6px);
+
+  animation:
+    shine 2s linear infinite;
+}
+
+@keyframes shine {
+
+  100% {
+    left: 140%;
+  }
+
+}
+
+/* ================= DESCRIPTION ================= */
+
+.verification-info p {
+  margin-top: 22px;
+
+  max-width: 320px;
+
+  line-height: 1.9;
+
+  font-size: 16px;
+
+  color: #64748b;
+}
+
+.dark .verification-info p {
+  color: #cbd5e1;
+}
+
+/* ================= RIGHT ================= */
+
+.verification-right {
+  border-left:
+    1px solid rgba(148,163,184,0.2);
+
+  padding-left: 40px;
+}
+
+.dark .verification-right {
+  border-left:
+    1px solid rgba(255,255,255,0.08);
+}
+
+.verify-row {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding: 22px 0;
+
+  border-bottom:
+    1px solid rgba(148,163,184,0.15);
+
+  transition: 0.3s ease;
+}
+
+.verify-row:hover {
+  transform:
+    translateX(6px);
+}
+
+.dark .verify-row {
+  border-bottom:
+    1px solid rgba(255,255,255,0.06);
+}
+
+.verify-row:last-child {
+  border-bottom: none;
+}
+
+.verify-row span {
+  font-size: 17px;
+
+  font-weight: 800;
+
+  color: #0f172a;
+}
+
+.dark .verify-row span {
+  color: white;
+}
+
+/* ================= STATUS ================= */
+
+.verify-status {
+  font-size: 15px;
+
+  font-weight: 900;
+
+  padding:
+    10px 18px;
+
+  border-radius: 999px;
+
+  backdrop-filter: blur(10px);
+}
+
+.verify-status.success {
+  color: #16a34a;
+
+  background:
+    rgba(34,197,94,0.12);
+
+  box-shadow:
+    0 0 18px rgba(34,197,94,0.12);
+}
+
+.verify-status.pending {
+  color: #f97316;
+
+  background:
+    rgba(249,115,22,0.12);
+
+  box-shadow:
+    0 0 18px rgba(249,115,22,0.12);
+}
+
+.verify-status.inactive {
+  color: #94a3b8;
+
+  background:
+    rgba(148,163,184,0.12);
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 1100px) {
+
+  .verification-progress-content {
+    grid-template-columns: 1fr;
+  }
+
+  .verification-right {
+    border-left: none;
+
+    border-top:
+      1px solid rgba(148,163,184,0.15);
+
+    padding-left: 0;
+
+    padding-top: 30px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .verification-progress-card {
+    padding: 26px;
+  }
+
+  .verification-left {
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+
+  .verification-info h2 {
+    font-size: 30px;
+  }
+
+  .progress-ring-inner {
+    width: 160px;
+    height: 160px;
+  }
+
+}

@@ -1,0 +1,1195 @@
+{
+  "hello": "你好",
+  "dashboard": "仪表板",
+  "donateNow": "立即捐赠",
+  "supporters": "支持者",
+  "daysLeft": "剩余天数",
+  "campaignOverview": "活动概览",
+  "recentUpdates": "最新动态",
+  "thankYouMessage": "感谢信息 ❤️",
+  "medicalAid": "医疗援助",
+  "cleanWater": "清洁饮水",
+  "foodHelp": "食品援助",
+  "educationSupport": "教育支持",
+  "shareCampaign": "分享活动",
+  "manageCampaign": "管理活动",
+  "updateStory": "更新故事",
+  "downloadQR": "下载二维码",
+  "verified": "已验证",
+  "donations": "捐款",
+  "analytics": "分析",
+  "goalAmount": "目标金额",
+  "raisedAmount": "已筹金额",
+  "remainingAmount": "剩余金额",
+  "fundraisingInProgress": "筹款进行中"
+    ,
+    "backToCampaign": "返回我的活动",
+"updateYourStory": "更新您的故事",
+"updateStorySubtitle": "与您的支持者分享您的最新动态。您的故事会激励他人。",
+"previewUpdate": "预览更新",
+"publishUpdate": "发布更新",
+"writeYourUpdate": "编写您的更新",
+"updateTitle": "更新标题 *",
+"yourStory": "您的故事 *",
+"addPhotosVideos": "添加照片和视频",
+"photosHelp": "照片有助于建立信任并获得更多支持。",
+"uploadPhotoVideo": "上传照片/视频",
+"updateCategory": "更新类别",
+"medicalUpdate": "医疗更新",
+"treatmentUpdate": "治疗更新",
+"personalUpdate": "个人更新",
+"defaultUpdateTitle": "小小的进步，巨大的改变",
+"defaultStory": "我想感谢每一位支持我的人 ❤️\n\n手术很成功，我现在正在康复中。",
+"defaultLocation": "印度新德里",
+"uploadPhotoFormats": "JPG, PNG, MP4",
+"twoMinutesAgo": "2分钟前",
+
+"gratitude": "感谢",
+"addLocation": "添加位置",
+"optional": "(可选)",
+"updatePreview": "更新预览"
+,
+"welcomeBack": "欢迎回到您的仪表板",
+"searchPlaceholder": "搜索捐款、请求、公益活动...",
+"saveDraft": "保存草稿",
+"userName": "Riya Sharma",
+"verificationProgress": "验证进度",
+"profileVerification": "个人资料验证",
+"verificationDescription": "完成所有所需文件以获得完全验证并建立信任。",
+"identityVerification": "身份验证",
+"medicalVerification": "医疗验证",
+"addressVerification": "地址验证",
+"bankVerification": "银行验证",
+"complete": "完成",
+"completed": "已完成",
+"pending": "待处理",
+"notStarted": "未开始",
+
+  "documentsVerification": "文件与验证",
+  "documentsSubtitle": "上传并管理您的文件以验证您的身份和医疗需求。",
+
+
+
+  "uploadedDocuments": "已上传文件",
+  "documentsSubtitle2": "请保持您的文件为最新状态，以确保顺利完成验证。",
+
+  "uploadNewDocument": "上传新文件",
+  "uploadNow": "立即上传",
+
+  "aadharCard": "身份证",
+  "medicalReport": "医疗报告",
+  "addressProof": "地址证明",
+  "bankStatement": "银行对账单",
+
+  "identityProof": "身份证明",
+  "medicalDocument": "医疗文件",
+  "addressVerificationType": "地址验证",
+  "bankVerificationType": "银行验证",
+
+  "uploadedDate": "上传于 2026年5月10日",
+  "uploadedDate2": "上传于 2026年5月8日",
+  "requiredWithdrawals": "提款所需",
+
+
+  "notUploaded": "未上传",
+
+  "documentId": "文件编号",
+
+  "needHelpVerification": "需要验证帮助吗？",
+  "supportSubtitle": "我们的支持团队将帮助您完成文件验证。",
+  "contactSupport": "联系支持",
+
+  "verificationStatus": "验证状态",
+  "youAreVerified": "您已通过验证！",
+  "documentsVerifiedSuccessfully": "您的文件已成功审核和验证。",
+  "lastVerified": "最后验证时间：2026年5月10日",
+
+  "downloadVerificationBadge": "下载验证徽章",
+
+  "whyVerificationMatters": "为什么验证很重要？",
+
+  "buildTrust": "建立信任",
+  "buildTrustDesc": "已验证的个人资料会获得更多捐款和支持。",
+
+  "secureSafe": "安全可靠",
+  "secureSafeDesc": "我们确保所有文件均已加密并完全安全。",
+
+  "fasterWithdrawals": "更快提款",
+  "fasterWithdrawalsDesc": "完整验证可帮助您快速顺利提款。",
+
+  "transparency": "透明度",
+  "transparencyDesc": "透明度可以建立更强大的信任与支持社区。",
+
+  "verificationTip": "提示：请确保您的文件清晰且有效，以加快验证速度。"
+,
+
+  "verificationProgress": "验证进度",
+  "profileVerification": "个人资料验证",
+  "complete": "完成",
+  "verificationDescription": "完成所有必需文件以获得完全验证并建立信任。",
+  "identityVerification": "身份验证",
+  "medicalVerification": "医疗验证",
+  "addressVerification": "地址验证",
+  "bankVerification": "银行验证",
+  "completed": "已完成",
+  "pending": "待处理",
+  "notStarted": "未开始",
+  "verificationProgress": "验证进度",
+"profileVerification": "个人资料验证",
+"complete": "完成",
+"verificationDescription": "完成所有必需文件以获得完整验证并建立信任。",
+
+"identityVerification": "身份验证",
+"medicalVerification": "医疗验证",
+"addressVerification": "地址验证",
+"bankVerification": "银行验证",
+
+"completed": "已完成",
+"pending": "待处理",
+"notStarted": "未开始",
+
+  "urgentSurgeryNeeded": "急需手术",
+  "storyPlaying": "故事播放中",
+  "updatedHoursAgo": "3小时前更新",
+  "receiveHeartSurgery": "帮助 Riya 接受心脏手术",
+  "campaignSubtitle": "您的支持可以拯救一个年轻的生命，并为一个需要帮助的家庭带来希望。",
+
+  "riyaStory": "Riya 的故事",
+
+  "raisedOf": "已筹集",
+  "goal": "目标",
+  "funded": "已完成筹款",
+
+  "heartDisease": "心脏病",
+  "yearsOld": "8岁",
+  "ruralIndia": "印度乡村",
+  "hospitalVerified": "医院已验证",
+
+  "donateSupport": "捐款支持",
+  "riyaQuote": "每一次心跳都是希望与康复的机会。",
+
+  "recoveryCampaign": "康复筹款活动",
+
+  "viewDetails": "查看详情",
+  "urgentCase": "紧急案例",
+  "heart": "心脏",
+  "surgeryTreatment": "手术治疗",
+  "createdOn": "创建于",
+
+  "campaignGoal": "筹款目标",
+  "raised": "已筹集",
+  "remaining": "剩余",
+
+  "fundraisingProgress": "筹款进度",
+  "latestStories": "最新动态",
+
+  "twoDaysAgo": "2天前",
+  "recentThankYouText": "感谢大家的善良与支持 ❤️",
+
+  "fiveDaysAgo": "5天前",
+  "recentTreatmentUpdateText": "治疗已经开始，恢复情况每天都在改善。",
+
+  "recoveryJourney": "康复之旅",
+  "oneWeekAgo": "1周前",
+  "recentRecoveryJourneyText": "Riya 再次露出了笑容，并逐渐恢复力量。",
+
+  "twoMinAgo": "2分钟前",
+
+  "openDocument": "打开文件",
+  "doctorCertificate": "医生证明",
+  "hospitalEstimate": "医院费用预估",
+  "documentsVerifiedText": "所有文件均已成功验证。",
+
+  "supportMyRecovery": "支持我的康复",
+  "publicPage": "公开页面",
+
+  "shares": "分享",
+
+  "shareStory": "分享故事",
+  "verifiedTransparency": "透明度已验证",
+  "fundAllocation": "资金分配",
+
+  "transparencyOverview": "透明度概览",
+  "details": "详情",
+  "transparent": "透明",
+
+  "hospitalSurgery": "医院与手术",
+  "medicines": "药物",
+  "testsDiagnosis": "检查与诊断",
+  "transport": "交通",
+  "others": "其他",
+
+  "totalWithdrawn": "总提现",
+  "notWithdrawnYet": "尚未提现",
+
+  "lastUpdated": "最后更新",
+
+  "medicalReportsVerified": "医疗报告已验证",
+  "identityVerified": "身份已验证",
+  "hospitalDocumentsVerified": "医院文件已验证",
+  "viewDonationRecords": "查看捐款记录",
+
+  "engagement": "互动",
+
+  "activitySummary": "活动摘要",
+  "updatesPosted": "已发布更新",
+  "photosVideos": "照片与视频",
+  "totalSupporters": "总支持者",
+  "thankYouMessages": "感谢留言",
+
+  "activityFooter": "每一个行动都在建立信任与希望 ❤️"
+,
+
+  "campaignGrowing": "活动正在增长",
+  "myCampaign": "我的活动",
+  "manageCampaignSubtitle": "轻松管理您的筹款、更新、捐款和支持者。",
+
+  "campaignactivechangePhoto": "活动进行中 • 更换照片",
+
+  "healthyHeartJourney": "健康心脏之旅",
+
+  "campaignDescription": "帮助支持 Riya 的心脏手术和康复之旅。",
+
+  "category": "类别",
+  "medical": "医疗",
+
+  "location": "位置",
+
+  "editCampaign": "编辑活动",
+  "previewPage": "预览页面",
+  "overview": "概览",
+  "updates": "更新",
+
+  "campaignProgress": "活动进度",
+
+  "keepGoing": "继续加油",
+
+  "seeAll": "查看全部",
+  "update": "更新",
+
+  "feelingBetter": "感觉好多了 ❤️",
+
+  "createNewUpdate": "创建新更新",
+
+  "communitySupport": "社区支持",
+  "recentDonations": "最近捐款",
+
+  "donorName1": "Emma Wilson",
+  "donationMessage1": "送上祈祷与支持 ❤️",
+
+  "donorName2": "Michael Lee",
+  "donationMessage2": "保持坚强，我们与你同在！",
+
+  "oneDayAgo": "1天前",
+
+  "donorName3": "Ravi Kumar",
+  "donationMessage3": "祝你早日康复 🙏",
+
+  "donorName4": "Priya Sharma",
+  "donationMessage4": "你并不孤单。",
+
+  "threeDaysAgo": "3天前",
+
+  "donorName5": "Victor Chen",
+  "donationMessage5": "祝你力量与康复。",
+
+  "verifiedCampaign": "已验证活动",
+
+  "raisedGoal": "筹款目标",
+
+  "shareMyStory": "分享我的故事",
+  "secureDonationText": "安全捐款由可信支付系统保护。",
+
+  "quickActions": "快捷操作",
+
+  "updateStoryText": "发布更新并让支持者了解最新情况。",
+
+  "addPhotos": "添加照片",
+  "addPhotosText": "上传照片以建立信任和互动。",
+
+  "goLive": "公开上线",
+  "goLiveText": "向支持者公开发布您的活动。",
+
+  "shareCampaignCardText": "与朋友和家人分享您的活动。",
+
+  "downloadQRText": "下载二维码以便轻松分享。",
+
+  "editDetails": "编辑详情",
+  "editDetailsText": "随时更新活动信息。"
+,
+
+
+
+  "may2026": "2026年5月",
+  
+  "recentDonations": "最近捐款",
+  "trackLatestSupporters": "查看您最新的支持者和捐款。",
+  "donor": "捐赠者",
+  "amount": "金额",
+  "date": "日期",
+  "message": "留言",
+  "status": "状态",
+  "actions": "操作",
+  "completed": "已完成",
+  "pending": "处理中",
+  "viewAllDonations": "查看所有捐款",
+  "needHelp": "需要帮助？",
+  "supportDonationText": "我们的支持团队随时为您解决捐款问题。",
+  "contactSupport": "联系支持",
+  "openingDonation": "打开捐款",
+  "donationReceipt": "捐款收据",
+  "generated": "生成时间",
+  "donationMessage1": "祝您坚强并早日康复。",
+  "donationMessage2": "保持坚强，我们支持您。",
+  "donationMessage3": "祝愿您早日康复。",
+  "donationMessage4": "希望这笔捐款能帮助您的治疗。",
+  "donationMessage5": "送上支持与正能量。",
+  "donationMessage6": "我们一直陪伴着您。"
+,
+
+  "donationsReceived": "已收到的捐款",
+  "donationsSubtitle": "跟踪并管理来自世界各地支持者的所有捐款。",
+  "downloadReport": "下载报告",
+
+  "totalDonations": "总捐款",
+  "allTimeDonations": "历史总捐款",
+
+  "totalDonors": "总捐赠者",
+  "peopleSupportedYou": "支持您的人",
+
+  "successfulDonations": "成功捐款",
+  "completedTransactions": "已完成交易",
+
+  "pendingDonations": "待处理捐款",
+  "awaitingCompletion": "等待完成",
+
+  "donationGrowth": "捐款增长",
+  "trackDonationPerformance": "跟踪您的捐款表现和筹款活动增长。",
+
+  "thisMonth": "本月",
+  "thisWeek": "本周",
+  "today": "今天",
+
+  "totalDonated": "总捐款金额",
+  "highestDonation": "最高捐款",
+
+  "donationImpact": "捐款影响",
+  "campaignHelpingFamilies": "您的活动每天都在帮助更多家庭。",
+
+  "fastestGrowingCampaign": "增长最快的活动",
+  "donorActivityWeek": "本周捐赠者活跃度",
+
+  "verificationComplete": "验证完成",
+  "trustedProfile": "可信资料会吸引更多捐赠者",
+
+  "supportTeamReady": "我们的支持团队随时为您提供帮助。",
+
+  "recentDonations": "最近捐款",
+  "trackLatestSupporters": "查看您最新的支持者和捐款。",
+
+  "donor": "捐赠者",
+  "amount": "金额",
+  "date": "日期",
+  "message": "留言",
+  "status": "状态",
+
+  "viewAllDonations": "查看所有捐款",
+
+  "needHelp": "需要帮助？",
+  "supportDonationText": "如果您对捐款有任何疑问，我们的支持团队随时为您提供帮助。",
+
+  "contactSupport": "联系支持",
+
+  "donationMessage1": "祝您早日康复 🙏",
+  "donationMessage2": "保持坚强，我们与你同在 💚",
+  "donationMessage3": "保重身体，早日康复 💪",
+  "donationMessage4": "我会为你祈祷 🙏",
+  "donationMessage5": "希望这能帮助您的康复 🌸",
+  "donationMessage6": "保持积极，保持坚强 💚",
+  
+  "actions": "操作",
+  "completed": "已完成",
+  "pending": "处理中",
+  "openingDonation": "打开捐款",
+  "donationReceipt": "捐款收据",
+  "generated": "生成时间"
+,
+
+  "monthlyGrowth": "月增长",
+  "topDonors": "顶级捐赠者",
+  "active": "活跃",
+
+  "premiumSupporter": "高级支持者",
+
+  "viewTopDonors": "查看顶级捐赠者"
+
+,
+
+  "transparencyCenter": "透明中心",
+  "transparencySubtitle": "实时追踪所有捐款、资金使用情况和活动透明度。",
+
+  "downloadFullReport": "下载完整报告",
+  "aiAssistant": "AI 助手",
+
+  "totalDonationsReceived": "收到的总捐款",
+  "fromDonors": "来自 128 位捐赠者",
+
+  "totalFundsUtilized": "已使用资金总额",
+  "fundsUtilizedPercent": "占总资金的 80.8%",
+
+  "totalImpactCreated": "总影响力",
+  "livesImpacted": "积极影响的人数",
+
+  "fundsInProgress": "处理中资金",
+  "fundsRemainingPercent": "占总资金的 19.2%",
+
+  "fundsUtilizationOverview": "资金使用概览",
+  "trackFundsUsage": "追踪捐赠资金的使用情况。",
+
+  "fundsUtilized": "已使用资金",
+
+  "medicalExpenses": "医疗费用",
+  "dailyNeeds": "日常需求",
+  "travelStay": "旅行与住宿",
+  "otherExpenses": "其他费用",
+
+  "totalUtilized": "总使用金额",
+
+  "recentTransactions": "最近交易",
+  "latestCampaignTransactions": "您活动的最新交易记录。",
+
+  "viewAll": "查看全部",
+
+  "completed": "已完成",
+  "paid": "已支付",
+
+  "impactUpdates": "影响与更新",
+  "realImpactCreated": "您的捐赠带来了真实影响。",
+
+  "patientsHelped": "帮助的患者",
+  "medicalSupportProvided": "已提供医疗支持",
+
+  "familiesSupported": "支持的家庭",
+  "familiesReceivedAssistance": "家庭已获得帮助",
+
+  "recoveryProgress": "康复进度",
+  "towardsCompleteRecovery": "正在全面康复中",
+
+  "campaignTimeline": "活动时间线",
+  "keyMilestonesJourney": "您旅程中的关键里程碑。",
+
+  "campaignStarted": "活动开始",
+  "verificationCompleted": "验证完成",
+  "firstDonationReceived": "收到第一笔捐款",
+  "medicalTreatmentStarted": "医疗治疗开始",
+  "ongoingRecovery": "持续康复中",
+  "inProgress": "进行中",
+
+  "haveQuestions": "有问题吗？",
+  "supportMessage": "我们相信100%的透明度。如果您有任何疑问，我们的团队随时为您提供帮助。",
+
+  "contactSupport": "联系支持",
+
+  "financialTransparency": "财务透明",
+  "campaignBreakdown": "活动财务明细",
+
+  "donationsReceived": "收到的捐款",
+  "pendingInProgress": "处理中",
+
+  "documentsProof": "文件与证明",
+  "financialDocumentsProofs": "经过验证的财务文件和证明",
+
+  "medicalBills": "医疗账单",
+  "medicalBillsCount": "12 份已验证账单",
+
+  "expenseReceipts": "费用收据",
+  "expenseReceiptsCount": "8 份上传收据",
+
+  "bankStatements": "银行对账单",
+  "bankStatementsCount": "4 份已验证对账单",
+
+  "view": "查看",
+  "viewAllDocuments": "查看所有文件"
+,
+
+  "aaravDonation": "来自 Aarav Mehta 的捐款",
+  "aaravDonationDate": "2026年5月10日 上午10:30",
+
+  "priyaDonation": "来自 Priya Nair 的捐款",
+  "priyaDonationDate": "2026年5月10日 上午09:15",
+
+  "rahulDonation": "来自 Rahul Verma 的捐款",
+  "rahulDonationDate": "2026年5月09日 晚上08:45",
+
+  "medicalExpensesTransaction": "医疗费用",
+  "medicalExpensesDate": "2026年5月09日 下午06:25",
+
+  "travelExpenses": "旅行费用",
+  "travelExpensesDate": "2026年5月08日 上午11:05",
+
+  "completed": "已完成",
+  "paid": "已支付",
+
+  "aiAssistant": "AI 助手",
+
+  "impactUpdates": "影响与更新",
+  "realImpactCreated": "您的捐赠带来了真实影响。",
+
+  "patientsHelped": "帮助的患者",
+  "medicalSupportProvided": "已提供医疗支持",
+
+  "familiesSupported": "支持的家庭",
+  "familiesReceivedAssistance": "家庭已获得帮助",
+
+  "recoveryProgress": "康复进度",
+  "towardsCompleteRecovery": "正在全面康复中",
+
+  "campaignTimeline": "活动时间线",
+  "keyMilestonesJourney": "您旅程中的关键里程碑。",
+
+  "campaignStarted": "活动开始",
+  "verificationCompleted": "验证完成",
+  "firstDonationReceived": "收到第一笔捐款",
+  "medicalTreatmentStarted": "医疗治疗开始",
+  "ongoingRecovery": "持续康复中",
+  "inProgress": "进行中",
+
+  "haveQuestions": "有问题吗？",
+  "supportMessage": "我们相信100%的透明度。如果您有任何疑问，我们的团队随时为您提供帮助。",
+
+  "contactSupport": "联系支持"
+,
+
+  "recoveryTimeline": "康复时间线",
+  "downloadTimeline": "下载时间线",
+
+  "recoveryJourneySubtitle": "追踪 Riya 的康复旅程和重要里程碑。",
+
+  "supportRecoveryTitle": "您的支持正在为 Riya 的康复带来真正的改变。",
+  "supportRecoverySubtitle": "每个阶段都经过验证并附有相关文件。",
+
+  "diagnosisAssessment": "诊断与医疗评估",
+  "diagnosisAssessmentDesc": "由专家确认的完整健康检查与诊断。",
+
+  "treatmentPlan": "治疗计划已确定",
+  "treatmentPlanDesc": "医生已完成治疗计划和手术安排。",
+
+  "surgeryCompleted": "手术成功完成",
+  "surgeryCompletedDesc": "手术顺利完成，结果积极。",
+
+  "recoveryMonitoring": "康复与观察",
+  "recoveryMonitoringDesc": "持续康复过程中进行定期监测和护理。",
+
+  "completed": "已完成",
+  "inProgress": "进行中",
+
+  "viewAllDocuments": "查看文件与证明"
+,
+
+  "dateDiagnosis": "2026年5月10日",
+  "dateTreatment": "2026年5月15日",
+  "dateSurgery": "2026年5月28日",
+  "dateRecovery": "2026年5月28日 – 2026年6月10日",
+
+  "upcoming": "即将开始",
+   "messages": "消息",
+  "messagesSubtitle": "与捐助者和支持者保持联系",
+
+  "audioCall": "语音通话",
+  "videoCall": "视频通话",
+
+  "messagesSidebarTitle": "消息",
+  "messagesSidebarSubtitle": "您的支持者和捐助者",
+
+  "searchConversations": "搜索对话...",
+
+  "all": "全部",
+  "unread": "未读",
+  "archived": "已归档",
+  "pinned": "已置顶",
+
+  "stayStrong": "保持坚强 ❤️",
+  "prayingRecovery": "祝你早日康复 🙏",
+  "needAnything": "如果需要任何帮助请告诉我",
+  "veryBrave": "你非常勇敢 ❤️",
+  "keepFighting": "继续加油！",
+  "sharedCampaign": "我分享了你的募捐活动 🙌",
+
+  "verifiedDonorSupport": "认证捐助者 • 捐赠了 50 美元 ❤️",
+
+  "viewProfile": "查看资料",
+
+  "supporter": "支持者",
+
+  "message1": "祝你早日康复 🙏",
+  "message2": "非常感谢你的支持 ❤️",
+  "message3": "你非常坚强，继续加油！",
+  "message4": "你的话对我意义重大 💙",
+
+  "typeMessage": "输入您的消息...",
+  "send": "发送",
+   "messages": "消息",
+  "messagesSubtitle": "与捐赠者和支持者保持联系",
+  "messagesSidebarSubtitle": "您的支持者和捐赠者",
+
+  "searchConversations": "搜索对话...",
+
+  "all": "全部",
+  "unread": "未读",
+  "archived": "已归档",
+  "pinned": "置顶",
+
+  "aaravMehta": "Aarav Mehta",
+  "snehaPatel": "Sneha Patel",
+  "rahulVerma": "Rahul Verma",
+  "priyaSingh": "Priya Singh",
+  "vikramJoshi": "Vikram Joshi",
+  "ananyaKapoor": "Ananya Kapoor",
+
+  "stayStrong": "保持坚强 ❤️",
+  "prayingRecovery": "为你的康复祈祷 🙏",
+  "needAnything": "如果需要任何帮助请告诉我",
+  "veryBrave": "你非常勇敢 ❤️",
+  "keepFighting": "继续加油！",
+  "sharedCampaign": "我分享了你的筹款活动 🙌",
+
+  "time2mAgo": "2分钟前",
+  "time1hAgo": "1小时前",
+  "time3hAgo": "3小时前",
+  "time2dAgo": "2天前",
+
+  "yesterday": "昨天",
+  "now": "现在",
+  
+  "verified": "已认证",
+  "supporter": "支持者",
+  "verifiedDonorSupport": "认证捐赠者 • 捐赠了 50 美元 ❤️"
+,
+
+  "donorDetails": "捐助者详情",
+
+  "verifiedDonor": "已验证支持者",
+
+  "totalSupport": "总支持",
+
+  "donations": "捐款",
+   "messages": "消息",
+
+  "messagesSubtitle": "与捐助者和支持者保持联系",
+
+  "audioCall": "语音通话",
+
+  "videoCall": "视频通话",
+
+  "donorDetails": "捐助者详情",
+
+  "verifiedDonor": "已验证支持者",
+
+  "totalSupport": "总支持",
+
+  "donations": "捐款",
+  
+  "recoverySettings": "恢复设置",
+
+  "settingsSubtitle": "管理您的恢复活动偏好和账户设置",
+
+  "saveChanges": "保存更改",
+
+  "verifiedRecoveryCampaign": "已验证恢复活动",
+
+  "security": "安全",
+
+  "changePassword": "更改密码",
+
+  "changePasswordDesc": "定期更新密码以获得更好的账户保护",
+
+  "twoFactorAuth": "双重身份验证",
+
+  "twoFactorAuthDesc": "为您的账户增加额外安全层",
+
+  "update": "更新",
+
+  "enable": "启用",
+
+  "profileInformation": "个人资料",
+
+  "fullName": "全名",
+
+  "emailAddress": "电子邮箱",
+
+  "bio": "简介",
+
+  "bioText": "感谢所有支持我康复旅程的人。你们的善意对我意义重大。",
+
+  "preferences": "偏好设置",
+
+  "notifications": "通知",
+
+  "notificationsDesc": "接收有关捐款和支持者消息的更新",
+
+  "darkMode": "深色模式",
+
+  "darkModeDesc": "启用深色外观以获得更好的夜间体验",
+
+  "language": "语言",
+
+  "languageDesc": "选择您偏好的应用语言"
+,
+ "dashboard": "仪表板",
+  "myCampaign": "我的活动",
+  "updatesPosts": "更新与动态",
+  "documentsVerification": "文件与验证",
+  "donationsReceived": "收到的捐款",
+  "transparencyCenter": "透明中心",
+  "recoveryTimeline": "康复时间线",
+  "messages": "消息",
+  "settings": "设置",
+  "logout": "退出登录",
+
+  "sidebarQuote": "您的故事激励着善良与希望 ❤️",
+  "shareMyStory": "分享我的故事",
+
+  "messagesSubtitle": "与捐助者和支持者保持联系",
+
+  "audioCall": "语音通话",
+  "videoCall": "视频通话",
+
+  "searchConversations": "搜索对话...",
+  "all": "全部",
+  "unread": "未读",
+  "archived": "已归档",
+  "pinned": "置顶",
+
+  "viewProfile": "查看资料",
+
+  "verified": "已验证",
+  "verifiedDonor": "认证捐赠者",
+  "verifiedDonorSupport": "认证捐赠者 • 已捐赠 $50 ❤️",
+
+  "supporter": "支持者",
+
+  "message1": "祝你早日康复 🙏",
+  "message2": "非常感谢您的支持 ❤️",
+  "message3": "你非常坚强，继续加油！",
+  "message4": "你的话对我意义重大 💙",
+
+  "typeMessage": "输入消息...",
+  "send": "发送",
+
+  "emoji": "表情",
+  "attachFile": "附加文件",
+  "sendImage": "发送图片",
+  "voiceMessage": "语音消息",
+
+  "donorDetails": "捐赠者详情",
+  "totalSupport": "总支持金额",
+  "donations": "捐款"
+  ,
+  "dashboard": "仪表板",
+  "myCampaign": "我的活动",
+  "updatesPosts": "更新与动态",
+  "documentsVerification": "文件与验证",
+  "donationsReceived": "收到的捐款",
+  "transparencyCenter": "透明中心",
+  "recoveryTimeline": "康复时间线",
+  "messages": "消息",
+  "settings": "设置",
+  "logout": "退出登录",
+
+  "sidebarQuote": "您的故事激励着善良与希望 ❤️",
+  "shareMyStory": "分享我的故事",
+
+  "messagesSubtitle": "与捐助者和支持者保持联系",
+
+  "audioCall": "语音通话",
+  "videoCall": "视频通话",
+
+  "searchConversations": "搜索对话...",
+  "all": "全部",
+  "unread": "未读",
+  "archived": "已归档",
+  "pinned": "置顶",
+
+  "viewProfile": "查看资料",
+
+  "verified": "已验证",
+  "verifiedDonor": "认证捐赠者",
+  "verifiedDonorSupport": "认证捐赠者 • 已捐赠 $50 ❤️",
+
+  "supporter": "支持者",
+
+  "message1": "祝你早日康复 🙏",
+  "message2": "非常感谢您的支持 ❤️",
+  "message3": "你非常坚强，继续加油！",
+  "message4": "你的话对我意义重大 💙",
+
+  "typeMessage": "输入消息...",
+  "send": "发送",
+
+  "emoji": "表情",
+  "attachFile": "附加文件",
+  "sendImage": "发送图片",
+  "voiceMessage": "语音消息",
+
+  "donorDetails": "捐赠者详情",
+  "totalSupport": "总支持金额",
+  "donations": "捐款",
+  
+  "dashboard": "仪表板",
+  "browseRequests": "浏览求助请求",
+  "myDonations": "我的捐赠",
+  "myImpact": "我的影响",
+  "myFavorites": "我的收藏",
+  "messages": "消息",
+  "settings": "设置",
+  "logout": "退出登录",
+
+  "welcomeBack": "欢迎回到您的仪表板",
+  "searchPlaceholder": "搜索捐赠、求助、公益项目...",
+
+  "heroTitle": "您的善良创造奇迹",
+  "heroSubtitle": "让我们一起拯救生命并带来希望。",
+  "exploreRequests": "探索求助请求",
+
+  "featuredUrgentRequests": "精选紧急求助",
+
+  "peopleHelped": "已帮助人数",
+  "requestsSupported": "已支持请求",
+  "memberSince": "加入时间",
+  "proudDonor": "爱心捐赠者",
+
+  "noRequestsFound": "未找到求助请求",
+
+  "heartSurgery": "儿童心脏手术",
+  "floodRelief": "紧急洪水救援",
+  "educationSupport": "教育支持",
+  "medicalAid": "医疗援助",
+  "foodHelp": "食品援助",
+  "cleanWater": "清洁饮用水",
+
+  "medicalAidDesc": "帮助提供紧急医疗救助。",
+  "foodSupportDesc": "为有需要的家庭提供食物支持。",
+  "cleanWaterDesc": "帮助社区获得干净饮用水。",
+
+  "healthFoundation": "健康基金会",
+  "helpingHandsOrg": "援助之手组织",
+  "educationOrg": "教育支持组织",
+  "waterReliefOrg": "清洁水源组织",
+
+  "urgent": "紧急",
+  "donateNow": "立即捐赠",
+  "raised": "已筹集",
+  "goal": "目标",
+  
+  "yourKindness": "您的善良",
+  "createsMiracles": "创造奇迹",
+
+  "myImpact": "我的影响",
+
+  "livesImpacted": "积极影响的人数",
+
+  "totalDonated": "总捐款金额",
+
+  "vsLastMonth": "较上月",
+
+  "funded": "已完成筹款",
+
+  "heartSurgery": "儿童心脏手术",
+  "floodRelief": "紧急洪水救援",
+
+  "floodReliefDesc": "帮助受洪灾影响的家庭获得紧急援助。",
+
+  "supportEducationDesc": "帮助儿童获得更好的教育机会。",
+
+  "disasterRelief": "灾难救援",
+  "education": "教育",
+  "communityHelp": "社区援助",
+  "water": "饮水援助",
+  "medical": "医疗",
+
+  "yourDonationTrend": "您的捐赠趋势",
+
+  "transparentTitle": "完全透明",
+  "transparentDesc": "所有捐赠和资金使用情况均可实时追踪。",
+
+  "learnMore": "了解更多",
+
+  "thisMonth": "本月",
+  
+  "yourKindness": "您的善良",
+"createsMiracles": "创造奇迹",
+"causesByCategory": "按类别分类的公益项目",
+"all": "全部",
+"medical": "医疗",
+"education": "教育",
+"disasterRelief": "灾难救援",
+"hunger": "饥饿",
+"browseSubtitle": "发现真正需要您帮助的人",
+"searchCauses": "搜索募捐活动...",
+"requests": "请求",
+"newest": "最新",
+"highestRaised": "最高筹款",
+"goalAmount": "目标金额",
+"donate": "捐赠",
+"view": "查看",
+"save": "保存",
+"saved": "已保存",
+"noRequestsFound": "未找到请求",
+"tryChangingFilters": "请尝试更改筛选条件或搜索关键词",
+"thankYouSupport": "感谢您的支持",
+"openingRequest": "正在打开请求",
+"browseRequests": "浏览请求",
+"causesByCategory": "按类别分类的公益项目",
+"heartSurgery": "儿童心脏手术",
+"floodRelief": "洪水紧急救援",
+"educationSupport": "儿童教育支持",
+"foodHelp": "食品援助活动",
+"medicalAidDesc": "帮助儿童获得紧急医疗治疗和手术。",
+"floodReliefDesc": "支持受洪水和自然灾害影响的家庭。",
+"supportEducationDesc": "为儿童提供教育用品和学校支持。",
+"foodSupportDesc": "帮助为有需要的家庭提供食品包。",
+"healthFoundation": "健康基金会",
+"helpingHandsOrg": "援助之手组织",
+"educationOrg": "教育组织",
+"foodAidOrg": "食品援助组织",
+"medical": "医疗",
+"disasterRelief": "灾难救援",
+"education": "教育",
+"hunger": "饥饿",
+"all": "全部",
+"trendingRequests": "热门请求",
+"categoriesOverview": "分类概览",
+"filters": "筛选",
+"categories": "分类",
+"trackDonations": "实时追踪您的捐款与影响力。",
+  "acrossCampaigns": "涵盖所有活动与求助项目",
+  "causesSupported": "支持的公益项目",
+  "donationAnalytics": "捐赠分析",
+  "donationCampaign": "捐赠活动",
+  "educationSupport": "教育支持",
+  "viewDonationHistory": "查看捐赠记录",
+  "certificate": "证书",
+  "appreciationCertificate": "感谢证书",
+  "certificateDescription": "此证书旨在表彰您的善意与慷慨支持。",
+  "downloadCertificate": "下载证书",
+  "topCausesSupport": "主要支持项目",
+  "educationSupport": "教育支持",
+  "donationCampaign": "捐赠活动",
+  "starDonor": "您是一位明星捐赠者！⭐",
+  "starDonorDesc": "您的善举正在改变生命",
+    "certificate": "证书",
+  "starDonor": "您是一位明星捐赠者！⭐",
+  "starDonorDesc": "您的善举正在改变生命",
+    "starDonor": "您是一位明星捐赠者！⭐",
+  "starDonorDesc": "您的善举正在改变生命",
+  "appreciationCertificate": "感谢证书",
+  "certificateDescription": "此证书旨在表彰您的善意与慷慨支持。",
+  "downloadCertificate": "下载证书",
+  "yourRealImpact": "您的真实影响",
+"yourDonations": "您的捐赠",
+"createRealChange": "创造真正的改变",
+"impactHeroDesc": "您的每一次捐赠都在帮助改变世界各地的人们生活。",
+"verifiedDonations": "已验证的捐赠",
+
+"foodDonations": "食品捐赠",
+"waterDonations": "饮水捐赠",
+"educationDonations": "教育捐赠",
+
+"realDonationActivity": "来自您贡献的真实捐赠活动。",
+
+"allTime": "所有时间",
+
+"yourDonationTrend": "您的捐赠趋势",
+"total": "总计",
+
+"impactByRegion": "地区影响",
+"impactMapDesc": "您的捐赠正在帮助世界各地的社区。",
+
+"asia": "亚洲",
+"africa": "非洲",
+"southAmerica": "南美洲",
+"europe": "欧洲",
+
+"yourDonationActivity": "您的捐赠活动",
+"youHaveMade": "您已完成",
+"verifiedDonationPlatform": "笔平台认证捐赠。",
+
+"viewFullImpact": "查看完整影响",
+
+"supportedCauses": "支持的公益事业",
+"appreciationCertificate": "感谢证书",
+"certificateDescription": "此证书用于表彰您通过捐赠所展现的慷慨与积极影响。",
+"downloadCertificate": "下载证书",
+"failedDownloadCertificate": "证书下载失败。",
+"yourDonationTrend": "您的捐赠趋势",
+"yourBadge": "您的徽章",
+"impactBadge": "影响徽章",
+
+"nextGoal": "下一个目标",
+"reachTotalDonations": "达到总捐赠额 $1000",
+
+"goal": "目标",
+
+"livesHelped": "已帮助人数",
+
+"realDonationSummary": "真实捐赠摘要",
+
+"totalGiven": "捐赠总额",
+"estimatedLivesHelped": "预计帮助人数",
+
+"goldSupporter": "黄金支持者",
+"yourDonationTrend": "您的捐赠趋势",
+"yourBadge": "您的徽章",
+"impactBadge": "影响徽章",
+
+"nextGoal": "下一个目标",
+"reachTotalDonations": "达到总捐赠额 $1000",
+
+"goal": "目标",
+
+"livesHelped": "已帮助人数",
+
+"realDonationSummary": "真实捐赠摘要",
+
+"totalGiven": "捐赠总额",
+"estimatedLivesHelped": "预计帮助人数",
+"medicalHelp": "医疗援助",
+
+"goldSupporter": "黄金支持者",
+"realDonationSummary": "真实捐赠摘要",
+
+"yourBadge": "您的徽章",
+
+"goldSupporter": "黄金支持者",
+
+"livesHelped": "已帮助人数",
+
+"nextGoal": "下一个目标",
+
+"reachTotalDonations": "达到总捐赠额",
+
+"totalGiven": "捐赠总额",
+
+"estimatedLivesHelped": "预计帮助人数",
+"yourBadge": "您的徽章",
+"goldSupporter": "黄金支持者",
+"realDonationSummary": "真实捐赠摘要",
+"nextGoal": "下一个目标",
+"reachTotalDonations": "达到总捐赠额",
+"totalGiven": "捐赠总额",
+"estimatedLivesHelped": "预计帮助人数",
+"livesHelped": "已帮助人数",
+"favoritesOverview": "收藏概览",
+"savedImpactSummary": "您保存的请求和公益项目影响",
+"favoritesStatistics": "收藏统计",
+"savedRequests": "已保存请求",
+"savedCauses": "已保存公益项目",
+"totalSaved": "总保存金额",
+"totalRaised": "总筹集金额",
+"favoritesCanChangeLives": "您的收藏可以改变生活",
+"favoritesMotivation": "每一个保存的请求都是迈向改变的一步。",
+"exploreMore": "探索更多",
+"quickActions": "快捷操作",
+"browseRequests": "浏览请求",
+"exploreCauses": "探索公益项目",
+"needHelp": "需要帮助？",
+"supportAnytime": "我们随时为您提供帮助。",
+"contactSupport": "联系支持",
+"favoritesSubtitle": "您保存的爱心项目和公益请求",
+"openOverview": "打开概览",
+"searchFavorites": "搜索收藏...",
+"noFavoritesFound": "未找到收藏",
+"tryAnotherSearch": "尝试其他搜索关键词",
+"donate": "捐赠",
+"view": "查看",
+"remove": "删除",
+"medicalAidDesc": "帮助儿童获得紧急医疗手术和治疗。",
+"cleanWaterDesc": "为缺水社区提供清洁饮用水。",
+"heartSurgery": "心脏手术",
+"cleanWater": "清洁饮水",
+"healthFoundation": "健康基金会",
+"waterReliefOrg": "净水援助组织",
+"medical": "医疗",
+"favoritesSubtitle": "您保存的公益项目和捐赠请求",
+"water": "饮水",
+"foodHelp": "食品援助",
+"foodSupportDesc": "为有需要的家庭提供食物和餐食支持。",
+"helpingHandsOrg": "援助之手组织",
+"communityHelp": "社区援助",
+"messages": "消息",
+"activeConversations": "活跃对话",
+"ongoingChats": "进行中的聊天",
+"viewAll": "查看全部",
+"messageTips": "消息提示",
+"beKindRespectful": "保持友善与尊重",
+"kindWordsHope": "善意的话语可以为有需要的人带来希望和安慰。",
+"neverSharePersonalInfo": "不要分享个人信息",
+"keepSafetyFirst": "与他人聊天时请优先注意安全。",
+"reportSuspiciousActivity": "举报可疑活动",
+"helpKeepSafe": "帮助我们保持社区安全和值得信赖。",
+"changeLifeToday": "今天改变一个人的生活",
+"donateNow": "立即捐赠",
+"online": "在线",
+"offline": "离线",
+"calling": "正在通话",
+"startingVideoCall": "正在开始视频通话",
+"typeMessage": "输入消息...",
+"thankDonationShort": "非常感谢 💚",
+"familiesFood": "家庭已收到食品援助",
+"childrenSchool": "儿童已获得学校支持",
+"medicineDelivered": "药品已成功送达",
+"newWells": "新的水井已完成",
+"thankDonation": "感谢您的捐赠 💚",
+"youWelcome": "不客气 😊",
+"premiumSettings": "高级设置",
+"settingsDashboard": "设置面板",
+"manageSettings": "管理您的个人资料、隐私、安全和偏好设置。",
+"secureAccount": "安全账户",
+"smartCustomization": "智能自定义",
+"profileInformation": "个人资料信息",
+"manageProfileInfo": "管理您的个人资料信息。",
+"profileStatus": "个人状态",
+"verified": "已验证",
+"fullName": "全名",
+"emailAddress": "电子邮箱",
+"phoneNumber": "电话号码",
+"location": "位置",
+"saveChanges": "保存更改",
+"accountSettings": "账户设置",
+"customizeExperience": "自定义您的体验和偏好。",
+"language": "语言",
+"currency": "货币",
+"theme": "主题",
+"dark": "深色",
+"light": "浅色",
+"changePassword": "修改密码",
+"keepAccountSafe": "保护您的账户安全。",
+"currentPassword": "当前密码",
+"newPassword": "新密码",
+"confirmNewPassword": "确认新密码",
+"updatePassword": "更新密码",
+"privacySecurity": "隐私与安全",
+"advancedSecurity": "高级安全与隐私控制。",
+"dataPrivacy": "数据隐私",
+"manageYourData": "管理和控制您的个人数据。",
+"twoFactorAuth": "双重身份验证",
+"extraProtection": "为您的账户增加额外保护。",
+"totalDonations": "总捐赠",
+"livesImpacted": "受帮助人数",
+"deleteAccount": "删除账户",
+"deleteWarning": "此操作是永久性的，无法撤销。",
+"profileUpdated": "个人资料更新成功。",
+"fillPasswordFields": "请填写所有密码字段。",
+"passwordsNotMatch": "密码不匹配。",
+"passwordUpdated": "密码更新成功。"
+
+
+
+
+
+
+
+
+
+
+}

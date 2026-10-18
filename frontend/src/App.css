@@ -1,0 +1,164 @@
+/* ===== RESET ===== */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f6fa;
+}
+
+/* ===== GLOBAL CONTENT LAYOUT (FIXED) ===== */
+.content {
+  margin-left: 230px;          /* matches sidebar width */
+  min-height: 100vh;
+  padding: 20px 40px;          /* ✅ FIX: spacing moved here */
+}
+
+/* ❌ REMOVE OLD LAYOUT SYSTEM */
+.dashboard-container {
+  display: block;
+}
+
+.main-content {
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== PAGE HEADER ===== */
+.page-header {
+  margin-bottom: 15px;
+}
+
+.page-header h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.page-header p {
+  color: #777;
+  margin-top: 6px;
+}
+
+/* ===== FAVORITES LIST ===== */
+.favorites-list {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ===== FAVORITE CARD ===== */
+.favorite-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #ffffff;
+  padding: 18px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.favorite-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== IMAGE ===== */
+.favorite-card img {
+  width: 130px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* ===== CONTENT ===== */
+.fav-content {
+  flex: 2;
+}
+
+.fav-content h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #222;
+}
+
+.fav-content p {
+  margin: 6px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.category {
+  font-size: 12px;
+  color: #888;
+}
+
+/* ===== RIGHT SIDE ===== */
+.fav-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* ===== PROGRESS ===== */
+.fav-progress {
+  min-width: 160px;
+}
+
+.fav-progress p {
+  margin: 0;
+  font-weight: 500;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 6px;
+  background: #eee;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 6px 0;
+}
+
+.progress-bar div {
+  height: 100%;
+  background: #22c55e;
+  border-radius: 6px;
+}
+
+/* ===== ACTIONS ===== */
+.fav-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* DONATE BUTTON */
+.donate-btn {
+  background: #22c55e;
+  color: white;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.donate-btn:hover {
+  background: #16a34a;
+}
+
+/* REMOVE BUTTON */
+.remove-btn {
+  background: transparent;
+  border: 1px solid #ddd;
+  padding: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.remove-btn:hover {
+  background: #f3f4f6;
+}

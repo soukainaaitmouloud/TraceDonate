@@ -1,0 +1,1118 @@
+{
+  "hello": "Hello",
+  "dashboard": "Dashboard",
+  "donateNow": "Donate Now",
+  "supporters": "Supporters",
+  "daysLeft": "Days Left",
+  "campaignOverview": "Campaign Overview",
+  "recentUpdates": "Recent Updates",
+  "thankYouMessage": "Thank You Message ❤️"
+  ,
+"backToCampaign": "Back to My Campaign",
+"updateYourStory": "Update Your Story",
+"updateStorySubtitle": "Share your latest update with your supporters. Your story inspires others.",
+"previewUpdate": "Preview Update",
+"publishUpdate": "Publish Update",
+"writeYourUpdate": "Write Your Update",
+"updateTitle": "Update Title *",
+"yourStory": "Your Story *",
+"addPhotosVideos": "Add Photos & Videos",
+"photosHelp": "Photos help build trust and inspire more support.",
+"uploadPhotoVideo": "Upload Photo/Video",
+"updateCategory": "Update Category",
+"medicalUpdate": "Medical Update",
+"treatmentUpdate": "Treatment Update",
+"personalUpdate": "Personal Update",
+"gratitude": "Gratitude",
+"addLocation": "Add Location",
+"optional": "(Optional)",
+"updatePreview": "Update Preview",
+
+  "medicalAid": "Medical Aid",
+  "cleanWater": "Clean Water",
+  "foodHelp": "Food Help",
+  "educationSupport": "Education Support",
+  "shareCampaign": "Share Campaign",
+  "manageCampaign": "Manage Campaign",
+  "updateStory": "Update Story",
+  "downloadQR": "Download QR",
+  "verified": "Verified",
+  "donations": "Donations",
+  "analytics": "Analytics",
+  "goalAmount": "Goal Amount",
+  "raisedAmount": "Raised Amount",
+  "remainingAmount": "Remaining Amount",
+  "fundraisingInProgress": "Fundraising In Progress"
+  ,
+"anonymous": "Anonymous",
+
+"fifteenMinAgo": "15 min ago",
+"oneHourAgo": "1 hour ago",
+"twoHoursAgo": "2 hours ago",
+"defaultUpdateTitle": "Small Steps, Big Progress",
+"defaultStory": "I want to take a moment to thank each and every one of you for being a part of my journey. ❤️\n\nThe surgery was successful, and I'm now on the road to recovery.",
+"defaultLocation": "New Delhi, India",
+"uploadPhotoFormats": "JPG, PNG, MP4",
+"twoMinutesAgo": "2 minutes ago",
+"donated": "donated",
+"recentSupporters": "Recent Supporters",
+"viewAll": "View All",
+"seeAllSupporters": "See All Supporters",
+
+"donationHope": "Every donation brings hope ❤️"
+,
+"welcomeBack": "Welcome back to your dashboard",
+"searchPlaceholder": "Search donations, requests, causes...",
+
+"verificationProgress": "Verification Progress",
+"profileVerification": "Profile Verification",
+"verificationDescription": "Complete all required documents to get fully verified and build trust.",
+"identityVerification": "Identity Verification",
+"medicalVerification": "Medical Verification",
+"addressVerification": "Address Verification",
+"bankVerification": "Bank Verification",
+"complete": "Complete",
+"completed": "Completed",
+"pending": "Pending",
+"notStarted": "Not Started",
+"userName": "Riya Sharma",
+  "documentsVerification": "Documents & Verification",
+  "documentsSubtitle": "Upload and manage documents to verify your identity and medical need.",
+
+
+  "uploadedNow": "Uploaded just now",
+"documentUploaded": "Document uploaded successfully!",
+"downloading": "Downloading",
+"supportMessage": "Support team contacted successfully!",
+"verificationSuccess": "Your documents have been reviewed and verified successfully.",
+
+  "uploadedDocuments": "Uploaded Documents",
+  "documentsSubtitle2": "Keep your documents up-to-date for a smooth verification process.",
+
+  "uploadNewDocument": "Upload New Document",
+  "uploadNow": "Upload Now",
+
+  "aadharCard": "Aadhar Card",
+  "medicalReport": "Medical Report",
+  "addressProof": "Address Proof",
+  "bankStatement": "Bank Statement",
+
+  "identityProof": "Identity Proof",
+  "medicalDocument": "Medical Document",
+  "addressVerificationType": "Address Verification",
+  "bankVerificationType": "Bank Verification",
+
+  "uploadedDate": "Uploaded on 10 May 2026",
+  "uploadedDate2": "Uploaded on 8 May 2026",
+  "requiredWithdrawals": "Required for withdrawals",
+
+
+  "notUploaded": "Not Uploaded",
+
+  "documentId": "Document ID",
+
+  "needHelpVerification": "Need Help with Verification?",
+  "supportSubtitle": "Our support team is here to help you verify your documents.",
+  "contactSupport": "Contact Support",
+
+  "verificationStatus": "Verification Status",
+  "youAreVerified": "You are verified!",
+  "documentsVerifiedSuccessfully": "Your documents have been reviewed and verified successfully.",
+  "lastVerified": "Last verified on 10 May 2026",
+
+  "downloadVerificationBadge": "Download Verification Badge",
+
+  "whyVerificationMatters": "Why Verification Matters?",
+
+  "buildTrust": "Build Trust",
+  "buildTrustDesc": "Verified profiles get more donations and support from donors.",
+
+  "secureSafe": "Secure & Safe",
+  "secureSafeDesc": "We ensure all documents are encrypted and completely secure.",
+
+  "fasterWithdrawals": "Faster Withdrawals",
+  "fasterWithdrawalsDesc": "Complete verification helps you withdraw funds quickly and smoothly.",
+
+  "transparency": "Transparency",
+  "transparencyDesc": "Transparency builds a stronger community of trust and support.",
+
+  "verificationTip": "Tip: Make sure your documents are clear and valid for faster verification."
+,
+ "verificationProgress": "Verification Progress",
+  "profileVerification": "Profile Verification",
+  "complete": "Complete",
+  "verificationDescription": "Complete all required documents to get fully verified and build trust.",
+  "identityVerification": "Identity Verification",
+  "medicalVerification": "Medical Verification",
+  "addressVerification": "Address Verification",
+  "bankVerification": "Bank Verification",
+  "completed": "Completed",
+  "pending": "Pending",
+  "notStarted": "Not Started",
+  "verificationProgress": "Verification Progress",
+"profileVerification": "Profile Verification",
+"complete": "Complete",
+"verificationDescription": "Complete all required documents to get fully verified and build trust.",
+
+"identityVerification": "Identity Verification",
+"medicalVerification": "Medical Verification",
+"addressVerification": "Address Verification",
+"bankVerification": "Bank Verification",
+
+"completed": "Completed",
+"pending": "Pending",
+"notStarted": "Not Started",
+
+  "urgentSurgeryNeeded": "Urgent Surgery Needed",
+  "storyPlaying": "Story Playing",
+  "updatedHoursAgo": "Updated 3 hours ago",
+  "receiveHeartSurgery": "Help Riya Receive Heart Surgery",
+  "campaignSubtitle": "Your support can save a young life and give hope to a family in need.",
+
+  "riyaStory": "Riya's Story",
+
+  "raisedOf": "raised of",
+  "goal": "goal",
+  "funded": "funded",
+
+  "heartDisease": "Heart Disease",
+  "yearsOld": "8 years old",
+  "ruralIndia": "Rural India",
+  "hospitalVerified": "Hospital Verified",
+
+  "donateSupport": "Donate & Support",
+  "riyaQuote": "Every heartbeat is a chance for hope and recovery.",
+
+  "recoveryCampaign": "Recovery Campaign",
+
+  "viewDetails": "View Details",
+  "urgentCase": "Urgent Case",
+  "heart": "Heart",
+  "surgeryTreatment": "Surgery Treatment",
+  "createdOn": "Created on",
+
+  "campaignGoal": "Campaign Goal",
+  "raised": "Raised",
+  "remaining": "Remaining",
+
+  "fundraisingProgress": "Fundraising Progress",
+  "latestStories": "Latest Stories",
+
+  "twoDaysAgo": "2 days ago",
+  "recentThankYouText": "Thank you everyone for your kindness and support ❤️",
+
+  "fiveDaysAgo": "5 days ago",
+  "recentTreatmentUpdateText": "Treatment has started and recovery is improving every day.",
+
+  "recoveryJourney": "Recovery Journey",
+  "oneWeekAgo": "1 week ago",
+  "recentRecoveryJourneyText": "Riya is smiling again and gaining strength slowly.",
+
+  "twoMinAgo": "2 min ago",
+
+  "openDocument": "Open Document",
+  "doctorCertificate": "Doctor Certificate",
+  "hospitalEstimate": "Hospital Estimate",
+  "documentsVerifiedText": "All documents verified successfully.",
+
+  "supportMyRecovery": "Support My Recovery",
+  "publicPage": "Public Page",
+
+  "shares": "Shares",
+
+  "shareStory": "Share Story",
+  "verifiedTransparency": "Verified Transparency",
+  "fundAllocation": "Fund Allocation",
+
+  "transparencyOverview": "Transparency Overview",
+  "details": "Details",
+  "transparent": "Transparent",
+
+  "hospitalSurgery": "Hospital & Surgery",
+  "medicines": "Medicines",
+  "testsDiagnosis": "Tests & Diagnosis",
+  "transport": "Transport",
+  "others": "Others",
+
+  "totalWithdrawn": "Total Withdrawn",
+  "notWithdrawnYet": "Not withdrawn yet",
+
+  "lastUpdated": "Last Updated",
+
+  "medicalReportsVerified": "Medical Reports Verified",
+  "identityVerified": "Identity Verified",
+  "hospitalDocumentsVerified": "Hospital Documents Verified",
+  "viewDonationRecords": "View Donation Records",
+
+  "engagement": "Engagement",
+
+  "activitySummary": "Activity Summary",
+  "updatesPosted": "Updates Posted",
+  "photosVideos": "Photos & Videos",
+  "totalSupporters": "Total Supporters",
+  "thankYouMessages": "Thank You Messages",
+
+  "activityFooter": "Every action helps build trust and hope ❤️"
+,
+
+  "campaignGrowing": "Campaign Growing",
+  "myCampaign": "My Campaign",
+  "manageCampaignSubtitle": "Manage your fundraiser, updates, donations and supporters easily.",
+
+  "campaignactivechangePhoto": "Campaign Active • Change Photo",
+
+  "healthyHeartJourney": "Healthy Heart Journey",
+
+  "campaignDescription": "Help support Riya’s life-saving heart surgery and recovery journey.",
+
+  "category": "Category",
+  "medical": "Medical",
+
+  "location": "Location",
+
+  "editCampaign": "Edit Campaign",
+  "previewPage": "Preview Page",
+  "overview": "Overview",
+  "updates": "Updates",
+
+  "campaignProgress": "Campaign Progress",
+
+  "keepGoing": "Keep Going",
+
+  "seeAll": "See All",
+  "update": "Update",
+
+  "feelingBetter": "Feeling Better ❤️",
+
+  "createNewUpdate": "Create New Update",
+
+  "communitySupport": "Community Support",
+  "recentDonations": "Recent Donations",
+
+  "donorName1": "Emma Wilson",
+  "donationMessage1": "Sending prayers and support ❤️",
+
+  "donorName2": "Michael Lee",
+  "donationMessage2": "Stay strong, we are with you!",
+
+  "oneDayAgo": "1 day ago",
+
+  "donorName3": "Ravi Kumar",
+  "donationMessage3": "Hope for a speedy recovery 🙏",
+
+  "donorName4": "Priya Sharma",
+  "donationMessage4": "You are not alone in this journey.",
+
+  "threeDaysAgo": "3 days ago",
+
+  "donorName5": "Victor Chen",
+  "donationMessage5": "Wishing you strength and healing.",
+
+  "verifiedCampaign": "Verified Campaign",
+
+  "raisedGoal": "Raised Goal",
+
+  "shareMyStory": "Share My Story",
+  "secureDonationText": "Secure donations protected by trusted payment systems.",
+
+  "quickActions": "Quick Actions",
+
+  "updateStoryText": "Post updates and keep supporters informed.",
+
+  "addPhotos": "Add Photos",
+  "addPhotosText": "Upload photos to build trust and engagement.",
+
+  "goLive": "Go Live",
+  "goLiveText": "Publish your campaign publicly for supporters.",
+
+  "shareCampaignCardText": "Share your campaign with friends and family.",
+
+  "downloadQRText": "Download your QR code for easy sharing.",
+
+  "editDetails": "Edit Details",
+  "editDetailsText": "Update campaign information anytime."
+,
+
+  "verificationProgress": "Verification Progress",
+  "profileVerification": "Profile Verification",
+  "complete": "Complete",
+
+  "verificationDescription": "Complete all required documents to get fully verified and build trust.",
+
+  "identityVerification": "Identity Verification",
+  "medicalVerification": "Medical Verification",
+  "addressVerification": "Address Verification",
+  "bankVerification": "Bank Verification",
+
+  "completed": "Completed",
+  "pending": "Pending",
+  "notStarted": "Not Started",
+
+  "may2026": "May 2026",
+  
+  "recentDonations": "Recent Donations",
+  "trackLatestSupporters": "Track your latest supporters and donations.",
+  "donor": "Donor",
+  "amount": "Amount",
+  "date": "Date",
+  "message": "Message",
+  "status": "Status",
+  "actions": "Actions",
+  "completed": "Completed",
+  "pending": "Pending",
+  "viewAllDonations": "View All Donations",
+  "needHelp": "Need Help?",
+  "supportDonationText": "Our support team is ready to help you with donation issues anytime.",
+  "contactSupport": "Contact Support",
+  "openingDonation": "Opening Donation",
+  "donationReceipt": "Donation Receipt",
+  "generated": "Generated",
+  "donationMessage1": "Wishing you strength and recovery.",
+  "donationMessage2": "Stay strong, we support you.",
+  "donationMessage3": "Praying for your recovery journey.",
+  "donationMessage4": "Hope this donation helps your treatment.",
+  "donationMessage5": "Sending support and positive energy.",
+  "donationMessage6": "We are here for you."
+,
+
+  "donationsReceived": "Donations Received",
+  "donationsSubtitle": "Track and manage all donations received from supporters around the world.",
+  "downloadReport": "Download Report",
+
+  "totalDonations": "Total Donations",
+  "allTimeDonations": "All Time Donations",
+
+  "totalDonors": "Total Donors",
+  "peopleSupportedYou": "People Supported You",
+
+  "successfulDonations": "Successful Donations",
+  "completedTransactions": "Completed Transactions",
+
+  "pendingDonations": "Pending Donations",
+  "awaitingCompletion": "Awaiting Completion",
+
+  "donationGrowth": "Donation Growth",
+  "trackDonationPerformance": "Track your donation performance and campaign growth.",
+
+  "thisMonth": "This Month",
+  "thisWeek": "This Week",
+  "today": "Today",
+
+  "totalDonated": "Total Donated",
+  "highestDonation": "Highest Donation",
+
+  "donationImpact": "Donation Impact",
+  "campaignHelpingFamilies": "Your campaign is helping more families every day.",
+
+  "fastestGrowingCampaign": "Fastest Growing Campaign",
+  "donorActivityWeek": "donor activity this week",
+
+  "verificationComplete": "Verification Complete",
+  "trustedProfile": "Trusted profile attracts more donors",
+
+  "supportTeamReady": "Our support team is always ready to help you.",
+
+  "recentDonations": "Recent Donations",
+  "trackLatestSupporters": "Track your latest supporters and donations.",
+
+  "donor": "Donor",
+  "amount": "Amount",
+  "date": "Date",
+  "message": "Message",
+  "status": "Status",
+
+  "viewAllDonations": "View All Donations",
+
+  "needHelp": "Need Help?",
+  "supportDonationText": "If you have any questions about your donations, our support team is here to help.",
+
+  "contactSupport": "Contact Support",
+
+  "donationMessage1": "Wishing you a speedy recovery 🙏",
+  "donationMessage2": "Stay strong, we are with you 💚",
+  "donationMessage3": "Take care and get well soon 💪",
+  "donationMessage4": "You're in my prayers 🙏",
+  "donationMessage5": "Hope this helps in your recovery 🌸",
+  "donationMessage6": "Stay positive and stay strong 💚"
+,
+
+  "actions": "Actions",
+  "completed": "Completed",
+  "pending": "Pending",
+  "openingDonation": "Opening Donation",
+  "donationReceipt": "Donation Receipt",
+  "generated": "Generated"
+,
+
+  "monthlyGrowth": "Monthly Growth",
+  "topDonors": "Top Donors",
+  "active": "active",
+
+  "premiumSupporter": "Premium Supporter",
+
+  "viewTopDonors": "View Top Donors",
+
+  "transparencyCenter": "Transparency Center",
+  "transparencySubtitle": "Track all donations, fund usage, and campaign transparency in real time.",
+
+  "downloadFullReport": "Download Full Report",
+  "aiAssistant": "AI Assistant",
+
+  "totalDonationsReceived": "Total Donations Received",
+  "fromDonors": "From 128 donors",
+
+  "totalFundsUtilized": "Total Funds Utilized",
+  "fundsUtilizedPercent": "80.8% of total funds",
+
+  "totalImpactCreated": "Total Impact Created",
+  "livesImpacted": "Lives positively impacted",
+
+  "fundsInProgress": "Funds In Progress",
+  "fundsRemainingPercent": "19.2% of total funds",
+
+  "fundsUtilizationOverview": "Funds Utilization Overview",
+  "trackFundsUsage": "Track how the donated funds are being used.",
+
+  "fundsUtilized": "Funds Utilized",
+
+  "medicalExpenses": "Medical Expenses",
+  "dailyNeeds": "Daily Needs",
+  "travelStay": "Travel & Stay",
+  "otherExpenses": "Other Expenses",
+
+  "totalUtilized": "Total Utilized",
+
+  "recentTransactions": "Recent Transactions",
+  "latestCampaignTransactions": "Latest transactions from your campaign.",
+
+  "viewAll": "View All",
+
+  "completed": "Completed",
+  "paid": "Paid",
+
+  "impactUpdates": "Impact & Updates",
+  "realImpactCreated": "Real impact created with your donations.",
+
+  "patientsHelped": "Patients Helped",
+  "medicalSupportProvided": "Medical support provided",
+
+  "familiesSupported": "Families Supported",
+  "familiesReceivedAssistance": "Families received assistance",
+
+  "recoveryProgress": "Recovery Progress",
+  "towardsCompleteRecovery": "Towards complete recovery",
+
+  "campaignTimeline": "Campaign Timeline",
+  "keyMilestonesJourney": "Key milestones in your journey.",
+
+  "campaignStarted": "Campaign Started",
+  "verificationCompleted": "Verification Completed",
+  "firstDonationReceived": "First Donation Received",
+  "medicalTreatmentStarted": "Medical Treatment Started",
+  "ongoingRecovery": "Ongoing Recovery",
+  "inProgress": "In Progress",
+
+  "haveQuestions": "Have Questions?",
+  "supportMessage": "We believe in 100% transparency. If you have any doubts, our team is here to help.",
+
+  "contactSupport": "Contact Support",
+
+  "financialTransparency": "Financial Transparency",
+  "campaignBreakdown": "Campaign financial breakdown",
+
+  "donationsReceived": "Donations Received",
+  "pendingInProgress": "Pending In Progress",
+
+  "documentsProof": "Documents & Proof",
+  "financialDocumentsProofs": "Verified financial documents and proofs",
+
+  "medicalBills": "Medical Bills",
+  "medicalBillsCount": "12 verified bills",
+
+  "expenseReceipts": "Expense Receipts",
+  "expenseReceiptsCount": "8 uploaded receipts",
+
+  "bankStatements": "Bank Statements",
+  "bankStatementsCount": "4 verified statements",
+
+  "view": "View",
+  "viewAllDocuments": "View All Documents",
+
+
+  "aaravDonation": "Donation from Aarav Mehta",
+  "aaravDonationDate": "10 May 2026, 10:30 AM",
+
+  "priyaDonation": "Donation from Priya Nair",
+  "priyaDonationDate": "10 May 2026, 09:15 AM",
+
+  "rahulDonation": "Donation from Rahul Verma",
+  "rahulDonationDate": "09 May 2026, 08:45 PM",
+
+  "medicalExpensesTransaction": "Medical Expenses",
+  "medicalExpensesDate": "09 May 2026, 06:25 PM",
+
+  "travelExpenses": "Travel Expenses",
+  "travelExpensesDate": "08 May 2026, 11:05 AM",
+
+  "completed": "Completed",
+  "paid": "Paid",
+
+  "aiAssistant": "AI Assistant",
+
+  "impactUpdates": "Impact & Updates",
+  "realImpactCreated": "Real impact created with your donations.",
+
+  "patientsHelped": "Patients Helped",
+  "medicalSupportProvided": "Medical support provided",
+
+  "familiesSupported": "Families Supported",
+  "familiesReceivedAssistance": "Families received assistance",
+
+  "recoveryProgress": "Recovery Progress",
+  "towardsCompleteRecovery": "Towards complete recovery",
+
+  "campaignTimeline": "Campaign Timeline",
+  "keyMilestonesJourney": "Key milestones in your journey.",
+
+  "campaignStarted": "Campaign Started",
+  "verificationCompleted": "Verification Completed",
+  "firstDonationReceived": "First Donation Received",
+  "medicalTreatmentStarted": "Medical Treatment Started",
+  "ongoingRecovery": "Ongoing Recovery",
+  "inProgress": "In Progress",
+
+  "haveQuestions": "Have Questions?",
+  "supportMessage": "We believe in 100% transparency. If you have any doubts, our team is here to help.",
+
+  "contactSupport": "Contact Support"
+,
+
+  "recoveryTimeline": "Recovery Timeline",
+  "downloadTimeline": "Download Timeline",
+
+  "recoveryJourneySubtitle": "Track Riya's recovery journey and important milestones.",
+
+  "supportRecoveryTitle": "Your support is making a real difference in Riya’s recovery.",
+  "supportRecoverySubtitle": "Every milestone is verified and backed by documents.",
+
+  "diagnosisAssessment": "Diagnosis & Medical Assessment",
+  "diagnosisAssessmentDesc": "Complete health checkup and diagnosis confirmed by specialists.",
+
+  "treatmentPlan": "Treatment Plan Finalized",
+  "treatmentPlanDesc": "Doctors have finalized the treatment plan and surgery schedule.",
+
+  "surgeryCompleted": "Surgery Successfully Completed",
+  "surgeryCompletedDesc": "The surgery was completed successfully with positive results.",
+
+  "recoveryMonitoring": "Recovery & Monitoring",
+  "recoveryMonitoringDesc": "Ongoing recovery process with regular monitoring and care.",
+
+  "completed": "Completed",
+  "inProgress": "In Progress",
+
+
+  "recoveryTimeline": "Recovery Timeline",
+  "downloadTimeline": "Download Timeline",
+
+  "recoveryJourneySubtitle": "Track Riya's recovery journey and important milestones.",
+
+  "supportRecoveryTitle": "Your support is making a real difference in Riya’s recovery.",
+  "supportRecoverySubtitle": "Every milestone is verified and backed by documents.",
+
+  "diagnosisAssessment": "Diagnosis & Medical Assessment",
+  "diagnosisAssessmentDesc": "Complete health checkup and diagnosis confirmed by specialists.",
+
+  "treatmentPlan": "Treatment Plan Finalized",
+  "treatmentPlanDesc": "Doctors have finalized the treatment plan and surgery schedule.",
+
+  "surgeryCompleted": "Surgery Successfully Completed",
+  "surgeryCompletedDesc": "The surgery was completed successfully with positive results.",
+
+  "recoveryMonitoring": "Recovery & Monitoring",
+  "recoveryMonitoringDesc": "Ongoing recovery process with regular monitoring and care.",
+
+  "completed": "Completed",
+  "inProgress": "In Progress",
+
+  "viewAllDocuments": "View Documents & Proofs"
+,
+
+  "dateDiagnosis": "10 May 2026",
+  "dateTreatment": "15 May 2026",
+  "dateSurgery": "28 May 2026",
+  "dateRecovery": "28 May – 10 Jun 2026",
+
+  "upcoming": "Upcoming",
+   "messages": "Messages",
+  "messagesSubtitle": "Stay connected with donors and supporters",
+
+  "audioCall": "Audio Call",
+  "videoCall": "Video Call",
+
+  "messagesSidebarTitle": "Messages",
+  "messagesSidebarSubtitle": "Your supporters & donors",
+
+  "searchConversations": "Search conversations...",
+
+  "all": "All",
+  "unread": "Unread",
+  "archived": "Archived",
+  "pinned": "Pinned",
+
+  "stayStrong": "Stay strong ❤️",
+  "prayingRecovery": "Praying for your recovery 🙏",
+  "needAnything": "Let me know if you need anything",
+  "veryBrave": "You are very brave ❤️",
+  "keepFighting": "Keep fighting!",
+  "sharedCampaign": "I shared your campaign 🙌",
+
+  "verifiedDonorSupport": "Verified Donor • Donated $50 ❤️",
+
+  "viewProfile": "View Profile",
+
+  "supporter": "Supporter",
+
+  "message1": "Wishing you a speedy recovery 🙏",
+  "message2": "Thank you so much for your support ❤️",
+  "message3": "You are very strong. Keep fighting!",
+  "message4": "Your words really mean a lot to me 💙",
+
+  "typeMessage": "Type your message...",
+  "send": "Send",
+   "messages": "Messages",
+  "messagesSubtitle": "Stay connected with donors and supporters",
+  "messagesSidebarSubtitle": "Your supporters & donors",
+
+  "searchConversations": "Search conversations...",
+
+  "all": "All",
+  "unread": "Unread",
+  "archived": "Archived",
+  "pinned": "Pinned",
+
+  "aaravMehta": "Aarav Mehta",
+  "snehaPatel": "Sneha Patel",
+  "rahulVerma": "Rahul Verma",
+  "priyaSingh": "Priya Singh",
+  "vikramJoshi": "Vikram Joshi",
+  "ananyaKapoor": "Ananya Kapoor",
+
+  "stayStrong": "Stay strong ❤️",
+  "prayingRecovery": "Praying for your recovery 🙏",
+  "needAnything": "Let me know if you need anything",
+  "veryBrave": "You are very brave ❤️",
+  "keepFighting": "Keep fighting!",
+  "sharedCampaign": "I shared your campaign 🙌",
+
+  "time2mAgo": "2m ago",
+  "time1hAgo": "1h ago",
+  "time3hAgo": "3h ago",
+  "time2dAgo": "2d ago",
+
+  "yesterday": "Yesterday",
+  "now": "Now",
+  
+  "verified": "Verified",
+  "supporter": "Supporter",
+  "verifiedDonorSupport": "Verified Donor • Donated $50 ❤️",
+  "recoverySettings": "Recovery Settings",
+  "settingsSubtitle": "Manage your recovery campaign preferences and account settings",
+
+  "saveChanges": "Save Changes",
+
+  "verifiedRecoveryCampaign": "Verified Recovery Campaign",
+
+  "security": "Security",
+
+  "changePassword": "Change Password",
+  "changePasswordDesc": "Update your password regularly for better account protection",
+
+  "twoFactorAuth": "Two-Factor Authentication",
+  "twoFactorAuthDesc": "Add an extra security layer to your account",
+
+  "update": "Update",
+  "enable": "Enable",
+
+  "profileInformation": "Profile Information",
+
+  "fullName": "Full Name",
+  "emailAddress": "Email Address",
+  "bio": "Bio",
+
+  "bioText": "Thank you to everyone supporting my recovery journey. Your kindness means everything to me.",
+
+  "preferences": "Preferences",
+
+  "notifications": "Notifications",
+  "notificationsDesc": "Receive updates about donations and supporter messages",
+
+  "darkMode": "Dark Mode",
+  "darkModeDesc": "Enable dark appearance for better night viewing",
+
+  "language": "Language",
+  "languageDesc": "Choose your preferred application language"
+,
+ "dashboard": "Dashboard",
+  "myCampaign": "My Campaign",
+  "updatesPosts": "Updates & Posts",
+  "documentsVerification": "Documents & Verification",
+  "donationsReceived": "Donations Received",
+  "transparencyCenter": "Transparency Center",
+  "recoveryTimeline": "Recovery Timeline",
+  "messages": "Messages",
+  "settings": "Settings",
+  "logout": "Logout",
+
+  "sidebarQuote": "Your story inspires kindness and hope ❤️",
+  "shareMyStory": "Share My Story",
+
+  "messagesSubtitle": "Stay connected with donors and supporters",
+
+  "audioCall": "Audio Call",
+  "videoCall": "Video Call",
+
+  "searchConversations": "Search conversations...",
+  "all": "All",
+  "unread": "Unread",
+  "archived": "Archived",
+  "pinned": "Pinned",
+
+  "viewProfile": "View Profile",
+
+  "verified": "Verified",
+  "verifiedDonor": "Verified Donor",
+  "verifiedDonorSupport": "Verified Donor • Donated $50 ❤️",
+
+  "supporter": "Supporter",
+
+  "message1": "Wishing you a speedy recovery 🙏",
+  "message2": "Thank you so much for your support ❤️",
+  "message3": "You are very strong. Keep fighting!",
+  "message4": "Your words really mean a lot to me 💙",
+
+  "typeMessage": "Type your message...",
+  "send": "Send",
+
+  "emoji": "Emoji",
+  "attachFile": "Attach File",
+  "sendImage": "Send Image",
+  "voiceMessage": "Voice Message",
+
+  "donorDetails": "Donor Details",
+  "totalSupport": "Total Support",
+  "donations": "Donations",
+
+  "dashboard": "Dashboard",
+  "browseRequests": "Browse Requests",
+  "myDonations": "My Donations",
+  "myImpact": "My Impact",
+  "myFavorites": "Favorites",
+  "messages": "Messages",
+  "settings": "Settings",
+  "logout": "Logout",
+
+  "welcomeBack": "Welcome back to your dashboard",
+  "searchPlaceholder": "Search donations, requests, causes...",
+
+  "heroTitle": "Your Kindness Creates Miracles",
+  "heroSubtitle": "Together we can save lives and restore hope.",
+  "exploreRequests": "Explore Requests",
+
+  "featuredUrgentRequests": "Featured Urent Requests",
+
+  "peopleHelped": "People Helped",
+  "requestsSupported": "Requests Supported",
+  "memberSince": "Member Since",
+  "proudDonor": "Proud Donor",
+
+  "noRequestsFound": "No requests found",
+
+  "heartSurgery": "Heart Surgery for Child",
+  "floodRelief": "Emergency Flood Relief",
+  "educationSupport": "Education Support",
+  "medicalAid": "Medical Aid",
+  "foodHelp": "Food Help",
+  "cleanWater": "Clean Water",
+
+  "medicalAidDesc": "Help provide urgent medical treatment.",
+  "foodSupportDesc": "Provide food support for families in need.",
+  "cleanWaterDesc": "Help communities access clean drinking water.",
+
+  "healthFoundation": "Health Foundation",
+  "helpingHandsOrg": "Helping Hands Organization",
+  "educationOrg": "Education Organization",
+  "waterReliefOrg": "Water Relief Organization",
+
+  "urgent": "Urgent",
+  "donateNow": "Donate Now",
+  "raised": "Raised",
+  "goal": "Goal",
+  
+  "yourKindness": "Your Kindness",
+  "createsMiracles": "Creates Miracles",
+
+  "heroSubtitle": "Together we can save lives and restore hope.",
+  "exploreRequests": "Explore Requests →",
+
+  "myImpact": "My Impact",
+
+  "livesImpacted": "Lives Impacted",
+
+  "totalDonated": "Total Donated Amount",
+
+  "vsLastMonth": "vs Last Month",
+
+  "peopleHelped": "People Helped",
+  "requestsSupported": "Requests Supported",
+  "memberSince": "Member Since",
+  "proudDonor": "Proud Donor",
+
+  "featuredUrgentRequests": "Featured Urgent Requests",
+
+  "heartSurgery": "Heart Surgery for Child",
+  "floodRelief": "Emergency Flood Relief",
+  "educationSupport": "Education Support",
+  "medicalAid": "Medical Aid",
+  "foodHelp": "Food Help",
+  "cleanWater": "Clean Water",
+
+  "floodReliefDesc": "Help families affected by floods receive urgent support.",
+  "supportEducationDesc": "Help children access better education opportunities.",
+
+  "medicalAidDesc": "Help provide urgent medical treatment.",
+  "foodSupportDesc": "Provide food support for families in need.",
+  "cleanWaterDesc": "Help communities access clean drinking water.",
+
+  "healthFoundation": "Health Foundation",
+  "helpingHandsOrg": "Helping Hands Organization",
+  "educationOrg": "Education Organization",
+  "waterReliefOrg": "Water Relief Organization",
+
+  "medical": "Medical",
+  "disasterRelief": "Disaster Relief",
+  "education": "Education",
+  "communityHelp": "Community Help",
+  "water": "Water",
+
+  "goal": "Goal",
+
+  "funded": "Funded",
+
+  "donateNow": "Donate Now",
+
+  "yourDonationTrend": "Your Donation Trend",
+
+  "thisMonth": "This Month",
+
+  "transparentTitle": "100% Transparent",
+  "transparentDesc": "All donations and fund usage are tracked transparently in real time.",
+
+  "learnMore": "Learn More",
+ 
+  "yourKindness": "Your Kindness",
+"createsMiracles": "Creates Miracles",
+"causesByCategory": "Causes by Category",
+"all": "All",
+"medical": "Medical",
+"education": "Education",
+"disasterRelief": "Disaster Relief",
+"hunger": "Hunger",
+"browseSubtitle": "Discover real people who need your support",
+"searchCauses": "Search campaigns...",
+"requests": "Requests",
+"newest": "Newest",
+"highestRaised": "Highest Raised",
+"goalAmount": "Goal Amount",
+"donate": "Donate",
+"view": "View",
+"save": "Save",
+"saved": "Saved",
+"noRequestsFound": "No requests found",
+"tryChangingFilters": "Try changing filters or search keywords",
+"thankYouSupport": "Thank you for supporting",
+"openingRequest": "Opening request",
+"browseRequests": "Browse Requests",
+"causesByCategory": "Causes by Category",
+"heartSurgery": "Heart Surgery For Children",
+"floodRelief": "Flood Relief Emergency",
+"educationSupport": "Education Support For Kids",
+"foodHelp": "Food Help Campaign",
+"medicalAidDesc": "Help children receive urgent medical treatment and surgery.",
+"floodReliefDesc": "Support families affected by floods and natural disasters.",
+"supportEducationDesc": "Provide education supplies and school support for children.",
+"foodSupportDesc": "Help provide food packages to families in need.",
+"healthFoundation": "Health Foundation",
+"helpingHandsOrg": "Helping Hands Organization",
+"educationOrg": "Education Organization",
+"foodAidOrg": "Food Aid Organization",
+"all": "All",
+"medical": "Medical",
+"disasterRelief": "Disaster Relief",
+"education": "Education",
+"hunger": "Hunger",
+"trendingRequests": "Trending Requests",
+"categoriesOverview": "Categories Overview",
+"filters": "Filters",
+"categories": "Categories",
+  "trackDonations": "Track your donations and impact in real time.",
+  "acrossCampaigns": "Across all campaigns and requests",
+  "causesSupported": "Causes Supported",
+  "donationAnalytics": "Donation Analytics",
+  "donationCampaign": "Donation Campaign",
+  "educationSupport": "Education Support",
+  "viewDonationHistory": "View Donation History",
+  "certificate": "Certificate",
+  "appreciationCertificate": "Appreciation Certificate",
+  "certificateDescription": "This certificate honors your kindness and generous support.",
+  "downloadCertificate": "Download Certificate",
+  "topCausesSupport": "Top Causes Support",
+  "educationSupport": "Education Support",
+  "donationCampaign": "Donation Campaign",
+  "starDonor": "You are a Star Donor! ⭐",
+  "starDonorDesc": "Your kindness is transforming lives",
+  "certificate": "Certificate",
+"starDonor": "You are a Star Donor! ⭐",
+"starDonorDesc": "Your kindness is transforming lives",
+"appreciationCertificate": "Appreciation Certificate",
+"certificateDescription": "This certificate honors your kindness and generous support.",
+"downloadCertificate": "Download Certificate",
+  "starDonor": "You are a Star Donor! ⭐",
+  "starDonorDesc": "Your kindness is transforming lives",
+  "appreciationCertificate": "Appreciation Certificate",
+  "certificateDescription": "This certificate honors your kindness and generous support.",
+  "downloadCertificate": "Download Certificate",
+  "yourRealImpact": "Your Real Impact",
+"yourDonations": "Your Donations",
+"createRealChange": "Create Real Change",
+"impactHeroDesc": "Every donation you make helps transform lives around the world.",
+"verifiedDonations": "Verified Donations",
+
+"foodDonations": "Food Donations",
+"waterDonations": "Water Donations",
+"educationDonations": "Education Donations",
+
+"realDonationActivity": "Real donation activity from your contributions.",
+
+"allTime": "All Time",
+
+"yourDonationTrend": "Your Donation Trend",
+"total": "Total",
+
+"impactByRegion": "Impact By Region",
+"impactMapDesc": "Your donations are helping communities across the world.",
+
+"asia": "Asia",
+"africa": "Africa",
+"southAmerica": "South America",
+"europe": "Europe",
+
+"yourDonationActivity": "Your Donation Activity",
+"youHaveMade": "You have made",
+"verifiedDonationPlatform": "verified donations on the platform.",
+
+"viewFullImpact": "View Full Impact",
+
+"supportedCauses": "Supported Causes",
+"appreciationCertificate": "Appreciation Certificate",
+"certificateDescription": "This certificate recognizes your generosity and meaningful impact through your donations.",
+"downloadCertificate": "Download Certificate",
+"failedDownloadCertificate": "Failed to download certificate.",
+"yourDonationTrend": "Your Donation Trend",
+"yourBadge": "Your Badge",
+"impactBadge": "Impact Badge",
+
+"nextGoal": "Next Goal",
+"reachTotalDonations": "Reach Total Donations $1000",
+
+"goal": "Goal",
+
+"livesHelped": "Lives Helped",
+
+"realDonationSummary": "Real Donation Summary",
+
+"totalGiven": "Total Given",
+"estimatedLivesHelped": "Estimated Lives Helped",
+"yourDonationTrend": "Your Donation Trend",
+"yourBadge": "Your Badge",
+"impactBadge": "Impact Badge",
+
+"nextGoal": "Next Goal",
+"reachTotalDonations": "Reach Total Donations $1000",
+
+"goal": "Goal",
+
+"livesHelped": "Lives Helped",
+
+"realDonationSummary": "Real Donation Summary",
+
+"totalGiven": "Total Given",
+"estimatedLivesHelped": "Estimated Lives Helped",
+"medicalHelp": "Medical Help",
+"goldSupporter": "Gold Supporter",
+"realDonationSummary": "Real Donation Summary",
+
+"yourBadge": "Your Badge",
+
+"goldSupporter": "Gold Supporter",
+
+"livesHelped": "Lives Helped",
+
+"nextGoal": "Next Goal",
+
+"reachTotalDonations": "Reach Total Donations",
+
+"totalGiven": "Total Given",
+
+"estimatedLivesHelped": "Estimated Lives Helped",
+"yourBadge": "Your Badge",
+"goldSupporter": "Gold Supporter",
+"realDonationSummary": "Real Donation Summary",
+"nextGoal": "Next Goal",
+"reachTotalDonations": "Reach Total Donations",
+"totalGiven": "Total Given",
+"estimatedLivesHelped": "Estimated Lives Helped",
+"livesHelped": "Lives Helped",
+"favoritesOverview": "Favorites Overview",
+"savedImpactSummary": "Your saved requests and causes impact",
+"favoritesStatistics": "Favorites Statistics",
+"savedRequests": "Saved Requests",
+"savedCauses": "Saved Causes",
+"totalSaved": "Total Saved",
+"totalRaised": "Total Raised",
+"favoritesCanChangeLives": "Your favorites can change lives",
+"favoritesMotivation": "Every saved request is a step towards making a difference.",
+"exploreMore": "Explore More",
+"quickActions": "Quick Actions",
+"browseRequests": "Browse Requests",
+"exploreCauses": "Explore Causes",
+"needHelp": "Need Help?",
+"supportAnytime": "We're here for you anytime.",
+"contactSupport": "Contact Support",
+"favoritesSubtitle": "Your saved causes and donation requests",
+"openOverview": "Open Overview",
+"searchFavorites": "Search favorites...",
+"noFavoritesFound": "No favorites found",
+"tryAnotherSearch": "Try another search keyword",
+"donate": "Donate",
+"view": "View",
+"remove": "Remove",
+"medicalAidDesc": "Help children receive urgent medical surgeries and treatment.",
+"cleanWaterDesc": "Provide clean drinking water for communities in need.",
+"heartSurgery": "Heart Surgery",
+"cleanWater": "Clean Water",
+"healthFoundation": "Health Foundation",
+"waterReliefOrg": "Water Relief Organization",
+"medical": "Medical",
+"water": "Water",
+"goal": "Goal",
+"favoritesSubtitle": "Your saved causes and donation requests",
+"completedFundraising": "completed fundraising",
+"foodSupportDesc": "Provide meals and food supplies for families in need.",
+"helpingHandsOrg": "Helping Hands Organization",
+"communityHelp": "Community Help",
+"by": "by"
+
+
+
+
+}

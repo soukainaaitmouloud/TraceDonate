@@ -1,0 +1,739 @@
+
+/* ================================================= */
+/* ================= PAGE ========================== */
+/* ================================================= */
+
+.timeline-page {
+
+  padding: 28px;
+
+  max-width: 1150px;
+
+  margin: auto;
+
+  min-height: 100vh;
+
+  font-family: "Inter", sans-serif;
+
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(59,130,246,0.08),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(16,185,129,0.08),
+      transparent 30%
+    ),
+    linear-gradient(
+      180deg,
+      #f8fafc,
+      #eef2ff
+    );
+}
+
+/* ================================================= */
+/* ================= DARK MODE ===================== */
+/* ================================================= */
+
+.timeline-page.dark {
+
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(59,130,246,0.12),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(16,185,129,0.10),
+      transparent 30%
+    ),
+    linear-gradient(
+      180deg,
+      #020617,
+      #0f172a
+    );
+}
+
+.timeline-page.dark h1,
+.timeline-page.dark h2,
+.timeline-page.dark h3,
+.timeline-page.dark h4,
+.timeline-page.dark strong {
+
+  color: #ffffff;
+}
+
+.timeline-page.dark p,
+.timeline-page.dark span {
+
+  color: #cbd5e1;
+}
+
+/* ================================================= */
+/* ================= PAGE HEADER =================== */
+/* ================================================= */
+
+.timeline-page-header {
+
+  margin-top: 26px;
+
+  margin-bottom: 20px;
+}
+
+.timeline-page-header h1 {
+
+  font-size: 54px;
+
+  font-weight: 900;
+
+  line-height: 1.1;
+
+  letter-spacing: -2px;
+
+  margin: 0;
+
+  background:
+    linear-gradient(
+      135deg,
+      #0f172a,
+      #2563eb
+    );
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+}
+
+.timeline-page.dark .timeline-page-header h1 {
+
+  background:
+    linear-gradient(
+      135deg,
+      #ffffff,
+      #60a5fa
+    );
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+}
+
+/* ================================================= */
+/* ================= DOWNLOAD ====================== */
+/* ================================================= */
+
+.timeline-download-bar {
+
+  width: 100%;
+
+  border: none;
+
+  padding: 18px 20px;
+
+  border-radius: 24px;
+
+  cursor: pointer;
+
+  font-size: 16px;
+
+  font-weight: 800;
+
+  color: white;
+
+  margin-bottom: 22px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #2563eb,
+      #06b6d4
+    );
+
+  box-shadow:
+    0 18px 40px rgba(37,99,235,0.25);
+
+  transition:
+    all 0.35s ease;
+}
+
+.timeline-download-bar:hover {
+
+  transform:
+    translateY(-4px);
+
+  box-shadow:
+    0 25px 55px rgba(37,99,235,0.35);
+}
+
+/* ================================================= */
+/* ================= SUBTITLE ====================== */
+/* ================================================= */
+
+.timeline-subtitle {
+
+  font-size: 17px;
+
+  line-height: 1.8;
+
+  color: #475569;
+
+  margin-bottom: 28px;
+
+  max-width: 760px;
+}
+
+/* ================================================= */
+/* ================= INFO BOX ====================== */
+/* ================================================= */
+
+.timeline-info-box {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 18px;
+
+  padding: 24px 26px;
+
+  border-radius: 30px;
+
+  margin-bottom: 38px;
+
+  background:
+    rgba(255,255,255,0.70);
+
+  backdrop-filter: blur(18px);
+
+  border:
+    1px solid rgba(255,255,255,0.45);
+
+  box-shadow:
+    0 12px 40px rgba(15,23,42,0.08);
+}
+
+.timeline-page.dark .timeline-info-box {
+
+  background:
+    rgba(15,23,42,0.72);
+
+  border:
+    1px solid rgba(255,255,255,0.08);
+}
+
+.info-icon {
+
+  width: 58px;
+
+  height: 58px;
+
+  border-radius: 18px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 26px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #22c55e,
+      #16a34a
+    );
+
+  color: white;
+
+  flex-shrink: 0;
+
+  box-shadow:
+    0 12px 28px rgba(34,197,94,0.25);
+}
+
+.timeline-info-box strong {
+
+  display: block;
+
+  font-size: 18px;
+
+  margin-bottom: 6px;
+}
+
+.timeline-info-box p {
+
+  margin: 0;
+
+  line-height: 1.7;
+}
+
+/* ================================================= */
+/* ================= CONTENT ======================= */
+/* ================================================= */
+
+.recovery-timeline-content {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 26px;
+}
+
+/* ================================================= */
+/* ================= CARD ========================== */
+/* ================================================= */
+
+.timeline-card {
+
+  display: flex;
+
+  gap: 22px;
+
+  padding: 28px;
+
+  border-radius: 32px;
+
+  position: relative;
+
+  overflow: hidden;
+
+  background:
+    rgba(255,255,255,0.76);
+
+  backdrop-filter: blur(20px);
+
+  border:
+    1px solid rgba(255,255,255,0.55);
+
+  box-shadow:
+    0 15px 40px rgba(15,23,42,0.08);
+
+  transition:
+    all 0.35s ease;
+}
+
+.timeline-page.dark .timeline-card {
+
+  background:
+    rgba(15,23,42,0.76);
+
+  border:
+    1px solid rgba(255,255,255,0.08);
+}
+
+.timeline-card:hover {
+
+  transform:
+    translateY(-8px);
+
+  box-shadow:
+    0 28px 60px rgba(15,23,42,0.16);
+}
+
+/* ================================================= */
+/* ================= LEFT ========================== */
+/* ================================================= */
+
+.timeline-left {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  width: 80px;
+
+  position: relative;
+}
+
+.icon-wrapper {
+
+  width: 68px;
+
+  height: 68px;
+
+  border-radius: 22px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 24px;
+
+  background:
+    rgba(255,255,255,0.9);
+
+  backdrop-filter: blur(10px);
+
+  transition: 0.35s;
+}
+
+.icon-wrapper.completed {
+
+  color: #22c55e;
+
+  border:
+    2px solid rgba(34,197,94,0.35);
+
+  box-shadow:
+    0 12px 28px rgba(34,197,94,0.18);
+}
+
+.icon-wrapper.in-progress {
+
+  color: #2563eb;
+
+  border:
+    2px solid rgba(37,99,235,0.35);
+
+  box-shadow:
+    0 12px 28px rgba(37,99,235,0.18);
+}
+
+.icon-wrapper.upcoming {
+
+  color: #94a3b8;
+
+  border:
+    2px solid rgba(148,163,184,0.25);
+}
+
+.timeline-card:hover .icon-wrapper {
+
+  transform:
+    scale(1.08)
+    rotate(-4deg);
+}
+
+/* ================================================= */
+/* ================= LINE ========================== */
+/* ================================================= */
+
+.timeline-line {
+
+  width: 4px;
+
+  flex: 1;
+
+  margin-top: 12px;
+
+  border-radius: 30px;
+
+  background:
+    rgba(203,213,225,0.45);
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+.timeline-line.completed::before,
+.timeline-line.in-progress::before {
+
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  animation:
+    fillLine 1.4s ease forwards;
+}
+
+.timeline-line.completed::before {
+
+  background:
+    linear-gradient(
+      180deg,
+      #22c55e,
+      #16a34a
+    );
+}
+
+.timeline-line.in-progress::before {
+
+  background:
+    linear-gradient(
+      180deg,
+      #3b82f6,
+      #2563eb
+    );
+}
+
+/* ================================================= */
+/* ================= RIGHT ========================= */
+/* ================================================= */
+
+.timeline-right {
+
+  flex: 1;
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+/* FIXED CONFLICT */
+
+.timeline-card-header {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap: 16px;
+
+  margin-bottom: 10px;
+}
+
+.timeline-card-header h4 {
+
+  margin: 0;
+
+  font-size: 26px;
+
+  font-weight: 800;
+
+  color: #0f172a;
+}
+
+/* ================================================= */
+/* ================= BADGES ======================== */
+/* ================================================= */
+
+.status-badge {
+
+  padding: 9px 18px;
+
+  border-radius: 999px;
+
+  font-size: 13px;
+
+  font-weight: 800;
+
+  white-space: nowrap;
+}
+
+.status-badge.completed {
+
+  background:
+    linear-gradient(
+      135deg,
+      #22c55e,
+      #16a34a
+    );
+
+  color: white;
+}
+
+.status-badge.in-progress {
+
+  background:
+    linear-gradient(
+      135deg,
+      #3b82f6,
+      #2563eb
+    );
+
+  color: white;
+}
+
+.status-badge.upcoming {
+
+  background:
+    #e2e8f0;
+
+  color: #475569;
+}
+
+/* ================================================= */
+/* ================= DATE ========================== */
+/* ================================================= */
+
+.timeline-date {
+
+  display: inline-block;
+
+  margin-bottom: 14px;
+
+  font-size: 14px;
+
+  font-weight: 700;
+
+  color: #64748b;
+}
+
+/* ================================================= */
+/* ================= DESCRIPTION =================== */
+/* ================================================= */
+
+.timeline-description {
+
+  font-size: 16px;
+
+  line-height: 1.8;
+
+  color: #475569;
+}
+
+/* ================================================= */
+/* ================= EXTRA ========================= */
+/* ================================================= */
+
+.timeline-extra {
+
+  margin-top: 16px;
+
+  padding: 16px 18px;
+
+  border-radius: 18px;
+
+  font-size: 15px;
+
+  line-height: 1.8;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(59,130,246,0.08),
+      rgba(37,99,235,0.05)
+    );
+
+  color: #1d4ed8;
+
+  border:
+    1px solid rgba(59,130,246,0.12);
+}
+
+/* ================================================= */
+/* ================= FOOTER ======================== */
+/* ================================================= */
+
+.timeline-footer {
+
+  display: flex;
+
+  justify-content: flex-end;
+
+  margin-top: 40px;
+}
+
+.proofs-btn {
+
+  border: none;
+
+  padding: 16px 28px;
+
+  border-radius: 22px;
+
+  cursor: pointer;
+
+  font-size: 15px;
+
+  font-weight: 800;
+
+  color: white;
+
+  background:
+    linear-gradient(
+      135deg,
+      #16a34a,
+      #22c55e
+    );
+
+  box-shadow:
+    0 18px 38px rgba(34,197,94,0.22);
+
+  transition:
+    all 0.35s ease;
+}
+
+.proofs-btn:hover {
+
+  transform:
+    translateY(-4px);
+
+  box-shadow:
+    0 24px 50px rgba(34,197,94,0.30);
+}
+
+/* ================================================= */
+/* ================= ANIMATIONS ==================== */
+/* ================================================= */
+
+@keyframes fillLine {
+
+  from {
+    height: 0;
+  }
+
+  to {
+    height: 100%;
+  }
+}
+
+/* ================================================= */
+/* ================= RESPONSIVE ==================== */
+/* ================================================= */
+
+@media (max-width: 768px) {
+
+  .timeline-page {
+
+    padding: 18px;
+  }
+
+  .timeline-page-header h1 {
+
+    font-size: 40px;
+  }
+
+  .timeline-card {
+
+    flex-direction: column;
+  }
+
+  .timeline-left {
+
+    flex-direction: row;
+
+    width: 100%;
+  }
+
+  .timeline-line {
+
+    display: none;
+  }
+
+  .timeline-card-header {
+
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+
+  .timeline-footer {
+
+    justify-content: center;
+  }
+
+  .proofs-btn {
+
+    width: 100%;
+  }
+}
+

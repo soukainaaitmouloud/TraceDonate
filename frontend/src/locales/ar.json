@@ -1,0 +1,1189 @@
+{
+  "hello": "مرحبا",
+  "dashboard": "لوحة التحكم",
+  "donateNow": "تبرع الآن",
+  "supporters": "الداعمون",
+  "daysLeft": "الأيام المتبقية",
+  "campaignOverview": "نظرة عامة على الحملة",
+  "recentUpdates": "آخر التحديثات",
+  "thankYouMessage": "رسالة شكر ❤️",
+  "medicalAid": "مساعدة طبية",
+  "cleanWater": "مياه نظيفة",
+  "foodHelp": "مساعدة غذائية",
+  "educationSupport": "دعم التعليم",
+  "shareCampaign": "مشاركة الحملة",
+  "manageCampaign": "إدارة الحملة",
+  "updateStory": "تحديث القصة",
+  "downloadQR": "تحميل QR",
+  "verified": "تم التحقق",
+  "donations": "التبرعات",
+  "analytics": "التحليلات",
+  "goalAmount": "الهدف المالي",
+  "raisedAmount": "المبلغ المجموع",
+  "remainingAmount": "المبلغ المتبقي",
+  "fundraisingInProgress": "جمع التبرعات مستمر"
+,
+  "backToCampaign": "العودة إلى حملتي",
+"updateYourStory": "تحديث قصتك",
+"updateStorySubtitle": "شارك آخر تحديثاتك مع داعميك. قصتك تلهم الآخرين.",
+"previewUpdate": "معاينة التحديث",
+"publishUpdate": "نشر التحديث",
+"writeYourUpdate": "اكتب تحديثك",
+"updateTitle": "عنوان التحديث *",
+"yourStory": "قصتك *",
+"addPhotosVideos": "إضافة صور وفيديوهات",
+"photosHelp": "الصور تساعد على بناء الثقة والحصول على المزيد من الدعم.",
+"uploadPhotoVideo": "رفع صورة/فيديو",
+"updateCategory": "فئة التحديث",
+"medicalUpdate": "تحديث طبي",
+"treatmentUpdate": "تحديث العلاج",
+"personalUpdate": "تحديث شخصي",
+"gratitude": "امتنان",
+"addLocation": "إضافة موقع",
+"optional": "(اختياري)",
+"updatePreview": "معاينة التحديث"
+,
+"defaultUpdateTitle": "خطوات صغيرة، تقدم كبير",
+"defaultStory": "أريد أن أشكر كل واحد منكم على دعمه في رحلتي ❤️\n\nلقد نجحت العملية وأنا الآن في طريق التعافي.",
+"defaultLocation": "نيودلهي، الهند",
+"uploadPhotoFormats": "JPG, PNG, MP4",
+"twoMinutesAgo": "منذ دقيقتين"
+,
+"welcomeBack": "مرحبًا بعودتك إلى لوحة التحكم",
+"searchPlaceholder": "ابحث عن التبرعات والطلبات والحملات...",
+"saveDraft": "حفظ المسودة",
+"userName": "ريا شارما",
+"verificationProgress": "تقدم التحقق",
+"profileVerification": "التحقق من الملف الشخصي",
+"verificationDescription": "أكمل جميع المستندات المطلوبة للحصول على التحقق الكامل وبناء الثقة.",
+"identityVerification": "التحقق من الهوية",
+"medicalVerification": "التحقق الطبي",
+"addressVerification": "التحقق من العنوان",
+"bankVerification": "التحقق البنكي",
+"complete": "مكتمل",
+"completed": "تم",
+"pending": "قيد الانتظار",
+"notStarted": "لم يبدأ",
+
+  "documentsVerification": "الوثائق والتحقق",
+  "documentsSubtitle": "قم برفع وإدارة مستنداتك للتحقق من هويتك وحاجتك الطبية.",
+
+  
+
+  "uploadedDocuments": "المستندات المرفوعة",
+  "documentsSubtitle2": "حافظ على تحديث مستنداتك لضمان عملية تحقق سلسة.",
+
+  "uploadNewDocument": "رفع مستند جديد",
+  "uploadNow": "ارفع الآن",
+
+  "aadharCard": "بطاقة الهوية",
+  "medicalReport": "التقرير الطبي",
+  "addressProof": "إثبات العنوان",
+  "bankStatement": "كشف الحساب البنكي",
+
+  "identityProof": "إثبات الهوية",
+  "medicalDocument": "مستند طبي",
+  "addressVerificationType": "التحقق من العنوان",
+  "bankVerificationType": "التحقق البنكي",
+
+  "uploadedDate": "تم الرفع في 10 مايو 2026",
+  "uploadedDate2": "تم الرفع في 8 مايو 2026",
+  "requiredWithdrawals": "مطلوب للسحب",
+
+
+  "notUploaded": "غير مرفوع",
+
+  "documentId": "معرف المستند",
+
+  "needHelpVerification": "هل تحتاج مساعدة في التحقق؟",
+  "supportSubtitle": "فريق الدعم لدينا هنا لمساعدتك في التحقق من مستنداتك.",
+  "contactSupport": "اتصل بالدعم",
+
+  "verificationStatus": "حالة التحقق",
+  "youAreVerified": "أنت موثق!",
+  "documentsVerifiedSuccessfully": "تمت مراجعة مستنداتك والتحقق منها بنجاح.",
+  "lastVerified": "آخر تحقق في 10 مايو 2026",
+
+  "downloadVerificationBadge": "تحميل شارة التحقق",
+
+  "whyVerificationMatters": "لماذا التحقق مهم؟",
+
+  "buildTrust": "بناء الثقة",
+  "buildTrustDesc": "الملفات الموثقة تحصل على المزيد من التبرعات والدعم.",
+
+  "secureSafe": "آمن ومحمي",
+  "secureSafeDesc": "نضمن تشفير جميع المستندات وتأمينها بالكامل.",
+
+  "fasterWithdrawals": "سحب أسرع",
+  "fasterWithdrawalsDesc": "التحقق الكامل يساعدك على سحب الأموال بسرعة وسهولة.",
+
+  "transparency": "الشفافية",
+  "transparencyDesc": "الشفافية تبني مجتمعًا أقوى قائمًا على الثقة والدعم.",
+
+  "verificationTip": "نصيحة: تأكد من أن مستنداتك واضحة وصالحة لتسريع عملية التحقق."
+,
+
+  "verificationProgress": "تقدم التحقق",
+  "profileVerification": "التحقق من الملف الشخصي",
+  "complete": "مكتمل",
+  "verificationDescription": "أكمل جميع المستندات المطلوبة للحصول على التحقق الكامل وبناء الثقة.",
+  "identityVerification": "التحقق من الهوية",
+  "medicalVerification": "التحقق الطبي",
+  "addressVerification": "التحقق من العنوان",
+  "bankVerification": "التحقق البنكي",
+  "completed": "مكتمل",
+  "pending": "قيد الانتظار",
+  "notStarted": "لم يبدأ",
+  "verificationProgress": "تقدم التحقق",
+"profileVerification": "التحقق من الملف الشخصي",
+"complete": "مكتمل",
+"verificationDescription": "أكمل جميع المستندات المطلوبة للحصول على التحقق الكامل وبناء الثقة.",
+
+"identityVerification": "التحقق من الهوية",
+"medicalVerification": "التحقق الطبي",
+"addressVerification": "التحقق من العنوان",
+"bankVerification": "التحقق البنكي",
+
+"completed": "مكتمل",
+"pending": "قيد الانتظار",
+"notStarted": "لم يبدأ",
+
+  "urgentSurgeryNeeded": "عملية جراحية عاجلة مطلوبة",
+  "storyPlaying": "تشغيل القصة",
+  "updatedHoursAgo": "تم التحديث منذ 3 ساعات",
+  "receiveHeartSurgery": "ساعد ريا في الحصول على جراحة قلب",
+  "campaignSubtitle": "دعمك يمكن أن ينقذ حياة صغيرة ويمنح الأمل لعائلة محتاجة.",
+
+  "riyaStory": "قصة ريا",
+
+  "raisedOf": "تم جمعه من",
+  "goal": "الهدف",
+  "funded": "ممول",
+
+  "heartDisease": "مرض القلب",
+  "yearsOld": "8 سنوات",
+  "ruralIndia": "الهند الريفية",
+  "hospitalVerified": "مستشفى موثق",
+
+  "donateSupport": "تبرع وادعم",
+  "riyaQuote": "كل نبضة قلب هي فرصة للأمل والشفاء.",
+
+  "recoveryCampaign": "حملة التعافي",
+
+  "viewDetails": "عرض التفاصيل",
+  "urgentCase": "حالة عاجلة",
+  "heart": "القلب",
+  "surgeryTreatment": "العلاج الجراحي",
+  "createdOn": "تم الإنشاء في",
+
+  "campaignGoal": "هدف الحملة",
+  "raised": "تم جمعه",
+  "remaining": "المتبقي",
+
+  "fundraisingProgress": "تقدم جمع التبرعات",
+  "latestStories": "أحدث القصص",
+
+  "twoDaysAgo": "منذ يومين",
+  "recentThankYouText": "شكراً لكم جميعاً على لطفكم ودعمكم ❤️",
+
+  "fiveDaysAgo": "منذ 5 أيام",
+  "recentTreatmentUpdateText": "بدأ العلاج والتحسن مستمر كل يوم.",
+
+  "recoveryJourney": "رحلة التعافي",
+  "oneWeekAgo": "منذ أسبوع",
+  "recentRecoveryJourneyText": "ريا تبتسم من جديد وتستعيد قوتها تدريجياً.",
+
+  "twoMinAgo": "منذ دقيقتين",
+
+  "openDocument": "فتح المستند",
+  "doctorCertificate": "شهادة الطبيب",
+  "hospitalEstimate": "تقدير المستشفى",
+  "documentsVerifiedText": "تم التحقق من جميع المستندات بنجاح.",
+
+  "supportMyRecovery": "ادعم شفائي",
+  "publicPage": "الصفحة العامة",
+
+  "shares": "المشاركات",
+
+  "shareStory": "مشاركة القصة",
+  "verifiedTransparency": "شفافية موثقة",
+  "fundAllocation": "توزيع الأموال",
+
+  "transparencyOverview": "نظرة عامة على الشفافية",
+  "details": "التفاصيل",
+  "transparent": "شفاف",
+
+  "hospitalSurgery": "المستشفى والجراحة",
+  "medicines": "الأدوية",
+  "testsDiagnosis": "الفحوصات والتشخيص",
+  "transport": "النقل",
+  "others": "أخرى",
+
+  "totalWithdrawn": "إجمالي المسحوبات",
+  "notWithdrawnYet": "لم يتم السحب بعد",
+
+  "lastUpdated": "آخر تحديث",
+
+  "medicalReportsVerified": "تم التحقق من التقارير الطبية",
+  "identityVerified": "تم التحقق من الهوية",
+  "hospitalDocumentsVerified": "تم التحقق من مستندات المستشفى",
+  "viewDonationRecords": "عرض سجلات التبرعات",
+
+  "engagement": "التفاعل",
+
+  "activitySummary": "ملخص النشاط",
+  "updatesPosted": "التحديثات المنشورة",
+  "photosVideos": "الصور والفيديوهات",
+  "totalSupporters": "إجمالي الداعمين",
+  "thankYouMessages": "رسائل الشكر",
+
+  "activityFooter": "كل مساهمة تساعد في بناء الثقة والأمل ❤️"
+,
+
+  "campaignGrowing": "الحملة تنمو",
+  "myCampaign": "حملتي",
+  "manageCampaignSubtitle": "قم بإدارة حملتك والتحديثات والتبرعات والداعمين بسهولة.",
+
+  "campaignactivechangePhoto": "الحملة نشطة • تغيير الصورة",
+
+  "healthyHeartJourney": "رحلة القلب الصحي",
+
+  "campaignDescription": "ساعد في دعم جراحة قلب ريا ورحلة تعافيها.",
+
+  "category": "الفئة",
+  "medical": "طبي",
+
+  "location": "الموقع",
+
+  "editCampaign": "تعديل الحملة",
+  "previewPage": "معاينة الصفحة",
+  "overview": "نظرة عامة",
+  "updates": "التحديثات",
+
+  "campaignProgress": "تقدم الحملة",
+
+  "keepGoing": "استمر",
+
+  "seeAll": "عرض الكل",
+  "update": "تحديث",
+
+  "feelingBetter": "أشعر بتحسن ❤️",
+
+  "createNewUpdate": "إنشاء تحديث جديد",
+
+  "communitySupport": "دعم المجتمع",
+  "recentDonations": "التبرعات الأخيرة",
+
+  "donorName1": "إيما ويلسون",
+  "donationMessage1": "إرسال الدعوات والدعم ❤️",
+
+  "donorName2": "مايكل لي",
+  "donationMessage2": "ابق قوياً، نحن معك!",
+
+  "oneDayAgo": "منذ يوم",
+
+  "donorName3": "رافي كومار",
+  "donationMessage3": "أتمنى لك الشفاء العاجل 🙏",
+
+  "donorName4": "بريا شارما",
+  "donationMessage4": "أنت لست وحدك في هذه الرحلة.",
+
+  "threeDaysAgo": "منذ 3 أيام",
+
+  "donorName5": "فيكتور تشين",
+  "donationMessage5": "أتمنى لك القوة والشفاء.",
+
+  "verifiedCampaign": "حملة موثقة",
+
+  "raisedGoal": "الهدف المحقق",
+
+  "shareMyStory": "شارك قصتي",
+  "secureDonationText": "تبرعات آمنة محمية بأنظمة دفع موثوقة.",
+
+  "quickActions": "إجراءات سريعة",
+
+  "updateStoryText": "انشر التحديثات وأبقِ الداعمين على اطلاع.",
+
+  "addPhotos": "إضافة صور",
+  "addPhotosText": "قم برفع الصور لبناء الثقة والتفاعل.",
+
+  "goLive": "النشر المباشر",
+  "goLiveText": "انشر حملتك للعامة للداعمين.",
+
+  "shareCampaignCardText": "شارك حملتك مع الأصدقاء والعائلة.",
+
+  "downloadQRText": "قم بتنزيل رمز QR للمشاركة بسهولة.",
+
+  "editDetails": "تعديل التفاصيل",
+  "editDetailsText": "قم بتحديث معلومات الحملة في أي وقت."
+,
+
+  "verificationProgress": "تقدم التحقق",
+  "profileVerification": "التحقق من الملف الشخصي",
+  "complete": "مكتمل",
+
+  "verificationDescription": "أكمل جميع المستندات المطلوبة للحصول على التحقق الكامل وبناء الثقة.",
+
+  "identityVerification": "التحقق من الهوية",
+  "medicalVerification": "التحقق الطبي",
+  "addressVerification": "التحقق من العنوان",
+  "bankVerification": "التحقق البنكي",
+
+  "completed": "مكتمل",
+  "pending": "قيد الانتظار",
+  "notStarted": "لم يبدأ",
+
+  "may2026": "مايو 2026",
+  
+  "documentsVerification": "الوثائق والتحقق",
+  "documentsSubtitle": "قم برفع وإدارة الوثائق للتحقق من هويتك واحتياجاتك الطبية.",
+
+  "verificationProgress": "تقدم التحقق",
+  "profileVerification": "التحقق من الملف الشخصي",
+  "completeText": "مكتمل",
+  "verificationDescription": "أكمل جميع الوثائق المطلوبة للحصول على التحقق الكامل وبناء الثقة.",
+
+  "identityVerification": "التحقق من الهوية",
+  "medicalVerification": "التحقق الطبي",
+  "addressVerification": "التحقق من العنوان",
+  "bankVerification": "التحقق البنكي",
+
+  "completed": "مكتمل ✓",
+  "pending": "قيد المراجعة ⏳",
+  "notStarted": "لم يبدأ ○",
+
+  "uploadedDocuments": "الوثائق المرفوعة",
+  "uploadNewDocument": "رفع وثيقة جديدة",
+
+  "aadharCard": "بطاقة الهوية",
+  "identityProof": "إثبات الهوية",
+  "uploadedDate": "تم الرفع في 10 مايو 2026",
+
+  "medicalReport": "التقرير الطبي",
+  "medicalDocument": "وثيقة طبية",
+
+  "addressProof": "إثبات العنوان",
+  "uploadedDate2": "تم الرفع في 8 مايو 2026",
+
+  "bankStatement": "كشف الحساب البنكي",
+  "requiredWithdrawals": "مطلوب لعمليات السحب",
+
+  "verified": "تم التحقق",
+  "notUploaded": "غير مرفوع",
+
+  "uploadNow": "ارفع الآن",
+  "uploadStarted": "بدأ رفع الوثيقة",
+  "documentRemoved": "تم حذف الوثيقة",
+
+  "downloading": "جاري تحميل",
+
+  "needHelpVerification": "هل تحتاج مساعدة في التحقق؟",
+  "supportSubtitle": "فريق الدعم جاهز لمساعدتك في التحقق من الوثائق.",
+  "contactSupport": "التواصل مع الدعم",
+
+  "supportMessage": "تم إرسال طلب الدعم بنجاح"
+,
+
+  "recentDonations": "التبرعات الأخيرة",
+  "trackLatestSupporters": "تابع أحدث الداعمين والتبرعات الخاصة بك.",
+  "donor": "المتبرع",
+  "amount": "المبلغ",
+  "date": "التاريخ",
+  "message": "الرسالة",
+  "status": "الحالة",
+  "actions": "الإجراءات",
+  "completed": "مكتمل",
+  "pending": "قيد الانتظار",
+  "viewAllDonations": "عرض جميع التبرعات",
+  "needHelp": "هل تحتاج إلى مساعدة؟",
+  "supportDonationText": "فريق الدعم جاهز لمساعدتك في أي مشكلة متعلقة بالتبرعات في أي وقت.",
+  "contactSupport": "تواصل مع الدعم",
+  "openingDonation": "فتح التبرع",
+  "donationReceipt": "إيصال التبرع",
+  "generated": "تم الإنشاء",
+  "donationMessage1": "نتمنى لك القوة والشفاء.",
+  "donationMessage2": "ابقَ قويًا، نحن ندعمك.",
+  "donationMessage3": "ندعو لك بالشفاء العاجل.",
+  "donationMessage4": "نأمل أن يساعد هذا التبرع في علاجك.",
+  "donationMessage5": "نرسل لك الدعم والطاقة الإيجابية.",
+  "donationMessage6": "نحن هنا من أجلك."
+,
+
+  "donationsReceived": "التبرعات المستلمة",
+  "donationsSubtitle": "تابع وأدر جميع التبرعات المستلمة من الداعمين حول العالم.",
+  "downloadReport": "تحميل التقرير",
+
+  "totalDonations": "إجمالي التبرعات",
+  "allTimeDonations": "جميع التبرعات",
+
+  "totalDonors": "إجمالي المتبرعين",
+  "peopleSupportedYou": "الأشخاص الذين دعموك",
+
+  "successfulDonations": "التبرعات الناجحة",
+  "completedTransactions": "المعاملات المكتملة",
+
+  "pendingDonations": "التبرعات المعلقة",
+  "awaitingCompletion": "بانتظار الإكمال",
+
+  "donationGrowth": "نمو التبرعات",
+  "trackDonationPerformance": "تابع أداء التبرعات ونمو حملتك.",
+
+  "thisMonth": "هذا الشهر",
+  "thisWeek": "هذا الأسبوع",
+  "today": "اليوم",
+
+  "totalDonated": "إجمالي التبرعات",
+  "highestDonation": "أعلى تبرع",
+
+  "donationImpact": "تأثير التبرعات",
+  "campaignHelpingFamilies": "حملتك تساعد المزيد من العائلات كل يوم.",
+
+  "fastestGrowingCampaign": "أسرع حملة نموًا",
+  "donorActivityWeek": "نشاط المتبرعين هذا الأسبوع",
+
+  "verificationComplete": "اكتمل التحقق",
+  "trustedProfile": "الملف الموثق يجذب المزيد من المتبرعين",
+
+  "supportTeamReady": "فريق الدعم جاهز دائمًا لمساعدتك.",
+
+  "recentDonations": "التبرعات الأخيرة",
+  "trackLatestSupporters": "تابع أحدث الداعمين والتبرعات الخاصة بك.",
+
+  "donor": "المتبرع",
+  "amount": "المبلغ",
+  "date": "التاريخ",
+  "message": "الرسالة",
+  "status": "الحالة",
+
+  "viewAllDonations": "عرض جميع التبرعات",
+
+  "needHelp": "هل تحتاج إلى مساعدة؟",
+  "supportDonationText": "إذا كان لديك أي أسئلة حول تبرعاتك، فإن فريق الدعم لدينا هنا لمساعدتك.",
+
+  "contactSupport": "تواصل مع الدعم",
+
+  "donationMessage1": "نتمنى لك الشفاء العاجل 🙏",
+  "donationMessage2": "ابقَ قويًا، نحن معك 💚",
+  "donationMessage3": "اعتنِ بنفسك ونتمنى لك الشفاء 💪",
+  "donationMessage4": "أنت في دعواتي 🙏",
+  "donationMessage5": "آمل أن يساعد هذا في شفائك 🌸",
+  "donationMessage6": "ابقَ إيجابيًا وكن قويًا 💚"
+,
+
+  "actions": "الإجراءات",
+  "completed": "مكتمل",
+  "pending": "قيد الانتظار",
+  "openingDonation": "فتح التبرع",
+  "donationReceipt": "إيصال التبرع",
+  "generated": "تم الإنشاء"
+,
+
+  "monthlyGrowth": "النمو الشهري",
+  "topDonors": "أفضل المتبرعين",
+  "active": "نشط",
+
+  "premiumSupporter": "داعم مميز",
+
+  "viewTopDonors": "عرض أفضل المتبرعين"
+,
+
+  "transparencyCenter": "مركز الشفافية",
+  "transparencySubtitle": "تتبع جميع التبرعات واستخدام الأموال وشفافية الحملة في الوقت الفعلي.",
+
+  "downloadFullReport": "تحميل التقرير الكامل",
+  "aiAssistant": "المساعد الذكي",
+
+  "totalDonationsReceived": "إجمالي التبرعات المستلمة",
+  "fromDonors": "من 128 متبرع",
+
+  "totalFundsUtilized": "إجمالي الأموال المستخدمة",
+  "fundsUtilizedPercent": "80.8٪ من إجمالي الأموال",
+
+  "totalImpactCreated": "إجمالي التأثير المحقق",
+  "livesImpacted": "تم تحسين حياة المستفيدين",
+
+  "fundsInProgress": "الأموال قيد المعالجة",
+  "fundsRemainingPercent": "19.2٪ من إجمالي الأموال",
+
+  "fundsUtilizationOverview": "نظرة عامة على استخدام الأموال",
+  "trackFundsUsage": "تتبع كيفية استخدام الأموال المتبرع بها.",
+
+  "fundsUtilized": "الأموال المستخدمة",
+
+  "medicalExpenses": "المصاريف الطبية",
+  "dailyNeeds": "الاحتياجات اليومية",
+  "travelStay": "السفر والإقامة",
+  "otherExpenses": "مصاريف أخرى",
+
+  "totalUtilized": "إجمالي المستخدم",
+
+  "recentTransactions": "أحدث المعاملات",
+  "latestCampaignTransactions": "أحدث معاملات حملتك.",
+
+  "viewAll": "عرض الكل",
+
+  "completed": "مكتمل",
+  "paid": "مدفوع",
+
+  "impactUpdates": "التأثير والتحديثات",
+  "realImpactCreated": "تأثير حقيقي تم تحقيقه من خلال تبرعاتكم.",
+
+  "patientsHelped": "المرضى الذين تمت مساعدتهم",
+  "medicalSupportProvided": "تم تقديم الدعم الطبي",
+
+  "familiesSupported": "العائلات المدعومة",
+  "familiesReceivedAssistance": "تلقت العائلات المساعدة",
+
+  "recoveryProgress": "تقدم التعافي",
+  "towardsCompleteRecovery": "نحو التعافي الكامل",
+
+  "campaignTimeline": "الجدول الزمني للحملة",
+  "keyMilestonesJourney": "أهم المحطات في رحلتك.",
+
+  "campaignStarted": "بدأت الحملة",
+  "verificationCompleted": "اكتمل التحقق",
+  "firstDonationReceived": "تم استلام أول تبرع",
+  "medicalTreatmentStarted": "بدأ العلاج الطبي",
+  "ongoingRecovery": "التعافي المستمر",
+  "inProgress": "قيد التنفيذ",
+
+  "haveQuestions": "هل لديك أسئلة؟",
+  "supportMessage": "نحن نؤمن بالشفافية الكاملة. إذا كانت لديك أي استفسارات، فريقنا هنا للمساعدة.",
+
+  "contactSupport": "اتصل بالدعم",
+
+  "financialTransparency": "الشفافية المالية",
+  "campaignBreakdown": "تفاصيل مالية الحملة",
+
+  "donationsReceived": "التبرعات المستلمة",
+  "pendingInProgress": "قيد المعالجة",
+
+  "documentsProof": "المستندات والإثباتات",
+  "financialDocumentsProofs": "المستندات والإثباتات المالية المعتمدة",
+
+  "medicalBills": "الفواتير الطبية",
+  "medicalBillsCount": "12 فاتورة معتمدة",
+
+  "expenseReceipts": "إيصالات المصروفات",
+  "expenseReceiptsCount": "8 إيصالات مرفوعة",
+
+  "bankStatements": "كشوف الحساب البنكي",
+  "bankStatementsCount": "4 كشوفات معتمدة",
+
+  "view": "عرض",
+  "viewAllDocuments": "عرض جميع المستندات"
+,
+
+
+  "aaravDonation": "تبرع من Aarav Mehta",
+  "aaravDonationDate": "10 مايو 2026، 10:30 صباحًا",
+
+  "priyaDonation": "تبرع من Priya Nair",
+  "priyaDonationDate": "10 مايو 2026، 09:15 صباحًا",
+
+  "rahulDonation": "تبرع من Rahul Verma",
+  "rahulDonationDate": "09 مايو 2026، 08:45 مساءً",
+
+  "medicalExpensesTransaction": "المصاريف الطبية",
+  "medicalExpensesDate": "09 مايو 2026، 06:25 مساءً",
+
+  "travelExpenses": "مصاريف السفر",
+  "travelExpensesDate": "08 مايو 2026، 11:05 صباحًا",
+
+  "completed": "مكتمل",
+  "paid": "مدفوع",
+
+  "aiAssistant": "المساعد الذكي",
+
+  "impactUpdates": "التأثير والتحديثات",
+  "realImpactCreated": "تأثير حقيقي تم تحقيقه من خلال تبرعاتكم.",
+
+  "patientsHelped": "المرضى الذين تمت مساعدتهم",
+  "medicalSupportProvided": "تم تقديم الدعم الطبي",
+
+  "familiesSupported": "العائلات المدعومة",
+  "familiesReceivedAssistance": "تلقت العائلات المساعدة",
+
+  "recoveryProgress": "تقدم التعافي",
+  "towardsCompleteRecovery": "نحو التعافي الكامل",
+
+  "campaignTimeline": "الجدول الزمني للحملة",
+  "keyMilestonesJourney": "أهم المحطات في رحلتك.",
+
+  "campaignStarted": "بدأت الحملة",
+  "verificationCompleted": "اكتمل التحقق",
+  "firstDonationReceived": "تم استلام أول تبرع",
+  "medicalTreatmentStarted": "بدأ العلاج الطبي",
+  "ongoingRecovery": "التعافي المستمر",
+  "inProgress": "قيد التنفيذ",
+
+  "haveQuestions": "هل لديك أسئلة؟",
+  "supportMessage": "نحن نؤمن بالشفافية الكاملة. إذا كانت لديك أي استفسارات، فريقنا هنا للمساعدة.",
+
+  "contactSupport": "اتصل بالدعم"
+,
+
+  "aaravDonation": "تبرع من Aarav Mehta"
+  ,
+
+  "recoveryTimeline": "الجدول الزمني للتعافي",
+  "downloadTimeline": "تحميل الجدول الزمني",
+
+  "recoveryJourneySubtitle": "تتبع رحلة تعافي ريا وأهم المحطات.",
+
+  "supportRecoveryTitle": "دعمك يحدث فرقًا حقيقيًا في تعافي ريا.",
+  "supportRecoverySubtitle": "كل مرحلة موثقة ومدعومة بالمستندات.",
+
+  "diagnosisAssessment": "التشخيص والتقييم الطبي",
+  "diagnosisAssessmentDesc": "تم تأكيد الفحوصات والتشخيص من قبل المختصين.",
+
+  "treatmentPlan": "تم اعتماد خطة العلاج",
+  "treatmentPlanDesc": "قام الأطباء بتحديد خطة العلاج وجدول الجراحة.",
+
+  "surgeryCompleted": "تمت الجراحة بنجاح",
+  "surgeryCompletedDesc": "تمت العملية الجراحية بنجاح مع نتائج إيجابية.",
+
+  "recoveryMonitoring": "التعافي والمتابعة",
+  "recoveryMonitoringDesc": "عملية تعافي مستمرة مع المتابعة والرعاية.",
+
+  "completed": "مكتمل",
+  "inProgress": "قيد التنفيذ"
+,
+
+  "dateDiagnosis": "10 مايو 2026",
+  "dateTreatment": "15 مايو 2026",
+  "dateSurgery": "28 مايو 2026",
+  "dateRecovery": "28 مايو – 10 يونيو 2026",
+
+  "upcoming": "قادم",
+ 
+  "recoveryTimeline": "الجدول الزمني للتعافي",
+
+  "downloadTimeline": "تحميل الجدول الزمني",
+
+  "recoveryJourneySubtitle": "تابع رحلة تعافي ريا والمراحل المهمة.",
+
+  "supportRecoveryTitle": "دعمك يصنع فرقًا حقيقيًا في تعافي ريا.",
+
+  "supportRecoverySubtitle": "كل مرحلة موثقة ومدعومة بالمستندات.",
+
+  "diagnosisAssessment": "التشخيص والتقييم الطبي",
+
+  "diagnosisAssessmentDesc": "تم تأكيد الفحوصات والتشخيص الكامل بواسطة المختصين.",
+
+  "treatmentPlan": "تم الانتهاء من خطة العلاج",
+
+  "treatmentPlanDesc": "قام الأطباء بوضع خطة العلاج وجدول العملية.",
+
+  "surgeryCompleted": "اكتملت الجراحة بنجاح",
+
+  "surgeryCompletedDesc": "تمت العملية بنجاح وكانت النتائج إيجابية.",
+
+  "recoveryMonitoring": "التعافي والمراقبة",
+
+  "recoveryMonitoringDesc": "عملية تعافٍ مستمرة مع متابعة ورعاية منتظمة.",
+
+  "completed": "مكتمل",
+
+  "inProgress": "قيد التنفيذ",
+
+  "upcoming": "قادم",
+
+  "viewAllDocuments": "عرض المستندات والإثباتات",
+
+  "dateDiagnosis": "10 مايو 2026",
+
+  "dateTreatment": "15 مايو 2026",
+
+  "dateSurgery": "28 مايو 2026",
+
+  "dateRecovery": "28 مايو – 10 يونيو 2026",
+   "messages": "الرسائل",
+  "messagesSubtitle": "ابقَ على تواصل مع المتبرعين والداعمين",
+
+  "audioCall": "مكالمة صوتية",
+  "videoCall": "مكالمة فيديو",
+
+  "messagesSidebarTitle": "الرسائل",
+  "messagesSidebarSubtitle": "الداعمون والمتبرعون",
+
+  "searchConversations": "ابحث في المحادثات...",
+
+  "all": "الكل",
+  "unread": "غير المقروءة",
+  "archived": "المؤرشفة",
+  "pinned": "المثبتة",
+
+  "stayStrong": "ابقَ قويًا ❤️",
+  "prayingRecovery": "أدعو لك بالشفاء 🙏",
+  "needAnything": "أخبرني إذا احتجت أي شيء",
+  "veryBrave": "أنت شجاع جدًا ❤️",
+  "keepFighting": "استمر في القتال!",
+  "sharedCampaign": "لقد شاركت حملتك 🙌",
+
+  "verifiedDonorSupport": "متبرع موثوق • تبرع بـ 50$ ❤️",
+
+  "viewProfile": "عرض الملف الشخصي",
+
+  "supporter": "داعم",
+
+  "message1": "أتمنى لك الشفاء العاجل 🙏",
+  "message2": "شكرًا جزيلًا على دعمك ❤️",
+  "message3": "أنت قوي جدًا، استمر في القتال!",
+  "message4": "كلماتك تعني لي الكثير 💙",
+
+  "typeMessage": "اكتب رسالتك...",
+  "send": "إرسال",
+   "messages": "الرسائل",
+  "messagesSubtitle": "ابقَ على تواصل مع المتبرعين والداعمين",
+  "messagesSidebarSubtitle": "الداعمون والمتبرعون",
+
+  "searchConversations": "ابحث في المحادثات...",
+
+  "all": "الكل",
+  "unread": "غير المقروءة",
+  "archived": "المؤرشفة",
+  "pinned": "المثبتة",
+
+  "aaravMehta": "آراف ميهتا",
+  "snehaPatel": "سنيها باتيل",
+  "rahulVerma": "راهول فيرما",
+  "priyaSingh": "بريا سينغ",
+  "vikramJoshi": "فيكرام جوشي",
+  "ananyaKapoor": "أنانيا كابور",
+
+  "stayStrong": "ابقَ قويًا ❤️",
+  "prayingRecovery": "أدعو لشفائك 🙏",
+  "needAnything": "أخبرني إذا احتجت أي شيء",
+  "veryBrave": "أنت شجاع جدًا ❤️",
+  "keepFighting": "استمر في القتال!",
+  "sharedCampaign": "لقد شاركت حملتك 🙌",
+
+  "time2mAgo": "منذ دقيقتين",
+  "time1hAgo": "منذ ساعة",
+  "time3hAgo": "منذ 3 ساعات",
+  "time2dAgo": "منذ يومين",
+
+  "yesterday": "أمس",
+  "now": "الآن",
+  
+  "verified": "موثّق",
+  "supporter": "داعم",
+  "verifiedDonorSupport": "متبرع موثوق • تبرع بـ 50$ ❤️",
+  
+  "messages": "الرسائل",
+  "messagesSubtitle": "ابقَ على تواصل مع الداعمين والمتبرعين",
+
+  "audioCall": "مكالمة صوتية",
+  "videoCall": "مكالمة فيديو",
+
+  "messagesSidebarSubtitle": "الداعمون والمتبرعون",
+
+  "searchConversations": "ابحث في المحادثات...",
+
+  "all": "الكل",
+  "unread": "غير المقروءة",
+  "archived": "المؤرشفة",
+  "pinned": "المثبتة",
+
+  "viewProfile": "عرض الملف الشخصي",
+
+  "verified": "تم التحقق",
+
+  "verifiedDonorSupport": "متبرع موثّق • تبرع بـ 50$ ❤️",
+
+  "supporter": "الداعم",
+
+  "message1": "أتمنى لك الشفاء العاجل 🙏",
+  "message2": "شكراً جزيلاً على دعمك ❤️",
+  "message3": "أنت قوي جداً، استمر في القتال!",
+  "message4": "كلماتك تعني لي الكثير 💙",
+
+  "typeMessage": "اكتب رسالتك...",
+
+  "send": "إرسال",
+
+  "donorDetails": "تفاصيل المتبرع",
+
+  "verifiedDonor": "داعم موثّق",
+
+  "totalSupport": "إجمالي الدعم",
+
+  "donations": "التبرعات",
+
+  "emoji": "إيموجي",
+
+  "attachFile": "إرفاق ملف",
+
+  "sendImage": "إرسال صورة",
+
+  "voiceMessage": "رسالة صوتية",
+  
+  "donorDetails": "تفاصيل المتبرع",
+
+  "verifiedDonor": "داعم موثّق",
+
+  "totalSupport": "إجمالي الدعم",
+
+  "donations": "التبرعات",
+   "messages": "الرسائل",
+  "messagesSubtitle": "ابقَ على تواصل مع الداعمين والمتبرعين",
+
+  "audioCall": "مكالمة صوتية",
+  "videoCall": "مكالمة فيديو",
+
+  "donorDetails": "تفاصيل المتبرع",
+
+  "verifiedDonor": "داعم موثّق",
+
+  "totalSupport": "إجمالي الدعم",
+
+  "donations": "التبرعات",
+   "messages": "الرسائل",
+  "messagesSubtitle": "ابقَ على تواصل مع الداعمين والمتبرعين",
+
+  "audioCall": "مكالمة صوتية",
+  "videoCall": "مكالمة فيديو",
+
+  "donorDetails": "تفاصيل المتبرع",
+  "verifiedDonor": "متبرع موثّق",
+  "totalSupport": "إجمالي الدعم",
+  "donations": "التبرعات",
+  
+  "recoverySettings": "إعدادات التعافي",
+
+  "settingsSubtitle": "إدارة تفضيلات حملة التعافي وإعدادات الحساب",
+
+  "saveChanges": "حفظ التغييرات",
+
+  "verifiedRecoveryCampaign": "حملة تعافي موثقة",
+
+  "security": "الأمان",
+
+  "changePassword": "تغيير كلمة المرور",
+
+  "changePasswordDesc": "قم بتحديث كلمة المرور بانتظام لحماية أفضل للحساب",
+
+  "twoFactorAuth": "المصادقة الثنائية",
+
+  "twoFactorAuthDesc": "أضف طبقة حماية إضافية إلى حسابك",
+
+  "update": "تحديث",
+
+  "enable": "تفعيل",
+
+  "profileInformation": "معلومات الملف الشخصي",
+
+  "fullName": "الاسم الكامل",
+
+  "emailAddress": "البريد الإلكتروني",
+
+  "bio": "نبذة",
+
+  "bioText": "شكراً لكل من يدعم رحلة تعافي الخاصة بي. لطفكم يعني لي الكثير.",
+
+  "preferences": "التفضيلات",
+
+  "notifications": "الإشعارات",
+
+  "notificationsDesc": "تلقي تحديثات حول التبرعات ورسائل الداعمين",
+
+  "darkMode": "الوضع الداكن",
+
+  "darkModeDesc": "تفعيل الوضع الداكن لعرض مريح ليلاً",
+
+  "language": "اللغة",
+
+  "languageDesc": "اختر لغة التطبيق المفضلة لديك"
+,
+"messages": "الرسائل",
+  "messagesSubtitle": "ابقَ على تواصل مع الداعمين والمتبرعين",
+
+  "audioCall": "مكالمة صوتية",
+  "videoCall": "مكالمة فيديو",
+
+  "donorDetails": "تفاصيل المتبرع",
+  "verifiedDonor": "متبرع موثّق",
+  "totalSupport": "إجمالي الدعم",
+  "donations": "التبرعات",
+
+  "recoverySettings": "إعدادات التعافي",
+
+  "settingsSubtitle": "إدارة تفضيلات حملة التعافي وإعدادات الحساب",
+
+  "saveChanges": "حفظ التغييرات",
+
+  "verifiedRecoveryCampaign": "حملة تعافي موثقة",
+
+  "security": "الأمان",
+
+  "changePassword": "تغيير كلمة المرور",
+
+  "changePasswordDesc": "قم بتحديث كلمة المرور بانتظام لحماية أفضل للحساب",
+
+  "twoFactorAuth": "المصادقة الثنائية",
+
+  "twoFactorAuthDesc": "أضف طبقة حماية إضافية إلى حسابك",
+
+  "update": "تحديث",
+
+  "enable": "تفعيل",
+
+  "profileInformation": "معلومات الملف الشخصي",
+
+  "fullName": "الاسم الكامل",
+
+  "emailAddress": "البريد الإلكتروني",
+
+  "bio": "نبذة",
+
+  "bioText": "شكراً لكل من يدعم رحلة تعافي الخاصة بي. لطفكم يعني لي الكثير.",
+
+  "preferences": "التفضيلات",
+
+  "notifications": "الإشعارات",
+
+  "notificationsDesc": "تلقي تحديثات حول التبرعات ورسائل الداعمين",
+
+  "darkMode": "الوضع الداكن",
+
+  "darkModeDesc": "تفعيل الوضع الداكن لعرض مريح ليلاً",
+
+  "language": "اللغة",
+
+  "languageDesc": "اختر لغة التطبيق المفضلة لديك"
+,
+"dashboard": "لوحة التحكم",
+  "myCampaign": "حملتي",
+  "updatesPosts": "التحديثات والمنشورات",
+  "documentsVerification": "الوثائق والتحقق",
+  "donationsReceived": "التبرعات المستلمة",
+  "transparencyCenter": "مركز الشفافية",
+  "recoveryTimeline": "الجدول العلاجي",
+  "messages": "الرسائل",
+  "settings": "الإعدادات",
+  "logout": "تسجيل الخروج",
+
+  "sidebarQuote": "قصتك تلهم الأمل واللطف ❤️",
+  "shareMyStory": "شارك قصتي",
+
+  "messagesSubtitle": "ابقَ على تواصل مع الداعمين والمتبرعين",
+
+  "audioCall": "مكالمة صوتية",
+  "videoCall": "مكالمة فيديو",
+
+  "searchConversations": "ابحث في المحادثات...",
+  "all": "الكل",
+  "unread": "غير المقروءة",
+  "archived": "المؤرشفة",
+  "pinned": "المثبتة",
+
+  "viewProfile": "عرض الملف الشخصي",
+
+  "verified": "موثق",
+  "verifiedDonor": "متبرع موثق",
+  "verifiedDonorSupport": "متبرع موثق • تبرع بـ 50$ ❤️",
+
+  "supporter": "الداعم",
+
+  "message1": "أتمنى لك الشفاء العاجل 🙏",
+  "message2": "شكراً جزيلاً على دعمك ❤️",
+  "message3": "أنت قوي جداً، استمر في القتال!",
+  "message4": "كلماتك تعني لي الكثير 💙",
+
+  "typeMessage": "اكتب رسالتك...",
+  "send": "إرسال",
+
+  "emoji": "رمز تعبيري",
+  "attachFile": "إرفاق ملف",
+  "sendImage": "إرسال صورة",
+  "voiceMessage": "رسالة صوتية",
+
+  "donorDetails": "تفاصيل المتبرع",
+  "totalSupport": "إجمالي الدعم",
+  "donations": "التبرعات",
+  
+  "dashboard": "لوحة التحكم",
+  "browseRequests": "تصفح الطلبات",
+  "myDonations": "تبرعاتي",
+  "myImpact": "أثري",
+  "myFavorites": "المفضلة",
+  "messages": "الرسائل",
+  "settings": "الإعدادات",
+  "logout": "تسجيل الخروج",
+
+  "welcomeBack": "مرحبًا بعودتك إلى لوحة التحكم",
+  "searchPlaceholder": "ابحث عن التبرعات والطلبات والحملات...",
+
+  "heroTitle": "لطفك يصنع المعجزات",
+  "heroSubtitle": "معًا يمكننا إنقاذ الأرواح وإعادة الأمل.",
+  "exploreRequests": "استكشف الطلبات",
+
+  "featuredUrgentRequests": "الطلبات العاجلة المميزة",
+
+  "peopleHelped": "الأشخاص الذين تمت مساعدتهم",
+  "requestsSupported": "الطلبات المدعومة",
+  "memberSince": "عضو منذ",
+  "proudDonor": "متبرع فخور",
+
+  "noRequestsFound": "لم يتم العثور على طلبات",
+
+  "heartSurgery": "جراحة قلب لطفل",
+  "floodRelief": "إغاثة طارئة من الفيضانات",
+  "educationSupport": "دعم التعليم",
+  "medicalAid": "مساعدة طبية",
+  "foodHelp": "مساعدة غذائية",
+  "cleanWater": "مياه نظيفة",
+
+  "medicalAidDesc": "ساعد في توفير علاج طبي عاجل.",
+  "foodSupportDesc": "توفير الدعم الغذائي للعائلات المحتاجة.",
+  "cleanWaterDesc": "مساعدة المجتمعات في الحصول على مياه شرب نظيفة.",
+
+  "healthFoundation": "مؤسسة الصحة",
+  "helpingHandsOrg": "منظمة الأيادي المساعدة",
+  "educationOrg": "منظمة التعليم",
+  "waterReliefOrg": "منظمة المياه النظيفة",
+
+  "urgent": "عاجل",
+  "donateNow": "تبرع الآن",
+  "raised": "تم جمع",
+  "goal": "الهدف",
+  
+  "yourKindness": "لطفك",
+  "createsMiracles": "يصنع المعجزات",
+
+  "heroSubtitle": "معًا يمكننا إنقاذ الأرواح وإعادة الأمل.",
+  "exploreRequests": "استكشف الطلبات ←",
+
+  "myImpact": "أثري",
+
+  "livesImpacted": "عدد الأشخاص الذين تم مساعدتهم",
+
+  "totalDonated": "إجمالي التبرعات",
+
+  "vsLastMonth": "مقارنة بالشهر الماضي",
+
+  "peopleHelped": "الأشخاص الذين تمت مساعدتهم",
+  "requestsSupported": "الطلبات المدعومة",
+  "memberSince": "عضو منذ",
+  "proudDonor": "متبرع فخور",
+
+  "featuredUrgentRequests": "الطلبات العاجلة المميزة",
+
+  "heartSurgery": "جراحة قلب لطفل",
+  "floodRelief": "إغاثة طارئة من الفيضانات",
+  "educationSupport": "دعم التعليم",
+  "medicalAid": "مساعدة طبية",
+  "foodHelp": "مساعدة غذائية",
+  "cleanWater": "مياه نظيفة",
+
+  "floodReliefDesc": "ساعد العائلات المتضررة من الفيضانات في الحصول على دعم عاجل.",
+  "supportEducationDesc": "ساعد الأطفال في الحصول على فرص تعليم أفضل.",
+
+  "medicalAidDesc": "ساعد في توفير علاج طبي عاجل.",
+  "foodSupportDesc": "توفير الدعم الغذائي للعائلات المحتاجة.",
+  "cleanWaterDesc": "مساعدة المجتمعات في الحصول على مياه شرب نظيفة.",
+
+  "healthFoundation": "مؤسسة الصحة",
+  "helpingHandsOrg": "منظمة الأيادي المساعدة",
+  "educationOrg": "منظمة التعليم",
+  "waterReliefOrg": "منظمة المياه النظيفة",
+
+  "medical": "طبي",
+  "disasterRelief": "إغاثة الكوارث",
+  "education": "التعليم",
+  "communityHelp": "مساعدة مجتمعية",
+  "water": "المياه",
+
+  "goal": "الهدف",
+
+  "funded": "تم التمويل",
+
+  "donateNow": "تبرع الآن",
+
+  "yourDonationTrend": "اتجاه تبرعاتك",
+
+  "thisMonth": "هذا الشهر",
+
+  "transparentTitle": "شفافية 100%",
+  "transparentDesc": "يتم تتبع جميع التبرعات واستخدام الأموال بشفافية كاملة وفي الوقت الفعلي.",
+
+  "learnMore": "اعرف المزيد",
+ 
+  "yourKindness": "لطفك",
+"createsMiracles": "يصنع المعجزات",
+"causesByCategory": "الحالات حسب الفئة",
+"all": "الكل",
+"medical": "طبي",
+"education": "تعليم",
+"disasterRelief": "إغاثة الكوارث",
+"hunger": "الجوع",
+"browseSubtitle": "اكتشف أشخاصًا حقيقيين يحتاجون دعمك",
+"searchCauses": "ابحث عن الحملات...",
+"requests": "طلبات",
+"newest": "الأحدث",
+"highestRaised": "الأعلى تمويلاً",
+"goalAmount": "قيمة الهدف",
+"donate": "تبرع",
+"view": "عرض",
+"save": "حفظ",
+"saved": "تم الحفظ",
+"noRequestsFound": "لا توجد طلبات",
+"tryChangingFilters": "جرّب تغيير الفلاتر أو كلمات البحث",
+"thankYouSupport": "شكراً لدعمك",
+"openingRequest": "جاري فتح الطلب",
+"browseRequests": "تصفح الطلبات",
+"causesByCategory": "الأسباب حسب الفئة",
+"heartSurgery": "جراحة قلب للأطفال",
+"floodRelief": "إغاثة طارئة للفيضانات",
+"educationSupport": "دعم التعليم للأطفال",
+"foodHelp": "حملة دعم الغذاء",
+"medicalAidDesc": "ساعد الأطفال للحصول على العلاج والجراحة العاجلة.",
+"floodReliefDesc": "ادعم العائلات المتضررة من الفيضانات والكوارث الطبيعية.",
+"supportEducationDesc": "وفر المستلزمات التعليمية والدعم المدرسي للأطفال.",
+"foodSupportDesc": "ساعد في توفير طرود غذائية للعائلات المحتاجة.",
+"healthFoundation": "مؤسسة الصحة",
+"helpingHandsOrg": "منظمة الأيادي المساعدة",
+"educationOrg": "منظمة التعليم",
+"foodAidOrg": "منظمة دعم الغذاء",
+"all": "الكل",
+"medical": "طبي",
+"disasterRelief": "إغاثة الكوارث",
+"education": "تعليم",
+"hunger": "الجوع",
+"trendingRequests": "الطلبات الشائعة",
+"categoriesOverview": "نظرة على الفئات",
+"filters": "الفلاتر",
+"categories": "الفئات",
+"trackDonations": "تتبع تبرعاتك وتأثيرك في الوقت الحقيقي.",
+  "acrossCampaigns": "عبر جميع الحملات والطلبات",
+  "causesSupported": "القضايا المدعومة",
+  "donationAnalytics": "تحليلات التبرعات",
+  "donationCampaign": "حملة تبرع",
+  "educationSupport": "دعم التعليم",
+  "viewDonationHistory": "عرض سجل التبرعات",
+  "certificate": "الشهادة",
+  "appreciationCertificate": "شهادة تقدير",
+  "certificateDescription": "تُكرّم هذه الشهادة لطفك ودعمك السخي.",
+  "downloadCertificate": "تحميل الشهادة",
+  "topCausesSupport": "أهم القضايا المدعومة",
+  "educationSupport": "دعم التعليم",
+  "donationCampaign": "حملة تبرع",
+   "starDonor": "أنت متبرع نجم! ⭐",
+  "starDonorDesc": "لطفك يغيّر حياة الناس",
+   "certificate": "الشهادة",
+  "starDonor": "أنت متبرع نجم! ⭐",
+  "starDonorDesc": "لطفك يغيّر حياة الناس"
+
+
+
+
+
+
+
+
+
+
+
+
+}

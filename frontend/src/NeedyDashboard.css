@@ -1,0 +1,787 @@
+ /* src/NeedyDashboard.css */
+
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* ================= DASHBOARD ================= */
+
+.needy-dashboard {
+  padding: 24px;
+
+  min-height: 100vh;
+
+  position: relative;
+
+  overflow-x: hidden;
+
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(37,99,235,0.05),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(22,163,74,0.04),
+      transparent 30%
+    ),
+    #f8fafc;
+}
+
+/* ================= MAIN LAYOUT ================= */
+
+.main-layout {
+  display: block;
+
+  margin-top: 24px;
+}
+
+/* ================= LEFT SIDE ================= */
+
+.main-left {
+  display: flex;
+
+  flex-direction: column;
+}
+
+/* ================= GRID ================= */
+
+.dashboard-grid {
+  display: grid;
+
+  grid-template-columns: 0.95fr 1.3fr;
+
+  gap: 22px;
+
+  align-items: start;
+}
+
+.second-grid {
+  margin-top: 22px;
+}
+
+/* ================================================= */
+/* ================= DASHBOARD PANEL =============== */
+/* ================================================= */
+
+.right-panel-overlay {
+  position: fixed;
+
+  top: 0;
+  right: -410px;
+
+  width: 410px;
+
+  height: 100vh;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(248,250,252,0.96),
+      rgba(241,245,249,0.98)
+    );
+
+  backdrop-filter: blur(20px);
+
+  -webkit-backdrop-filter: blur(20px);
+
+  z-index: 99999;
+
+  transition:
+    right 0.35s cubic-bezier(.4,0,.2,1);
+
+  box-shadow:
+    -20px 0 50px rgba(15,23,42,0.08);
+
+  border-left:
+    1px solid rgba(255,255,255,0.72);
+
+  display: flex;
+
+  justify-content: center;
+}
+
+/* ACTIVE */
+
+.right-panel-overlay.active {
+  right: 0;
+}
+
+/* CONTENT */
+
+.right-panel-content {
+  width: 100%;
+
+  display: flex;
+
+  justify-content: center;
+
+  padding: 18px 18px 120px;
+}
+
+/* SCROLLBAR */
+
+.right-panel-overlay::-webkit-scrollbar {
+  width: 6px;
+}
+
+.right-panel-overlay::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+
+  border-radius: 999px;
+}
+
+/* ================================================= */
+/* ============ MY CAMPAIGN SLIDE PANEL ============ */
+/* ================================================= */
+
+.mycampaign-slide-panel {
+  position: fixed;
+
+  top: 0;
+  right: -460px;
+
+  width: 430px;
+
+  height: 100vh;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(248,250,252,0.96),
+      rgba(241,245,249,0.98)
+    );
+
+  backdrop-filter: blur(20px);
+
+  -webkit-backdrop-filter: blur(20px);
+
+  z-index: 99999;
+
+  transition:
+    right 0.35s cubic-bezier(.4,0,.2,1);
+
+  box-shadow:
+    -20px 0 50px rgba(15,23,42,0.08);
+
+  border-left:
+    1px solid rgba(255,255,255,0.72);
+
+  padding: 22px;
+
+  box-sizing: border-box;
+}
+
+/* ACTIVE */
+
+.mycampaign-slide-panel.active {
+  right: 0;
+}
+
+/* OVERLAY */
+
+.mycampaign-overlay {
+  position: fixed;
+
+  inset: 0;
+
+  background:
+    rgba(15,23,42,0.28);
+
+  backdrop-filter: blur(4px);
+
+  z-index: 99998;
+}
+
+/* SCROLLBAR */
+
+.mycampaign-slide-panel::-webkit-scrollbar {
+  width: 6px;
+}
+
+.mycampaign-slide-panel::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+
+  border-radius: 999px;
+}
+
+/* ================= CLOSE BUTTON ================= */
+
+.close-panel-btn {
+  position: absolute;
+
+  top: 18px;
+  right: 18px;
+
+  width: 40px;
+  height: 40px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background:
+    rgba(255,255,255,0.9);
+
+  color: #0f172a;
+
+  font-size: 18px;
+
+  cursor: pointer;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  z-index: 100000;
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+.close-panel-btn:hover {
+  transform: scale(1.05);
+
+  background: white;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 1100px) {
+
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .needy-dashboard {
+    padding: 16px;
+  }
+
+  /* DASHBOARD PANEL */
+
+  .right-panel-overlay {
+    width: 100%;
+
+    right: -100%;
+  }
+
+  .right-panel-content {
+    padding: 16px 16px 120px;
+  }
+
+  /* MY CAMPAIGN PANEL */
+
+  .mycampaign-slide-panel {
+    width: 100%;
+
+    right: -100%;
+
+    padding: 16px;
+  }
+
+}
+/* ================================================= */
+/* ================= FULL DARK MODE ================ */
+/* ================================================= */
+
+.dark-mode {
+
+  background:
+    linear-gradient(
+      180deg,
+      #020617,
+      #0f172a
+    );
+
+  min-height: 100vh;
+
+  transition:
+    background 0.35s ease;
+}
+
+/* ================================================= */
+/* ================= MAIN LAYOUT =================== */
+/* ================================================= */
+
+.dark-mode .main-layout,
+.dark-mode .main-left {
+
+  background: transparent;
+}
+
+/* ================================================= */
+/* ================= ALL MAIN CARDS ================ */
+/* ================================================= */
+
+.dark-mode .campaign-overview,
+.dark-mode .recent-updates,
+.dark-mode .supporters-feed,
+.dark-mode .documents-box,
+.dark-mode .needy-hero,
+.dark-mode .campaign-card,
+.dark-mode .update-card,
+.dark-mode .supporter-item,
+.dark-mode .doc-card {
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(15,23,42,0.96),
+      rgba(30,41,59,0.92)
+    );
+
+  border:
+    1px solid rgba(255,255,255,0.06);
+
+  box-shadow:
+    0 10px 30px rgba(0,0,0,0.35);
+
+  transition:
+    all 0.35s ease;
+}
+
+/* ================================================= */
+/* ================= RIGHT PANEL =================== */
+/* ================================================= */
+
+.dark-mode .right-panel-overlay {
+
+  background:
+    linear-gradient(
+      180deg,
+      #020617,
+      #0f172a
+    );
+
+  border-left:
+    1px solid rgba(255,255,255,0.06);
+}
+
+/* ================================================= */
+/* ================= PANEL CONTENT ================= */
+/* ================================================= */
+
+.dark-mode .right-panel-content,
+.dark-mode .recovery-panel {
+
+  background: transparent;
+}
+
+/* ================================================= */
+/* ================= TOPBAR ======================== */
+/* ================================================= */
+
+.dark-mode .topbar {
+
+  background:
+    rgba(15,23,42,0.82);
+
+  border:
+    1px solid rgba(255,255,255,0.05);
+
+  backdrop-filter: blur(14px);
+
+  box-shadow:
+    0 10px 35px rgba(0,0,0,0.35);
+}
+
+/* ================================================= */
+/* ================= SEARCH BAR ==================== */
+/* ================================================= */
+
+.dark-mode .topbar-search {
+
+  background:
+    rgba(2,6,23,0.85);
+
+  border:
+    1px solid rgba(255,255,255,0.05);
+}
+
+/* ================================================= */
+/* ================= INPUTS ======================== */
+/* ================================================= */
+
+.dark-mode input,
+.dark-mode textarea {
+
+  color: #f8fafc;
+}
+
+/* ================================================= */
+/* ================= TITLES ======================== */
+/* ================================================= */
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5 {
+
+  color: #f8fafc;
+}
+
+/* ================================================= */
+/* ================= PARAGRAPHS ==================== */
+/* ================================================= */
+
+.dark-mode p,
+.dark-mode span,
+.dark-mode label {
+
+  color: #94a3b8;
+}
+
+/* ================================================= */
+/* ================= PROGRESS BARS ================ */
+/* ================================================= */
+
+.dark-mode .campaign-progress {
+
+  background:
+    rgba(255,255,255,0.08);
+}
+
+/* ================================================= */
+/* ================= BUTTONS ======================= */
+/* ================================================= */
+
+.dark-mode button {
+
+  transition:
+    all 0.3s ease;
+}
+
+/* ================================================= */
+/* ================= BACKDROP ====================== */
+/* ================================================= */
+
+.dark-mode .panel-backdrop {
+
+  background:
+    rgba(0,0,0,0.55);
+
+  backdrop-filter: blur(4px);
+}
+
+/* ================================================= */
+/* ================= CLOSE BUTTON ================== */
+/* ================================================= */
+
+.dark-mode .close-panel-btn {
+
+  background:
+    rgba(255,255,255,0.06);
+
+  color: white;
+
+  border:
+    1px solid rgba(255,255,255,0.08);
+}
+
+/* ================================================= */
+/* ================= SIDEBAR ======================= */
+/* ================================================= */
+
+.dark-mode .sidebar {
+
+  background:
+    linear-gradient(
+      180deg,
+      #020617,
+      #031b1b
+    );
+}
+/* ================================================= */
+/* ================= WHITE CARDS FIX =============== */
+/* ================================================= */
+
+.dark-mode .hero-stat-card,
+.dark-mode .stat-card,
+.dark-mode .mini-stat,
+.dark-mode .progress-stat,
+.dark-mode .hero-bottom-card {
+
+  background:
+    rgba(15,23,42,0.88);
+
+  border:
+    1px solid rgba(255,255,255,0.06);
+
+  box-shadow:
+    0 10px 30px rgba(0,0,0,0.25);
+}
+
+/* ================================================= */
+/* ================= INPUT FIELD =================== */
+/* ================================================= */
+
+.dark-mode .hero-description,
+.dark-mode .hero-input,
+.dark-mode .campaign-input {
+
+  background:
+    rgba(255,255,255,0.04);
+
+  border:
+    1px solid rgba(255,255,255,0.05);
+
+  color: #f8fafc;
+}
+
+/* ================================================= */
+/* ================= PLACEHOLDER =================== */
+/* ================================================= */
+
+.dark-mode input::placeholder,
+.dark-mode textarea::placeholder {
+
+  color: #64748b;
+}
+
+/* ================================================= */
+/* ================= HERO TEXT ===================== */
+/* ================================================= */
+
+.dark-mode .hero-title,
+.dark-mode .hero-description-text {
+
+  color: #f8fafc;
+}
+
+/* ================================================= */
+/* ================= SMALL TEXT ==================== */
+/* ================================================= */
+
+.dark-mode .hero-subtitle,
+.dark-mode .stat-label,
+.dark-mode .hero-meta {
+
+  color: #94a3b8;
+}
+
+/* ================================================= */
+/* ================= BORDER CLEANUP ================ */
+/* ================================================= */
+
+.dark-mode .hero-card,
+.dark-mode .campaign-card {
+
+  overflow: hidden;
+}
+/* ================================================= */
+/* ================= HERO DARK MODE ================ */
+/* ================================================= */
+
+.dark-mode .needy-hero {
+
+  background:
+    linear-gradient(
+      145deg,
+      #0f172a,
+      #111827
+    );
+
+  border:
+    1px solid rgba(255,255,255,0.05);
+
+  box-shadow:
+    0 18px 40px rgba(0,0,0,0.35);
+}
+
+/* ================================================= */
+/* ================= MAIN TITLE ==================== */
+/* ================================================= */
+
+.dark-mode .hero-main-title {
+
+  color: #f8fafc;
+}
+
+/* ================================================= */
+/* ================= SUBTITLE ====================== */
+/* ================================================= */
+
+.dark-mode .hero-subtitle {
+
+  color: #94a3b8;
+}
+
+/* ================================================= */
+/* ================= STORY BOX ===================== */
+/* ================================================= */
+
+.dark-mode .story-box {
+
+  background:
+    rgba(255,255,255,0.04);
+
+  border:
+    1px solid rgba(255,255,255,0.05);
+}
+
+.dark-mode .story-box p {
+
+  color: #cbd5e1;
+}
+
+/* ================================================= */
+/* ================= PROGRESS BAR ================== */
+/* ================================================= */
+
+.dark-mode .hero-progress-bar {
+
+  background:
+    rgba(255,255,255,0.08);
+}
+
+/* ================================================= */
+/* ================= HERO STATS ==================== */
+/* ================================================= */
+
+.dark-mode .hero-stat {
+
+  background:
+    rgba(15,23,42,0.92);
+
+  border:
+    1px solid rgba(255,255,255,0.06);
+
+  box-shadow:
+    0 10px 24px rgba(0,0,0,0.22);
+}
+
+/* STAT NUMBER */
+
+.dark-mode .hero-stat strong {
+
+  color: #f8fafc;
+}
+
+/* STAT LABEL */
+
+.dark-mode .hero-stat span {
+
+  color: #94a3b8;
+}
+
+/* ================================================= */
+/* ================= TAGS ========================== */
+/* ================================================= */
+
+.dark-mode .hero-tag {
+
+  background:
+    rgba(255,255,255,0.04);
+
+  border:
+    1px solid rgba(255,255,255,0.06);
+
+  color: #e2e8f0;
+}
+
+/* ================================================= */
+/* ================= QUOTE BOX ===================== */
+/* ================================================= */
+
+.dark-mode .quote-box {
+
+  background:
+    rgba(255,255,255,0.04);
+
+  border:
+    1px solid rgba(255,255,255,0.05);
+
+  color: #cbd5e1;
+}
+
+.dark-mode .quote-box span {
+
+  color: #f8fafc;
+}
+
+/* ================================================= */
+/* ================= DARK BUTTON =================== */
+/* ================================================= */
+
+.dark-mode .donate-hero-btn {
+
+  background:
+    linear-gradient(
+      135deg,
+      #2563eb,
+      #22c55e
+    );
+
+  color: white;
+}
+/* ================================================= */
+/* ================= DARK MODE PAGE ================= */
+/* ================================================= */
+
+.dark-mode {
+  background:
+    linear-gradient(
+      180deg,
+      #020617 0%,
+      #071126 100%
+    );
+
+  min-height: 100vh;
+}
+
+/* MAIN CONTENT */
+
+.dark-mode .main-layout,
+.dark-mode .main-left {
+  background:
+    transparent;
+}
+
+/* REMOVE WHITE AREA */
+
+.dark-mode.needy-dashboard {
+  background:
+    linear-gradient(
+      180deg,
+      #020617 0%,
+      #071126 100%
+    );
+}
+
+/* OPTIONAL GLOW */
+
+.dark-mode::before {
+  content: "";
+
+  position: fixed;
+
+  inset: 0;
+
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(59,130,246,0.12),
+      transparent 30%
+    );
+
+  pointer-events: none;
+
+  z-index: 0;
+}

@@ -1,0 +1,762 @@
+.uploaded-documents-card {
+  position: relative;
+
+  margin-top: 26px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,0.96),
+      rgba(248,250,252,0.96)
+    );
+
+  backdrop-filter: blur(20px);
+
+  border-radius: 34px;
+
+  padding: 34px;
+
+  overflow: hidden;
+
+  border:
+    1px solid rgba(255,255,255,0.7);
+
+  box-shadow:
+    0 20px 60px rgba(15,23,42,0.08);
+
+  transition: 0.4s ease;
+}
+
+/* ================= GLOW ================= */
+
+.uploaded-documents-card::before {
+  content: "";
+
+  position: absolute;
+
+  top: -140px;
+  right: -140px;
+
+  width: 300px;
+  height: 300px;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(34,197,94,0.16),
+      transparent 70%
+    );
+
+  pointer-events: none;
+}
+
+.uploaded-documents-card::after {
+  content: "";
+
+  position: absolute;
+
+  bottom: -160px;
+  left: -160px;
+
+  width: 320px;
+  height: 320px;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(59,130,246,0.14),
+      transparent 70%
+    );
+
+  pointer-events: none;
+}
+
+/* ================= DARK MODE ================= */
+
+.dark .uploaded-documents-card {
+  background:
+    linear-gradient(
+      145deg,
+      rgba(30,41,59,0.96),
+      rgba(15,23,42,0.96)
+    );
+
+  border:
+    1px solid rgba(255,255,255,0.08);
+
+  box-shadow:
+    0 20px 60px rgba(0,0,0,0.5);
+}
+
+/* ================= HEADER ================= */
+
+.documents-header {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 30px;
+
+  position: relative;
+
+  z-index: 2;
+}
+
+.documents-header h2 {
+  margin: 0;
+
+  font-size: 34px;
+
+  font-weight: 900;
+
+  color: #0f172a;
+
+  letter-spacing: -1px;
+}
+
+.dark .documents-header h2 {
+  color: white;
+}
+
+.documents-header p {
+  margin-top: 8px;
+
+  color: #64748b;
+
+  font-size: 15px;
+
+  line-height: 1.7;
+}
+
+.dark .documents-header p {
+  color: #cbd5e1;
+}
+
+/* ================= BUTTON ================= */
+
+.upload-new-btn {
+  height: 56px;
+
+  padding: 0 28px;
+
+  border-radius: 18px;
+
+  border: none;
+
+  background:
+    linear-gradient(
+      135deg,
+      #16a34a,
+      #22c55e
+    );
+
+  color: white;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  font-size: 15px;
+
+  font-weight: 800;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 15px 30px rgba(34,197,94,0.28);
+
+  transition: 0.3s ease;
+}
+
+.upload-new-btn:hover {
+  transform:
+    translateY(-4px)
+    scale(1.02);
+
+  box-shadow:
+    0 20px 40px rgba(34,197,94,0.35);
+}
+
+/* ================= LIST ================= */
+
+.documents-list {
+  display: flex;
+
+  flex-direction: column;
+
+  position: relative;
+
+  z-index: 2;
+}
+
+/* ================= ROW ================= */
+
+.document-row {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 26px;
+
+  margin-bottom: 18px;
+
+  border-radius: 24px;
+
+  background:
+    rgba(255,255,255,0.72);
+
+  backdrop-filter: blur(16px);
+
+  border:
+    1px solid rgba(255,255,255,0.7);
+
+  transition: 0.35s ease;
+}
+
+.dark .document-row {
+  background:
+    rgba(15,23,42,0.55);
+
+  border:
+    1px solid rgba(255,255,255,0.06);
+}
+
+.document-row:hover {
+  transform:
+    translateY(-4px);
+
+  box-shadow:
+    0 20px 40px rgba(15,23,42,0.08);
+}
+
+/* ================= LEFT ================= */
+
+.document-left {
+  display: flex;
+
+  align-items: center;
+
+  gap: 20px;
+}
+
+/* ================= ICON ================= */
+
+.document-icon {
+  width: 74px;
+
+  height: 74px;
+
+  border-radius: 22px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 30px;
+
+  flex-shrink: 0;
+
+  position: relative;
+
+  overflow: hidden;
+
+  transition: 0.3s ease;
+}
+
+.document-icon::before {
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255,255,255,0.4),
+      transparent
+    );
+
+  pointer-events: none;
+}
+
+.document-row:hover .document-icon {
+  transform:
+    scale(1.08)
+    rotate(-4deg);
+}
+
+.green {
+  background:
+    linear-gradient(
+      135deg,
+      #dcfce7,
+      #bbf7d0
+    );
+
+  color: #16a34a;
+
+  box-shadow:
+    0 10px 25px rgba(34,197,94,0.2);
+}
+
+.blue {
+  background:
+    linear-gradient(
+      135deg,
+      #dbeafe,
+      #bfdbfe
+    );
+
+  color: #2563eb;
+
+  box-shadow:
+    0 10px 25px rgba(37,99,235,0.2);
+}
+
+.orange {
+  background:
+    linear-gradient(
+      135deg,
+      #ffedd5,
+      #fed7aa
+    );
+
+  color: #f97316;
+
+  box-shadow:
+    0 10px 25px rgba(249,115,22,0.2);
+}
+
+.red {
+  background:
+    linear-gradient(
+      135deg,
+      #fee2e2,
+      #fecaca
+    );
+
+  color: #ef4444;
+
+  box-shadow:
+    0 10px 25px rgba(239,68,68,0.2);
+}
+
+/* ================= INFO ================= */
+
+.document-title-row {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 16px;
+
+  flex-wrap: wrap;
+
+  position: relative;
+
+  top: 0;
+}
+
+.document-status {
+  min-width: 110px;
+
+  height: 40px;
+
+  padding: 0 22px;
+
+  border-radius: 999px;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 14px;
+
+  font-weight: 800;
+
+  line-height: 3;
+
+  position: relative;
+
+  top: 0;
+}
+.document-info h3 {
+  margin: 0;
+
+  font-size: 26px;
+
+  font-weight: 900;
+
+  color: #0f172a;
+}
+
+.dark .document-info h3 {
+  color: white;
+}
+
+.document-type {
+  display: block;
+
+  margin-top: 6px;
+
+  color: #64748b;
+
+  font-size: 14px;
+
+  font-weight: 600;
+}
+
+.dark .document-type {
+  color: #cbd5e1;
+}
+
+.document-info p {
+  margin-top: 8px;
+
+  color: #94a3b8;
+
+  font-size: 14px;
+}
+
+/* ================= STATUS ================= */
+
+
+.document-status.verified {
+  background:
+    rgba(34,197,94,0.12);
+
+  color: #16a34a;
+
+  box-shadow:
+    0 0 18px rgba(34,197,94,0.15);
+}
+
+.document-status.pending {
+  background:
+    rgba(249,115,22,0.12);
+
+  color: #f97316;
+
+  box-shadow:
+    0 0 18px rgba(249,115,22,0.15);
+}
+
+.document-status.inactive {
+  background:
+    rgba(148,163,184,0.12);
+
+  color: #94a3b8;
+}
+
+/* ================= RIGHT ================= */
+
+.document-right {
+  display: flex;
+
+  align-items: center;
+
+  gap: 14px;
+}
+
+.document-id {
+  color: #94a3b8;
+
+  font-size: 14px;
+
+  font-weight: 700;
+}
+
+/* ================= ACTION BUTTONS ================= */
+
+.download-btn,
+.menu-btn {
+  width: 50px;
+
+  height: 50px;
+
+  border-radius: 16px;
+
+  border: none;
+
+  background:
+    rgba(255,255,255,0.85);
+
+  color: #475569;
+
+  cursor: pointer;
+
+  font-size: 16px;
+
+  transition: 0.3s ease;
+
+  backdrop-filter: blur(12px);
+
+  box-shadow:
+    0 8px 20px rgba(15,23,42,0.06);
+}
+
+.dark .download-btn,
+.dark .menu-btn {
+  background:
+    rgba(255,255,255,0.06);
+
+  color: white;
+}
+
+.download-btn:hover,
+.menu-btn:hover {
+  transform:
+    translateY(-3px)
+    scale(1.05);
+}
+
+/* ================= UPLOAD NOW ================= */
+
+.upload-now-btn {
+  height: 50px;
+
+  padding: 0 22px;
+
+  border-radius: 16px;
+
+  border: none;
+
+  background:
+    linear-gradient(
+      135deg,
+      #16a34a,
+      #22c55e
+    );
+
+  color: white;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  font-size: 14px;
+
+  font-weight: 800;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 12px 24px rgba(34,197,94,0.22);
+
+  transition: 0.3s ease;
+}
+
+.upload-now-btn:hover {
+  transform:
+    translateY(-3px)
+    scale(1.03);
+}
+
+/* ================= SUPPORT CARD ================= */
+
+.verification-support-card {
+  margin-top: 26px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(34,197,94,0.1),
+      rgba(255,255,255,0.92)
+    );
+
+  border:
+    1px solid rgba(34,197,94,0.18);
+
+  border-radius: 28px;
+
+  padding: 28px 32px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  backdrop-filter: blur(18px);
+
+  overflow: hidden;
+
+  position: relative;
+}
+
+.dark .verification-support-card {
+  background:
+    linear-gradient(
+      145deg,
+      rgba(34,197,94,0.12),
+      rgba(15,23,42,0.92)
+    );
+
+  border:
+    1px solid rgba(255,255,255,0.06);
+}
+
+.support-left {
+  display: flex;
+
+  align-items: center;
+
+  gap: 20px;
+}
+
+.support-icon {
+  width: 72px;
+
+  height: 72px;
+
+  border-radius: 22px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #16a34a,
+      #22c55e
+    );
+
+  color: white;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 30px;
+
+  box-shadow:
+    0 18px 35px rgba(34,197,94,0.25);
+}
+
+.support-left h3 {
+  margin: 0;
+
+  font-size: 28px;
+
+  font-weight: 900;
+
+  color: #0f172a;
+}
+
+.dark .support-left h3 {
+  color: white;
+}
+
+.support-left p {
+  margin-top: 8px;
+
+  color: #64748b;
+
+  font-size: 15px;
+
+  line-height: 1.7;
+}
+
+.dark .support-left p {
+  color: #cbd5e1;
+}
+
+/* ================= SUPPORT BUTTON ================= */
+
+.support-btn {
+  height: 56px;
+
+  padding: 0 28px;
+
+  border: none;
+
+  border-radius: 18px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #16a34a,
+      #22c55e
+    );
+
+  color: white;
+
+  font-size: 15px;
+
+  font-weight: 900;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 15px 30px rgba(34,197,94,0.28);
+
+  transition: 0.3s ease;
+}
+
+.support-btn:hover {
+  transform:
+    translateY(-4px)
+    scale(1.03);
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 1100px) {
+
+  .document-row,
+  .verification-support-card,
+  .documents-header {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 22px;
+  }
+
+  .document-right {
+    width: 100%;
+
+    flex-wrap: wrap;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .uploaded-documents-card {
+    padding: 24px;
+  }
+
+  .document-left {
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+
+  .document-title-row {
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+
+  .documents-header h2 {
+    font-size: 28px;
+  }
+
+  .document-info h3 {
+    font-size: 22px;
+  }
+
+}

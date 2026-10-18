@@ -1,0 +1,1417 @@
+/* src/components/needy/RecoveryPanel.css */
+
+.recovery-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  width: 100%;
+  max-width: 390px;
+
+  position: sticky;
+  top: 24px;
+  align-self: flex-start;
+
+  animation: panelFade 0.5s ease;
+}
+
+/* ================================================= */
+/* ================= ANIMATION ===================== */
+/* ================================================= */
+
+@keyframes panelFade {
+
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}
+
+/* ================================================= */
+/* ================= COMMON CARD =================== */
+/* ================================================= */
+
+.support-card,
+.transparency-card,
+.activity-card {
+
+  position: relative;
+
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,0.96),
+      rgba(248,250,252,0.92)
+    );
+
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+
+  border-radius: 30px;
+
+  padding: 24px;
+
+  border:
+    1px solid rgba(255,255,255,0.92);
+
+  box-shadow:
+    0 12px 40px rgba(15,23,42,0.06),
+    0 2px 10px rgba(15,23,42,0.03);
+
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    border-color 0.35s ease;
+}
+
+.support-card::before,
+.transparency-card::before,
+.activity-card::before {
+
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(37,99,235,0.10),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(34,197,94,0.08),
+      transparent 30%
+    );
+
+  pointer-events: none;
+}
+
+.support-card:hover,
+.transparency-card:hover,
+.activity-card:hover {
+
+  transform: translateY(-4px);
+
+  box-shadow:
+    0 24px 55px rgba(15,23,42,0.10);
+
+  border-color:
+    rgba(255,255,255,1);
+}
+
+/* ================================================= */
+/* ================= LABEL ========================= */
+/* ================================================= */
+
+.section-label {
+
+  margin: 0 0 10px;
+
+  font-size: 10px;
+
+  font-weight: 900;
+
+  text-transform: uppercase;
+
+  letter-spacing: 2px;
+
+  color: #94a3b8;
+}
+
+/* ================================================= */
+/* ================= GHOST BUTTON ================== */
+/* ================================================= */
+
+.ghost-link {
+
+  border: none;
+
+  cursor: pointer;
+
+  height: 48px;
+
+  padding: 0 24px;
+
+  border-radius: 18px;
+
+  font-size: 14px;
+
+  font-weight: 800;
+
+  color: #2563eb;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(79,124,255,0.10),
+      rgba(34,197,94,0.08)
+    );
+
+  border:
+    1px solid rgba(255,255,255,0.75);
+
+  backdrop-filter: blur(10px);
+
+  transition:
+    all 0.28s ease;
+}
+
+.ghost-link:hover {
+
+  transform: translateY(-2px);
+
+  background: white;
+
+  box-shadow:
+    0 12px 24px rgba(37,99,235,0.14);
+}
+
+/* ================================================= */
+/* ================= SUPPORT ======================= */
+/* ================================================= */
+
+.support-top {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: flex-start;
+
+  gap: 14px;
+}
+
+.support-top h2 {
+
+  margin: 0;
+
+  font-size: 28px;
+
+  line-height: 1.05;
+
+  font-weight: 900;
+
+  letter-spacing: -1px;
+
+  color: #0f172a;
+}
+
+/* ================================================= */
+/* ================= AMOUNT ======================== */
+/* ================================================= */
+
+.support-amount {
+
+  margin-top: 22px;
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+.support-amount span {
+
+  font-size: 54px;
+
+  line-height: 1;
+
+  font-weight: 900;
+
+  letter-spacing: -3px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #16a34a,
+      #2563eb
+    );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.support-amount small {
+
+  margin-top: 10px;
+
+  font-size: 13px;
+
+  color: #64748b;
+
+  font-weight: 700;
+}
+
+/* ================================================= */
+/* ================= PROGRESS ====================== */
+/* ================================================= */
+
+.support-progress {
+
+  width: 100%;
+
+  height: 12px;
+
+  margin-top: 22px;
+
+  overflow: hidden;
+
+  border-radius: 999px;
+
+  background:
+    rgba(226,232,240,0.9);
+
+  position: relative;
+}
+
+.support-progress-fill {
+
+  height: 100%;
+
+  border-radius: 999px;
+
+  background:
+    linear-gradient(
+      90deg,
+      #16a34a,
+      #2563eb,
+      #7c3aed
+    );
+
+  background-size: 200% 100%;
+
+  animation:
+    gradientMove 5s linear infinite;
+
+  box-shadow:
+    0 0 18px rgba(37,99,235,0.30);
+}
+
+@keyframes gradientMove {
+
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+
+}
+
+/* ================================================= */
+/* ================= STATS ========================= */
+/* ================================================= */
+
+.support-stats {
+
+  display: grid;
+
+  grid-template-columns: repeat(4,1fr);
+
+  gap: 10px;
+
+  margin-top: 22px;
+}
+
+.support-stat {
+
+  text-align: center;
+
+  padding: 14px 10px;
+
+  border-radius: 18px;
+
+  background:
+    rgba(248,250,252,0.92);
+
+  border:
+    1px solid rgba(255,255,255,0.7);
+
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease;
+}
+
+.support-stat:hover {
+
+  transform: translateY(-3px);
+
+  background: white;
+
+  box-shadow:
+    0 10px 20px rgba(15,23,42,0.06);
+}
+
+.support-stat svg {
+
+  font-size: 18px;
+
+  color: #2563eb;
+}
+
+.support-stat h4 {
+
+  margin: 10px 0 0;
+
+  font-size: 18px;
+
+  font-weight: 900;
+
+  color: #0f172a;
+}
+
+.support-stat p {
+
+  margin-top: 4px;
+
+  font-size: 10px;
+
+  line-height: 1.4;
+
+  color: #64748b;
+}
+
+/* ================================================= */
+/* ================= BUTTONS ======================= */
+/* ================================================= */
+
+.support-buttons {
+
+  display: flex;
+
+  gap: 12px;
+
+  margin-top: 24px;
+}
+
+.donate-btn,
+.share-btn,
+.view-records-btn {
+
+  border: none;
+
+  cursor: pointer;
+
+  transition:
+    all 0.28s ease;
+}
+
+.donate-btn {
+
+  flex: 1;
+
+  height: 54px;
+
+  border-radius: 18px;
+
+  color: white;
+
+  font-size: 14px;
+
+  font-weight: 800;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 10px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #16a34a,
+      #2563eb
+    );
+
+  box-shadow:
+    0 14px 28px rgba(37,99,235,0.20);
+}
+
+.donate-btn:hover {
+
+  transform:
+    translateY(-3px);
+
+  box-shadow:
+    0 18px 32px rgba(37,99,235,0.28);
+}
+
+.share-btn {
+
+  flex: 1;
+
+  height: 54px;
+
+  border-radius: 18px;
+
+  background:
+    rgba(255,255,255,0.88);
+
+  border:
+    1px solid rgba(226,232,240,0.8);
+
+  font-size: 14px;
+
+  font-weight: 700;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 10px;
+}
+
+.share-btn:hover {
+
+  transform:
+    translateY(-3px);
+
+  background: white;
+
+  box-shadow:
+    0 10px 24px rgba(15,23,42,0.08);
+}
+
+/* ================================================= */
+/* ================= SECURITY ====================== */
+/* ================================================= */
+
+.secure-box {
+
+  margin-top: 18px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #f0fdf4,
+      #ecfeff
+    );
+
+  border-radius: 18px;
+
+  padding: 15px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  color: #166534;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  border:
+    1px solid rgba(22,163,74,0.10);
+}
+
+.secure-box svg {
+
+  font-size: 18px;
+}
+
+/* ================================================= */
+/* ================= TRANSPARENCY ================== */
+/* ================================================= */
+
+.transparency-card {
+
+  position: relative;
+
+  overflow: hidden;
+
+  display: flex;
+
+  flex-direction: column;
+
+  padding: 28px;
+}
+
+.transparency-card::after {
+
+  content: "";
+
+  position: absolute;
+
+  top: -100px;
+  right: -100px;
+
+  width: 240px;
+  height: 240px;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(79,124,255,0.14),
+      transparent 70%
+    );
+
+  pointer-events: none;
+}
+
+/* HEADER */
+
+.card-header {
+
+  position: relative;
+
+  z-index: 2;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  gap: 16px;
+}
+
+.card-header h2,
+.activity-card h2 {
+
+  margin: 0;
+
+  font-size: 36px;
+
+  line-height: 1.02;
+
+  font-weight: 900;
+
+  letter-spacing: -2px;
+
+  color: #0f172a;
+}
+
+/* CONTENT */
+
+.transparency-content {
+
+  position: relative;
+
+  z-index: 2;
+
+  margin-top: 34px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 28px;
+}
+
+/* ================================================= */
+/* ================= DONUT ========================= */
+/* ================================================= */
+
+.circle-chart {
+
+  position: relative;
+
+  width: 190px;
+  height: 190px;
+
+  border-radius: 50%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  background:
+    conic-gradient(
+      from 220deg,
+      #4f7cff 0% 58%,
+      #4dbb74 58% 80%,
+      #8b5cf6 80% 90%,
+      #fb923c 90% 95%,
+      #f87171 95% 100%
+    );
+
+  box-shadow:
+    0 20px 42px rgba(79,124,255,0.20),
+    inset 0 2px 12px rgba(255,255,255,0.4);
+
+  animation:
+    floatDonut 5s ease-in-out infinite;
+}
+
+@keyframes floatDonut {
+
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+
+}
+
+.circle-inner {
+
+  width: 126px;
+  height: 126px;
+
+  border-radius: 50%;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,0.98),
+      rgba(248,250,252,0.96)
+    );
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  border:
+    1px solid rgba(255,255,255,0.9);
+
+  box-shadow:
+    inset 0 2px 8px rgba(15,23,42,0.05);
+}
+
+.circle-inner h3 {
+
+  margin: 0;
+
+  font-size: 48px;
+
+  line-height: 1;
+
+  font-weight: 900;
+
+  letter-spacing: -2px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #2563eb,
+      #22c55e
+    );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.circle-inner p {
+
+  margin-top: 6px;
+
+  font-size: 11px;
+
+  font-weight: 800;
+
+  letter-spacing: 1px;
+
+  text-transform: uppercase;
+
+  color: #64748b;
+}
+
+/* ================================================= */
+/* ================= LEGEND ======================== */
+/* ================================================= */
+
+.legend-list {
+
+  width: 100%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 12px;
+}
+
+.legend-item {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  padding: 12px 14px;
+
+  border-radius: 16px;
+
+  background:
+    rgba(248,250,252,0.80);
+
+  border:
+    1px solid rgba(255,255,255,0.85);
+
+  transition:
+    all 0.24s ease;
+}
+
+.legend-item:hover {
+
+  transform: translateX(4px);
+
+  background: white;
+
+  box-shadow:
+    0 12px 24px rgba(15,23,42,0.06);
+}
+
+.legend-color {
+
+  width: 12px;
+  height: 12px;
+
+  border-radius: 50%;
+
+  flex-shrink: 0;
+}
+
+.legend-item span {
+
+  font-size: 13px;
+
+  font-weight: 700;
+
+  color: #475569;
+}
+
+.legend-item strong {
+
+  margin-left: auto;
+
+  font-size: 13px;
+
+  font-weight: 900;
+
+  color: #0f172a;
+}
+
+/* COLORS */
+
+.blue { background: #4f7cff; }
+.green { background: #4dbb74; }
+.purple { background: #8b5cf6; }
+.orange { background: #fb923c; }
+.red { background: #f87171; }
+
+/* ================================================= */
+/* ================= INFO ========================== */
+/* ================================================= */
+
+.info-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(2,1fr);
+
+  gap: 12px;
+
+  margin-top: 22px;
+}
+
+.info-box {
+
+  background:
+    rgba(248,250,252,0.92);
+
+  border-radius: 16px;
+
+  padding: 14px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  transition:
+    all 0.25s ease;
+
+  border:
+    1px solid rgba(255,255,255,0.8);
+}
+
+.info-box:hover {
+
+  transform:
+    translateY(-2px);
+
+  background: white;
+
+  box-shadow:
+    0 10px 20px rgba(15,23,42,0.05);
+}
+
+.info-box svg {
+
+  font-size: 18px;
+
+  color: #2563eb;
+}
+
+.info-box h4 {
+
+  margin: 0;
+
+  font-size: 12px;
+
+  font-weight: 800;
+
+  color: #0f172a;
+}
+
+.info-box p {
+
+  margin-top: 4px;
+
+  font-size: 10px;
+
+  color: #64748b;
+}
+
+/* ================================================= */
+/* ================= VERIFICATION ================== */
+/* ================================================= */
+
+.verification-list {
+
+  margin-top: 18px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.verification-item {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  padding: 13px;
+
+  border-radius: 16px;
+
+  background:
+    rgba(240,253,244,0.92);
+
+  color: #166534;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  border:
+    1px solid rgba(22,163,74,0.08);
+}
+
+.verification-item svg {
+
+  color: #16a34a;
+}
+
+/* ================================================= */
+/* ================= RECORDS BUTTON ================ */
+/* ================================================= */
+
+.view-records-btn {
+
+  width: 100%;
+
+  margin-top: 18px;
+
+  height: 52px;
+
+  border-radius: 18px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #eef2ff,
+      #f5f3ff
+    );
+
+  color: #2563eb;
+
+  font-size: 13px;
+
+  font-weight: 800;
+}
+
+.view-records-btn:hover {
+
+  transform:
+    translateY(-2px);
+
+  box-shadow:
+    0 10px 20px rgba(37,99,235,0.10);
+}
+
+/* ================================================= */
+/* ================= ACTIVITY ====================== */
+/* ================================================= */
+
+.activity-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(2,1fr);
+
+  gap: 12px;
+
+  margin-top: 20px;
+}
+
+.activity-item {
+
+  border-radius: 20px;
+
+  padding: 16px;
+
+  transition:
+    transform 0.28s ease,
+    box-shadow 0.28s ease;
+}
+
+.activity-item:hover {
+
+  transform:
+    translateY(-3px);
+
+  box-shadow:
+    0 10px 22px rgba(15,23,42,0.07);
+}
+
+.activity-item svg {
+
+  font-size: 20px;
+}
+
+.activity-item h4 {
+
+  margin: 10px 0 4px;
+
+  font-size: 22px;
+
+  font-weight: 900;
+
+  color: #0f172a;
+}
+
+.activity-item p {
+
+  margin: 0;
+
+  font-size: 11px;
+
+  line-height: 1.5;
+
+  color: #64748b;
+}
+
+.purple-bg { background: #f5f3ff; }
+.green-bg { background: #ecfdf5; }
+.pink-bg { background: #fdf2f8; }
+.orange-bg { background: #fff7ed; }
+
+/* ================================================= */
+/* ================= FOOTER ======================== */
+/* ================================================= */
+
+.activity-footer {
+
+  margin-top: 18px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #eef4ff,
+      #f5f3ff
+    );
+
+  border-radius: 18px;
+
+  padding: 16px;
+
+  color: #2563eb;
+
+  font-size: 12px;
+
+  line-height: 1.7;
+
+  font-weight: 600;
+}
+
+/* ================================================= */
+/* ================= RESPONSIVE ==================== */
+/* ================================================= */
+
+@media (max-width: 1100px) {
+
+  .recovery-panel {
+
+    max-width: 100%;
+
+    position: relative;
+
+    top: unset;
+  }
+
+}
+
+@media (max-width: 900px) {
+
+  .support-stats {
+
+    grid-template-columns: repeat(2,1fr);
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .support-buttons {
+
+    flex-direction: column;
+  }
+
+  .info-grid,
+  .activity-grid {
+
+    grid-template-columns: 1fr;
+  }
+
+  .support-card,
+  .transparency-card,
+  .activity-card {
+
+    padding: 22px;
+  }
+
+  .support-amount span {
+
+    font-size: 44px;
+  }
+
+  .card-header h2 {
+
+    font-size: 30px;
+  }
+
+  .circle-chart {
+
+    width: 160px;
+    height: 160px;
+  }
+
+  .circle-inner {
+
+    width: 108px;
+    height: 108px;
+  }
+
+  .circle-inner h3 {
+
+    font-size: 38px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .support-top {
+
+    flex-direction: column;
+  }
+
+  .support-top h2 {
+
+    font-size: 24px;
+  }
+
+  .support-amount span {
+
+    font-size: 38px;
+  }
+
+  .support-stats {
+
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .card-header h2 {
+
+    font-size: 26px;
+  }
+
+  .circle-chart {
+
+    width: 145px;
+    height: 145px;
+  }
+
+  .circle-inner {
+
+    width: 96px;
+    height: 96px;
+  }
+
+  .circle-inner h3 {
+
+    font-size: 32px;
+  }
+
+}
+/* ================================================= */
+/* ================= DARK MODE ===================== */
+/* ================================================= */
+
+.dark-mode .support-card,
+.dark-mode .transparency-card,
+.dark-mode .activity-card {
+
+  background:
+    linear-gradient(
+      145deg,
+      #0f172a,
+      #111827
+    );
+
+  border:
+    1px solid rgba(255,255,255,0.06);
+
+  box-shadow:
+    0 18px 40px rgba(0,0,0,0.35);
+}
+
+/* ================================================= */
+/* ================= TITLES ======================== */
+/* ================================================= */
+
+.dark-mode .support-top h2,
+.dark-mode .card-header h2,
+.dark-mode .activity-card h2 {
+
+  color: #f8fafc;
+}
+
+/* ================================================= */
+/* ================= LABELS ======================== */
+/* ================================================= */
+
+.dark-mode .section-label {
+
+  color: #94a3b8;
+}
+
+/* ================================================= */
+/* ================= SMALL TEXT ==================== */
+/* ================================================= */
+
+.dark-mode .support-amount small,
+.dark-mode .support-stat p,
+.dark-mode .legend-item span,
+.dark-mode .info-box p,
+.dark-mode .activity-item p,
+.dark-mode .circle-inner p {
+
+  color: #94a3b8;
+}
+
+/* ================================================= */
+/* ================= STAT BOXES ==================== */
+/* ================================================= */
+
+.dark-mode .support-stat,
+.dark-mode .legend-item,
+.dark-mode .info-box {
+
+  background:
+    rgba(255,255,255,0.04);
+
+  border:
+    1px solid rgba(255,255,255,0.06);
+}
+
+.dark-mode .support-stat h4,
+.dark-mode .legend-item strong,
+.dark-mode .info-box h4,
+.dark-mode .activity-item h4 {
+
+  color: #f8fafc;
+}
+
+/* ================================================= */
+/* ================= SHARE BUTTON ================== */
+/* ================================================= */
+
+.dark-mode .share-btn {
+
+  background:
+    rgba(255,255,255,0.05);
+
+  border:
+    1px solid rgba(255,255,255,0.08);
+
+  color: #f8fafc;
+}
+
+/* ================================================= */
+/* ================= GHOST BUTTON ================== */
+/* ================================================= */
+
+.dark-mode .ghost-link {
+
+  background:
+    rgba(255,255,255,0.05);
+
+  border:
+    1px solid rgba(255,255,255,0.08);
+
+  color: #60a5fa;
+}
+
+/* ================================================= */
+/* ================= SECURE BOX ==================== */
+/* ================================================= */
+
+.dark-mode .secure-box {
+
+  background:
+    rgba(34,197,94,0.10);
+
+  border:
+    1px solid rgba(34,197,94,0.18);
+
+  color: #bbf7d0;
+}
+
+/* ================================================= */
+/* ================= DONUT CENTER ================== */
+/* ================================================= */
+
+.dark-mode .circle-inner {
+
+  background:
+    linear-gradient(
+      145deg,
+      #0f172a,
+      #111827
+    );
+
+  border:
+    1px solid rgba(255,255,255,0.06);
+}
+
+/* ================================================= */
+/* ================= ACTIVITY BOXES ================ */
+/* ================================================= */
+
+.dark-mode .purple-bg {
+
+  background:
+    rgba(139,92,246,0.12);
+}
+
+.dark-mode .green-bg {
+
+  background:
+    rgba(34,197,94,0.12);
+}
+
+.dark-mode .pink-bg {
+
+  background:
+    rgba(244,114,182,0.12);
+}
+
+.dark-mode .orange-bg {
+
+  background:
+    rgba(251,146,60,0.12);
+}
+
+/* ================================================= */
+/* ================= FOOTER ======================== */
+/* ================================================= */
+
+.dark-mode .activity-footer {
+
+  background:
+    rgba(255,255,255,0.04);
+
+  border:
+    1px solid rgba(255,255,255,0.06);
+
+  color: #cbd5e1;
+}
+
+/* ================================================= */
+/* ================= RECORD BUTTON ================= */
+/* ================================================= */
+
+.dark-mode .view-records-btn {
+
+  background:
+    linear-gradient(
+      135deg,
+      #2563eb,
+      #22c55e
+    );
+
+  color: white;
+}
+
+/* ================================================= */
+/* ================= HOVERS ======================== */
+/* ================================================= */
+
+.dark-mode .support-stat:hover,
+.dark-mode .legend-item:hover,
+.dark-mode .info-box:hover,
+.dark-mode .share-btn:hover {
+
+  background:
+    rgba(255,255,255,0.07);
+}

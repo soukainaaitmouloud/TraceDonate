@@ -1,0 +1,1157 @@
+{
+  "hello": "Bonjour",
+  "dashboard": "Tableau de bord",
+  "donateNow": "Faire un don",
+  "supporters": "Supporters",
+  "daysLeft": "Jours restants",
+  "campaignOverview": "Aperçu de la campagne",
+  "recentUpdates": "Mises à jour récentes",
+  "thankYouMessage": "Message de remerciement ❤️",
+  "medicalAid": "Aide médicale",
+  "cleanWater": "Eau potable",
+  "foodHelp": "Aide alimentaire",
+  "educationSupport": "Soutien à l’éducation",
+  "shareCampaign": "Partager la campagne",
+  "manageCampaign": "Gérer la campagne",
+  "updateStory": "Mettre à jour l’histoire",
+  "downloadQR": "Télécharger le QR",
+  "verified": "Vérifié",
+  "donations": "Dons",
+  "analytics": "Analyses",
+  "goalAmount": "Objectif",
+  "raisedAmount": "Montant collecté",
+  "remainingAmount": "Montant restant",
+  "fundraisingInProgress": "Collecte de fonds en cours"
+  ,
+  "backToCampaign": "Retour à ma campagne",
+"updateYourStory": "Mettre à jour votre histoire",
+"updateStorySubtitle": "Partagez votre dernière mise à jour avec vos supporters. Votre histoire inspire les autres.",
+"previewUpdate": "Aperçu de la mise à jour",
+"publishUpdate": "Publier la mise à jour",
+"writeYourUpdate": "Rédigez votre mise à jour",
+"updateTitle": "Titre de la mise à jour *",
+"yourStory": "Votre histoire *",
+"addPhotosVideos": "Ajouter des photos et vidéos",
+"photosHelp": "Les photos aident à instaurer la confiance et à inspirer davantage de soutien.",
+"uploadPhotoVideo": "Télécharger Photo/Vidéo",
+"updateCategory": "Catégorie de mise à jour",
+"medicalUpdate": "Mise à jour médicale",
+"treatmentUpdate": "Mise à jour du traitement",
+"personalUpdate": "Mise à jour personnelle",
+
+"gratitude": "Gratitude",
+"addLocation": "Ajouter un emplacement",
+"optional": "(Optionnel)",
+"updatePreview": "Aperçu de la mise à jour",
+"defaultUpdateTitle": "Petits pas, grands progrès",
+"defaultStory": "Je veux remercier chacun de vous pour votre soutien ❤️\n\nL’opération a réussi et je suis maintenant sur la voie de la guérison.",
+"defaultLocation": "New Delhi, Inde",
+"uploadPhotoFormats": "JPG, PNG, MP4",
+"twoMinutesAgo": "il y a 2 minutes"
+,
+"welcomeBack": "Bon retour sur votre tableau de bord",
+"searchPlaceholder": "Rechercher des dons, demandes, causes...",
+"saveDraft": "Enregistrer le brouillon",
+"userName": "Riya Sharma",
+"verificationProgress": "Progression de la vérification",
+"profileVerification": "Vérification du profil",
+"verificationDescription": "Complétez tous les documents requis pour être entièrement vérifié et renforcer la confiance.",
+"identityVerification": "Vérification d'identité",
+"medicalVerification": "Vérification médicale",
+"addressVerification": "Vérification de l'adresse",
+"bankVerification": "Vérification bancaire",
+"complete": "Terminé",
+"completed": "Complété",
+"pending": "En attente",
+"notStarted": "Non commencé",
+  "documentsVerification": "Documents et vérification",
+  "documentsSubtitle": "Téléchargez et gérez vos documents pour vérifier votre identité et vos besoins médicaux.",
+
+  "uploadedDocuments": "Documents téléchargés",
+  "documentsSubtitle2": "Gardez vos documents à jour pour un processus de vérification fluide.",
+
+  "uploadNewDocument": "Télécharger un nouveau document",
+  "uploadNow": "Télécharger maintenant",
+
+  "aadharCard": "Carte Aadhaar",
+  "medicalReport": "Rapport médical",
+  "addressProof": "Justificatif de domicile",
+  "bankStatement": "Relevé bancaire",
+
+  "identityProof": "Preuve d’identité",
+  "medicalDocument": "Document médical",
+  "addressVerificationType": "Vérification d’adresse",
+  "bankVerificationType": "Vérification bancaire",
+
+  "uploadedDate": "Téléchargé le 10 mai 2026",
+  "uploadedDate2": "Téléchargé le 8 mai 2026",
+  "requiredWithdrawals": "Requis pour les retraits",
+
+ 
+  "notUploaded": "Non téléchargé",
+
+  "documentId": "ID du document",
+
+  "needHelpVerification": "Besoin d’aide pour la vérification ?",
+  "supportSubtitle": "Notre équipe est là pour vous aider à vérifier vos documents.",
+  "contactSupport": "Contacter le support",
+
+  "verificationStatus": "Statut de vérification",
+  "youAreVerified": "Vous êtes vérifié !",
+  "documentsVerifiedSuccessfully": "Vos documents ont été examinés et vérifiés avec succès.",
+  "lastVerified": "Dernière vérification le 10 mai 2026",
+
+  "downloadVerificationBadge": "Télécharger le badge de vérification",
+
+  "whyVerificationMatters": "Pourquoi la vérification est importante ?",
+
+  "buildTrust": "Créer la confiance",
+  "buildTrustDesc": "Les profils vérifiés reçoivent plus de dons et de soutien.",
+
+  "secureSafe": "Sécurisé et sûr",
+  "secureSafeDesc": "Nous garantissons que tous les documents sont cryptés et totalement sécurisés.",
+
+  "fasterWithdrawals": "Retraits plus rapides",
+  "fasterWithdrawalsDesc": "Une vérification complète vous aide à retirer vos fonds rapidement.",
+
+  "transparency": "Transparence",
+  "transparencyDesc": "La transparence construit une communauté plus forte basée sur la confiance.",
+
+  "verificationTip": "Astuce : assurez-vous que vos documents sont clairs et valides pour une vérification plus rapide.",
+   "verificationProgress": "Progression de la vérification",
+  "profileVerification": "Vérification du profil",
+  "complete": "Complété",
+  "verificationDescription": "Complétez tous les documents requis pour être entièrement vérifié et gagner la confiance.",
+  "identityVerification": "Vérification d'identité",
+  "medicalVerification": "Vérification médicale",
+  "addressVerification": "Vérification de l'adresse",
+  "bankVerification": "Vérification bancaire",
+  "completed": "Terminé",
+  "pending": "En attente",
+  "notStarted": "Non commencé",
+  "verificationProgress": "Progression de vérification",
+"profileVerification": "Vérification du profil",
+"complete": "Terminé",
+"verificationDescription": "Complétez tous les documents requis pour être entièrement vérifié et renforcer la confiance.",
+
+"identityVerification": "Vérification d'identité",
+"medicalVerification": "Vérification médicale",
+"addressVerification": "Vérification d'adresse",
+"bankVerification": "Vérification bancaire",
+
+"completed": "Complété",
+"pending": "En attente",
+"notStarted": "Non commencé",
+
+  "urgentSurgeryNeeded": "Chirurgie urgente nécessaire",
+  "storyPlaying": "Lecture de l’histoire",
+  "updatedHoursAgo": "Mis à jour il y a 3 heures",
+  "receiveHeartSurgery": "Aidez Riya à recevoir une chirurgie cardiaque",
+  "campaignSubtitle": "Votre soutien peut sauver une jeune vie et donner de l’espoir à une famille dans le besoin.",
+
+  "riyaStory": "L’histoire de Riya",
+
+  "raisedOf": "collectés sur",
+  "goal": "objectif",
+  "funded": "financé",
+
+  "heartDisease": "Maladie cardiaque",
+  "yearsOld": "8 ans",
+  "ruralIndia": "Inde rurale",
+  "hospitalVerified": "Hôpital vérifié",
+
+  "donateSupport": "Faire un don et soutenir",
+  "riyaQuote": "Chaque battement de cœur est une chance d’espoir et de guérison.",
+
+  "recoveryCampaign": "Campagne de rétablissement",
+
+  "viewDetails": "Voir les détails",
+  "urgentCase": "Cas urgent",
+  "heart": "Cœur",
+  "surgeryTreatment": "Traitement chirurgical",
+  "createdOn": "Créé le",
+
+  "campaignGoal": "Objectif de la campagne",
+  "raised": "Collecté",
+  "remaining": "Restant",
+
+  "fundraisingProgress": "Progression de la collecte",
+  "latestStories": "Dernières histoires",
+
+  "twoDaysAgo": "Il y a 2 jours",
+  "recentThankYouText": "Merci à tous pour votre gentillesse et votre soutien ❤️",
+
+  "fiveDaysAgo": "Il y a 5 jours",
+  "recentTreatmentUpdateText": "Le traitement a commencé et la récupération progresse chaque jour.",
+
+  "recoveryJourney": "Parcours de guérison",
+  "oneWeekAgo": "Il y a 1 semaine",
+  "recentRecoveryJourneyText": "Riya sourit à nouveau et retrouve progressivement ses forces.",
+
+  "twoMinAgo": "Il y a 2 min",
+
+  "openDocument": "Ouvrir le document",
+  "doctorCertificate": "Certificat médical",
+  "hospitalEstimate": "Estimation de l’hôpital",
+  "documentsVerifiedText": "Tous les documents ont été vérifiés avec succès.",
+
+  "supportMyRecovery": "Soutenir ma guérison",
+  "publicPage": "Page publique",
+
+  "shares": "Partages",
+
+  "shareStory": "Partager l’histoire",
+  "verifiedTransparency": "Transparence vérifiée",
+  "fundAllocation": "Répartition des fonds",
+
+  "transparencyOverview": "Aperçu de la transparence",
+  "details": "Détails",
+  "transparent": "Transparent",
+
+  "hospitalSurgery": "Hôpital et chirurgie",
+  "medicines": "Médicaments",
+  "testsDiagnosis": "Tests et diagnostic",
+  "transport": "Transport",
+  "others": "Autres",
+
+  "totalWithdrawn": "Total retiré",
+  "notWithdrawnYet": "Pas encore retiré",
+
+  "lastUpdated": "Dernière mise à jour",
+
+  "medicalReportsVerified": "Rapports médicaux vérifiés",
+  "identityVerified": "Identité vérifiée",
+  "hospitalDocumentsVerified": "Documents hospitaliers vérifiés",
+  "viewDonationRecords": "Voir les dossiers de dons",
+
+  "engagement": "Engagement",
+
+  "activitySummary": "Résumé de l’activité",
+  "updatesPosted": "Mises à jour publiées",
+  "photosVideos": "Photos et vidéos",
+  "totalSupporters": "Total des supporters",
+  "thankYouMessages": "Messages de remerciement",
+
+  "activityFooter": "Chaque action aide à construire la confiance et l’espoir ❤️"
+,
+
+  "campaignGrowing": "Campagne en croissance",
+  "myCampaign": "Ma campagne",
+  "manageCampaignSubtitle": "Gérez facilement votre collecte de fonds, mises à jour, dons et supporters.",
+
+  "campaignactivechangePhoto": "Campagne active • Changer la photo",
+
+  "healthyHeartJourney": "Voyage vers un cœur en bonne santé",
+
+  "campaignDescription": "Aidez à soutenir la chirurgie cardiaque vitale de Riya et son parcours de guérison.",
+
+  "category": "Catégorie",
+  "medical": "Médical",
+
+  "location": "Emplacement",
+
+  "editCampaign": "Modifier la campagne",
+  "previewPage": "Aperçu de la page",
+  "overview": "Aperçu",
+  "updates": "Mises à jour",
+
+  "campaignProgress": "Progression de la campagne",
+
+  "keepGoing": "Continuez",
+
+  "seeAll": "Voir tout",
+  "update": "Mise à jour",
+
+  "feelingBetter": "Se sentir mieux ❤️",
+
+  "createNewUpdate": "Créer une nouvelle mise à jour",
+
+  "communitySupport": "Soutien de la communauté",
+  "recentDonations": "Dons récents",
+
+  "donorName1": "Emma Wilson",
+  "donationMessage1": "Envoi de prières et de soutien ❤️",
+
+  "donorName2": "Michael Lee",
+  "donationMessage2": "Restez fort, nous sommes avec vous !",
+
+  "oneDayAgo": "Il y a 1 jour",
+
+  "donorName3": "Ravi Kumar",
+  "donationMessage3": "J’espère un rétablissement rapide 🙏",
+
+  "donorName4": "Priya Sharma",
+  "donationMessage4": "Vous n’êtes pas seul dans ce parcours.",
+
+  "threeDaysAgo": "Il y a 3 jours",
+
+  "donorName5": "Victor Chen",
+  "donationMessage5": "Je vous souhaite force et guérison.",
+
+  "verifiedCampaign": "Campagne vérifiée",
+
+  "raisedGoal": "Objectif atteint",
+
+  "shareMyStory": "Partager mon histoire",
+  "secureDonationText": "Dons sécurisés protégés par des systèmes de paiement fiables.",
+
+  "quickActions": "Actions rapides",
+
+  "updateStoryText": "Publiez des mises à jour et informez vos supporters.",
+
+  "addPhotos": "Ajouter des photos",
+  "addPhotosText": "Téléchargez des photos pour renforcer la confiance et l’engagement.",
+
+  "goLive": "Mettre en ligne",
+  "goLiveText": "Publiez votre campagne publiquement pour les supporters.",
+
+  "shareCampaignCardText": "Partagez votre campagne avec vos amis et votre famille.",
+
+  "downloadQRText": "Téléchargez votre QR code pour un partage facile.",
+
+  "editDetails": "Modifier les détails",
+  "editDetailsText": "Mettez à jour les informations de la campagne à tout moment."
+,
+
+  "verificationProgress": "Progression de vérification",
+  "profileVerification": "Vérification du profil",
+  "complete": "Terminé",
+
+  "verificationDescription": "Complétez tous les documents requis pour être entièrement vérifié et renforcer la confiance.",
+
+  "identityVerification": "Vérification d'identité",
+  "medicalVerification": "Vérification médicale",
+  "addressVerification": "Vérification d'adresse",
+  "bankVerification": "Vérification bancaire",
+
+  "completed": "Complété",
+  "pending": "En attente",
+  "notStarted": "Non commencé",
+
+  "may2026": "Mai 2026",
+  "verificationProgress": "Progression de Vérification",
+"profileVerification": "Vérification du Profil",
+"complete": "Terminé",
+
+"verificationDescription": "Complétez tous les documents requis pour obtenir une vérification complète et renforcer la confiance.",
+
+"identityVerification": "Vérification d'identité",
+"medicalVerification": "Vérification médicale",
+"addressVerification": "Vérification d'adresse",
+"bankVerification": "Vérification bancaire",
+
+"completed": "Complété",
+"pending": "En attente",
+"notStarted": "Non commencé",
+
+  "recentDonations": "Dons récents",
+  "trackLatestSupporters": "Suivez vos derniers soutiens et dons.",
+  "donor": "Donateur",
+  "amount": "Montant",
+  "date": "Date",
+  "message": "Message",
+  "status": "Statut",
+  "actions": "Actions",
+  "completed": "Terminé",
+  "pending": "En attente",
+  "viewAllDonations": "Voir tous les dons",
+  "needHelp": "Besoin d'aide ?",
+  "supportDonationText": "Notre équipe de support est prête à vous aider pour tout problème lié aux dons.",
+  "contactSupport": "Contacter le support",
+  "openingDonation": "Ouverture du don",
+  "donationReceipt": "Reçu du don",
+  "generated": "Généré",
+  "donationMessage1": "Nous vous souhaitons force et guérison.",
+  "donationMessage2": "Restez fort, nous vous soutenons.",
+  "donationMessage3": "Nous prions pour votre rétablissement.",
+  "donationMessage4": "Nous espérons que ce don aidera votre traitement.",
+  "donationMessage5": "Nous envoyons notre soutien et notre énergie positive.",
+  "donationMessage6": "Nous sommes là pour vous."
+,
+
+  "donationsReceived": "Dons reçus",
+  "donationsSubtitle": "Suivez et gérez tous les dons reçus de supporters du monde entier.",
+  "downloadReport": "Télécharger le rapport",
+
+  "totalDonations": "Total des dons",
+  "allTimeDonations": "Dons de tous les temps",
+
+  "totalDonors": "Total des donateurs",
+  "peopleSupportedYou": "Personnes qui vous ont soutenu",
+
+  "successfulDonations": "Dons réussis",
+  "completedTransactions": "Transactions terminées",
+
+  "pendingDonations": "Dons en attente",
+  "awaitingCompletion": "En attente de finalisation",
+
+  "donationGrowth": "Croissance des dons",
+  "trackDonationPerformance": "Suivez les performances de vos dons et la croissance de votre campagne.",
+
+  "thisMonth": "Ce mois-ci",
+  "thisWeek": "Cette semaine",
+  "today": "Aujourd'hui",
+
+  "totalDonated": "Total donné",
+  "highestDonation": "Don le plus élevé",
+
+  "donationImpact": "Impact des dons",
+  "campaignHelpingFamilies": "Votre campagne aide davantage de familles chaque jour.",
+
+  "fastestGrowingCampaign": "Campagne à la croissance la plus rapide",
+  "donorActivityWeek": "activité des donateurs cette semaine",
+
+  "verificationComplete": "Vérification terminée",
+  "trustedProfile": "Un profil vérifié attire plus de donateurs",
+
+  "supportTeamReady": "Notre équipe de support est toujours prête à vous aider.",
+
+  "recentDonations": "Dons récents",
+  "trackLatestSupporters": "Suivez vos derniers soutiens et dons.",
+
+  "donor": "Donateur",
+  "amount": "Montant",
+  "date": "Date",
+  "message": "Message",
+  "status": "Statut",
+
+  "viewAllDonations": "Voir tous les dons",
+
+  "needHelp": "Besoin d'aide ?",
+  "supportDonationText": "Si vous avez des questions concernant vos dons, notre équipe de support est là pour vous aider.",
+
+  "contactSupport": "Contacter le support",
+
+  "donationMessage1": "Nous vous souhaitons un prompt rétablissement 🙏",
+  "donationMessage2": "Restez fort, nous sommes avec vous 💚",
+  "donationMessage3": "Prenez soin de vous et guérissez vite 💪",
+  "donationMessage4": "Vous êtes dans mes prières 🙏",
+  "donationMessage5": "J'espère que cela aidera à votre rétablissement 🌸",
+  "donationMessage6": "Restez positif et gardez courage 💚",
+  
+  "actions": "Actions",
+  "completed": "Terminé",
+  "pending": "En attente",
+  "openingDonation": "Ouverture du don",
+  "donationReceipt": "Reçu du don",
+  "generated": "Généré"
+,
+
+  "monthlyGrowth": "Croissance mensuelle",
+  "topDonors": "Meilleurs donateurs",
+  "active": "actifs",
+
+  "premiumSupporter": "Supporter Premium",
+
+  "viewTopDonors": "Voir les meilleurs donateurs",
+
+  "transparencyCenter": "Centre de Transparence",
+  "transparencySubtitle": "Suivez tous les dons, l'utilisation des fonds et la transparence de la campagne en temps réel.",
+
+  "downloadFullReport": "Télécharger le Rapport",
+  "aiAssistant": "Assistant IA",
+
+  "totalDonationsReceived": "Total des Dons Reçus",
+  "fromDonors": "De 128 donateurs",
+
+  "totalFundsUtilized": "Total des Fonds Utilisés",
+  "fundsUtilizedPercent": "80,8% des fonds totaux",
+
+  "totalImpactCreated": "Impact Total Créé",
+  "livesImpacted": "Vies positivement impactées",
+
+  "fundsInProgress": "Fonds en Cours",
+  "fundsRemainingPercent": "19,2% des fonds totaux",
+
+  "fundsUtilizationOverview": "Aperçu de l'Utilisation des Fonds",
+  "trackFundsUsage": "Suivez comment les fonds donnés sont utilisés.",
+
+  "fundsUtilized": "Fonds Utilisés",
+
+  "medicalExpenses": "Dépenses Médicales",
+  "dailyNeeds": "Besoins Quotidiens",
+  "travelStay": "Voyage et Hébergement",
+  "otherExpenses": "Autres Dépenses",
+
+  "totalUtilized": "Total Utilisé",
+
+  "recentTransactions": "Transactions Récentes",
+  "latestCampaignTransactions": "Dernières transactions de votre campagne.",
+
+  "viewAll": "Voir Tout",
+
+  "completed": "Terminé",
+  "paid": "Payé",
+
+  "impactUpdates": "Impact et Mises à Jour",
+  "realImpactCreated": "Un impact réel créé grâce à vos dons.",
+
+  "patientsHelped": "Patients Aidés",
+  "medicalSupportProvided": "Soutien médical fourni",
+
+  "familiesSupported": "Familles Soutenues",
+  "familiesReceivedAssistance": "Les familles ont reçu de l'aide",
+
+  "recoveryProgress": "Progression de la Guérison",
+  "towardsCompleteRecovery": "Vers une récupération complète",
+
+  "campaignTimeline": "Chronologie de la Campagne",
+  "keyMilestonesJourney": "Étapes clés de votre parcours.",
+
+  "campaignStarted": "Campagne Lancée",
+  "verificationCompleted": "Vérification Terminée",
+  "firstDonationReceived": "Premier Don Reçu",
+  "medicalTreatmentStarted": "Traitement Médical Commencé",
+  "ongoingRecovery": "Récupération en Cours",
+  "inProgress": "En cours",
+
+  "haveQuestions": "Des Questions ?",
+  "supportMessage": "Nous croyons en une transparence totale. Si vous avez des doutes, notre équipe est là pour vous aider.",
+
+  "contactSupport": "Contacter le Support",
+
+  "financialTransparency": "Transparence Financière",
+  "campaignBreakdown": "Répartition financière de la campagne",
+
+  "donationsReceived": "Dons Reçus",
+  "pendingInProgress": "En attente",
+
+  "documentsProof": "Documents et Preuves",
+  "financialDocumentsProofs": "Documents financiers vérifiés",
+
+  "medicalBills": "Factures Médicales",
+  "medicalBillsCount": "12 factures vérifiées",
+
+  "expenseReceipts": "Reçus de Dépenses",
+  "expenseReceiptsCount": "8 reçus téléchargés",
+
+  "bankStatements": "Relevés Bancaires",
+  "bankStatementsCount": "4 relevés vérifiés",
+
+  "view": "Voir",
+  "viewAllDocuments": "Voir Tous les Documents"
+,
+
+  "aaravDonation": "Don de Aarav Mehta",
+  "aaravDonationDate": "10 Mai 2026, 10:30",
+
+  "priyaDonation": "Don de Priya Nair",
+  "priyaDonationDate": "10 Mai 2026, 09:15",
+
+  "rahulDonation": "Don de Rahul Verma",
+  "rahulDonationDate": "09 Mai 2026, 20:45",
+
+  "medicalExpensesTransaction": "Dépenses Médicales",
+  "medicalExpensesDate": "09 Mai 2026, 18:25",
+
+  "travelExpenses": "Frais de Voyage",
+  "travelExpensesDate": "08 Mai 2026, 11:05",
+
+  "completed": "Terminé",
+  "paid": "Payé",
+
+  "aiAssistant": "Assistant IA",
+
+  "impactUpdates": "Impact et Mises à Jour",
+  "realImpactCreated": "Un impact réel créé grâce à vos dons.",
+
+  "patientsHelped": "Patients Aidés",
+  "medicalSupportProvided": "Soutien médical fourni",
+
+  "familiesSupported": "Familles Soutenues",
+  "familiesReceivedAssistance": "Les familles ont reçu de l'aide",
+
+  "recoveryProgress": "Progression de la Guérison",
+  "towardsCompleteRecovery": "Vers une récupération complète",
+
+  "campaignTimeline": "Chronologie de la Campagne",
+  "keyMilestonesJourney": "Étapes clés de votre parcours.",
+
+  "campaignStarted": "Campagne Lancée",
+  "verificationCompleted": "Vérification Terminée",
+  "firstDonationReceived": "Premier Don Reçu",
+  "medicalTreatmentStarted": "Traitement Médical Commencé",
+  "ongoingRecovery": "Récupération en Cours",
+  "inProgress": "En cours",
+
+  "haveQuestions": "Des Questions ?",
+  "supportMessage": "Nous croyons en une transparence totale. Si vous avez des doutes, notre équipe est là pour vous aider.",
+
+  "contactSupport": "Contacter le Support"
+,
+  "aaravDonation": "Don de Aarav Mehta"
+ ,
+
+  "recoveryTimeline": "Chronologie de Récupération",
+  "downloadTimeline": "Télécharger la Chronologie",
+
+  "recoveryJourneySubtitle": "Suivez le parcours de récupération de Riya et les étapes importantes.",
+
+  "supportRecoveryTitle": "Votre soutien fait une réelle différence dans la récupération de Riya.",
+  "supportRecoverySubtitle": "Chaque étape est vérifiée et appuyée par des documents.",
+
+  "diagnosisAssessment": "Diagnostic et Évaluation Médicale",
+  "diagnosisAssessmentDesc": "Contrôle médical complet et diagnostic confirmé par des spécialistes.",
+
+  "treatmentPlan": "Plan de Traitement Finalisé",
+  "treatmentPlanDesc": "Les médecins ont finalisé le plan de traitement et le calendrier de chirurgie.",
+
+  "surgeryCompleted": "Chirurgie Terminée avec Succès",
+  "surgeryCompletedDesc": "La chirurgie a été réalisée avec succès avec des résultats positifs.",
+
+  "recoveryMonitoring": "Récupération et Surveillance",
+  "recoveryMonitoringDesc": "Processus de récupération en cours avec surveillance et soins réguliers.",
+
+  "completed": "Terminé",
+  "inProgress": "En cours",
+
+  "viewAllDocuments": "Voir les Documents et Preuves"
+,
+
+  "dateDiagnosis": "10 Mai 2026",
+  "dateTreatment": "15 Mai 2026",
+  "dateSurgery": "28 Mai 2026",
+  "dateRecovery": "28 Mai – 10 Juin 2026",
+
+  "upcoming": "À venir",
+  
+  "recoveryTimeline": "Chronologie de récupération",
+
+  "downloadTimeline": "Télécharger la chronologie",
+
+  "recoveryJourneySubtitle": "Suivez le parcours de récupération de Riya et les étapes importantes.",
+
+  "supportRecoveryTitle": "Votre soutien fait une vraie différence dans la récupération de Riya.",
+
+  "supportRecoverySubtitle": "Chaque étape est vérifiée et soutenue par des documents.",
+
+  "diagnosisAssessment": "Diagnostic et évaluation médicale",
+
+  "diagnosisAssessmentDesc": "Bilan médical complet et diagnostic confirmé par des spécialistes.",
+
+  "treatmentPlan": "Plan de traitement finalisé",
+
+  "treatmentPlanDesc": "Les médecins ont finalisé le plan de traitement et le calendrier de chirurgie.",
+
+  "surgeryCompleted": "Chirurgie terminée avec succès",
+
+  "surgeryCompletedDesc": "La chirurgie a été réalisée avec succès avec des résultats positifs.",
+
+  "recoveryMonitoring": "Récupération et surveillance",
+
+  "recoveryMonitoringDesc": "Processus de récupération en cours avec surveillance et soins réguliers.",
+
+  "completed": "Terminé",
+
+  "inProgress": "En cours",
+
+  "upcoming": "À venir",
+
+  "viewAllDocuments": "Voir les documents et preuves",
+
+  "dateDiagnosis": "10 Mai 2026",
+
+  "dateTreatment": "15 Mai 2026",
+
+  "dateSurgery": "28 Mai 2026",
+
+  "dateRecovery": "28 Mai – 10 Juin 2026",
+  "messages": "Messages",
+  "messagesSubtitle": "Restez connecté avec les donateurs et les soutiens",
+
+  "audioCall": "Appel audio",
+  "videoCall": "Appel vidéo",
+
+  "messagesSidebarTitle": "Messages",
+  "messagesSidebarSubtitle": "Vos soutiens et donateurs",
+
+  "searchConversations": "Rechercher des conversations...",
+
+  "all": "Tous",
+  "unread": "Non lus",
+  "archived": "Archivés",
+  "pinned": "Épinglés",
+
+  "stayStrong": "Restez fort ❤️",
+  "prayingRecovery": "Je prie pour votre rétablissement 🙏",
+  "needAnything": "Faites-moi savoir si vous avez besoin de quelque chose",
+  "veryBrave": "Vous êtes très courageux ❤️",
+  "keepFighting": "Continuez à vous battre !",
+  "sharedCampaign": "J’ai partagé votre campagne 🙌",
+
+  "verifiedDonorSupport": "Donateur vérifié • Don de 50 $ ❤️",
+
+  "viewProfile": "Voir le profil",
+
+  "supporter": "Soutien",
+
+  "message1": "Je vous souhaite un prompt rétablissement 🙏",
+  "message2": "Merci beaucoup pour votre soutien ❤️",
+  "message3": "Vous êtes très fort. Continuez à vous battre !",
+  "message4": "Vos paroles comptent énormément pour moi 💙",
+
+  "typeMessage": "Tapez votre message...",
+  "send": "Envoyer",
+   "messages": "Messages",
+  "messagesSubtitle": "Restez connecté avec les donateurs et les soutiens",
+  "messagesSidebarSubtitle": "Vos soutiens et donateurs",
+
+  "searchConversations": "Rechercher des conversations...",
+
+  "all": "Tous",
+  "unread": "Non lus",
+  "archived": "Archivés",
+  "pinned": "Épinglés",
+
+  "aaravMehta": "Aarav Mehta",
+  "snehaPatel": "Sneha Patel",
+  "rahulVerma": "Rahul Verma",
+  "priyaSingh": "Priya Singh",
+  "vikramJoshi": "Vikram Joshi",
+  "ananyaKapoor": "Ananya Kapoor",
+
+  "stayStrong": "Reste fort ❤️",
+  "prayingRecovery": "Je prie pour ton rétablissement 🙏",
+  "needAnything": "Fais-moi savoir si tu as besoin de quelque chose",
+  "veryBrave": "Tu es très courageux ❤️",
+  "keepFighting": "Continue à te battre !",
+  "sharedCampaign": "J’ai partagé votre campagne 🙌",
+
+  "time2mAgo": "il y a 2 min",
+  "time1hAgo": "il y a 1 h",
+  "time3hAgo": "il y a 3 h",
+  "time2dAgo": "il y a 2 j",
+
+  "yesterday": "Hier",
+  "now": "Maintenant",
+  
+  "verified": "Vérifié",
+  "supporter": "Soutien",
+  "verifiedDonorSupport": "Donateur vérifié • Don de 50 $ ❤️"
+,
+
+  "donorDetails": "Détails du Donateur",
+
+  "verifiedDonor": "Donateur Vérifié",
+
+  "totalSupport": "Soutien Total",
+
+  "donations": "Dons",
+   "messages": "Messages",
+
+  "messagesSubtitle": "Restez connecté avec les donateurs et supporters",
+
+  "audioCall": "Appel Audio",
+
+  "videoCall": "Appel Vidéo",
+
+  "donorDetails": "Détails du Donateur",
+
+  "verifiedDonor": "Donateur Vérifié",
+
+  "totalSupport": "Soutien Total",
+
+  "donations": "Dons",
+  
+  "recoverySettings": "Paramètres de récupération",
+
+  "settingsSubtitle": "Gérez les préférences de votre campagne de récupération et les paramètres du compte",
+
+  "saveChanges": "Enregistrer les modifications",
+
+  "verifiedRecoveryCampaign": "Campagne de récupération vérifiée",
+
+  "security": "Sécurité",
+
+  "changePassword": "Changer le mot de passe",
+
+  "changePasswordDesc": "Mettez à jour régulièrement votre mot de passe pour une meilleure sécurité",
+
+  "twoFactorAuth": "Authentification à deux facteurs",
+
+  "twoFactorAuthDesc": "Ajoutez une couche de sécurité supplémentaire à votre compte",
+
+  "update": "Mettre à jour",
+
+  "enable": "Activer",
+
+  "profileInformation": "Informations du profil",
+
+  "fullName": "Nom complet",
+
+  "emailAddress": "Adresse e-mail",
+
+  "bio": "Bio",
+
+  "bioText": "Merci à tous ceux qui soutiennent mon parcours de guérison. Votre gentillesse compte énormément pour moi.",
+
+  "preferences": "Préférences",
+
+  "notifications": "Notifications",
+
+  "notificationsDesc": "Recevez des mises à jour sur les dons et les messages des supporters",
+
+  "darkMode": "Mode sombre",
+
+  "darkModeDesc": "Activez le mode sombre pour une meilleure expérience nocturne",
+
+  "language": "Langue",
+
+  "languageDesc": "Choisissez votre langue préférée"
+,
+"dashboard": "Tableau de bord",
+  "myCampaign": "Ma campagne",
+  "updatesPosts": "Mises à jour et publications",
+  "documentsVerification": "Documents et vérification",
+  "donationsReceived": "Dons reçus",
+  "transparencyCenter": "Centre de transparence",
+  "recoveryTimeline": "Chronologie de récupération",
+  "messages": "Messages",
+  "settings": "Paramètres",
+  "logout": "Déconnexion",
+
+  "sidebarQuote": "Votre histoire inspire la gentillesse et l’espoir ❤️",
+  "shareMyStory": "Partager mon histoire",
+
+  "messagesSubtitle": "Restez connecté avec les donateurs et les soutiens",
+
+  "audioCall": "Appel audio",
+  "videoCall": "Appel vidéo",
+
+  "searchConversations": "Rechercher des conversations...",
+  "all": "Tous",
+  "unread": "Non lus",
+  "archived": "Archivés",
+  "pinned": "Épinglé",
+
+  "viewProfile": "Voir le profil",
+
+  "verified": "Vérifié",
+  "verifiedDonor": "Donateur vérifié",
+  "verifiedDonorSupport": "Donateur vérifié • A donné 50 $ ❤️",
+
+  "supporter": "Supporter",
+
+  "message1": "Je vous souhaite un prompt rétablissement 🙏",
+  "message2": "Merci beaucoup pour votre soutien ❤️",
+  "message3": "Vous êtes très fort. Continuez à vous battre !",
+  "message4": "Vos paroles comptent énormément pour moi 💙",
+
+  "typeMessage": "Tapez votre message...",
+  "send": "Envoyer",
+
+  "emoji": "Emoji",
+  "attachFile": "Joindre un fichier",
+  "sendImage": "Envoyer une image",
+  "voiceMessage": "Message vocal",
+
+  "donorDetails": "Détails du donateur",
+  "totalSupport": "Soutien total",
+  "donations": "Dons",
+  
+  "dashboard": "Tableau de bord",
+  "browseRequests": "Parcourir les demandes",
+  "myDonations": "Mes dons",
+  "myImpact": "Mon impact",
+  "myFavorites": "Favoris",
+  "messages": "Messages",
+  "settings": "Paramètres",
+  "logout": "Déconnexion",
+
+  "welcomeBack": "Bienvenue sur votre tableau de bord",
+  "searchPlaceholder": "Rechercher des dons, demandes, causes...",
+
+  "heroTitle": "Votre Gentillesse Crée des Miracles",
+  "heroSubtitle": "Ensemble, nous pouvons sauver des vies et redonner de l’espoir.",
+  "exploreRequests": "Explorer les demandes",
+
+  "featuredUrgentRequests": "Demandes urgentes en vedette",
+
+  "peopleHelped": "Personnes aidées",
+  "requestsSupported": "Demandes soutenues",
+  "memberSince": "Membre depuis",
+  "proudDonor": "Donateur fier",
+
+  "noRequestsFound": "Aucune demande trouvée",
+
+  "heartSurgery": "Chirurgie cardiaque pour enfant",
+  "floodRelief": "Aide d’urgence contre les inondations",
+  "educationSupport": "Soutien éducatif",
+  "medicalAid": "Aide médicale",
+  "foodHelp": "Aide alimentaire",
+  "cleanWater": "Eau potable",
+
+  "medicalAidDesc": "Aidez à fournir un traitement médical urgent.",
+  "foodSupportDesc": "Fournir une aide alimentaire aux familles dans le besoin.",
+  "cleanWaterDesc": "Aider les communautés à accéder à l’eau potable.",
+
+  "healthFoundation": "Fondation Santé",
+  "helpingHandsOrg": "Organisation Helping Hands",
+  "educationOrg": "Organisation Éducation",
+  "waterReliefOrg": "Organisation Eau Solidaire",
+
+  "urgent": "Urgent",
+  "donateNow": "Faire un don",
+  "raised": "Collecté",
+  "goal": "Objectif",
+  
+  "yourKindness": "Votre Gentillesse",
+  "createsMiracles": "Crée des Miracles",
+
+  "heroSubtitle": "Ensemble, nous pouvons sauver des vies et redonner de l’espoir.",
+  "exploreRequests": "Explorer les demandes →",
+
+  "myImpact": "Mon Impact",
+
+  "livesImpacted": "Vies Impactées",
+
+  "totalDonated": "Montant Total Donné",
+
+  "vsLastMonth": "vs mois dernier",
+
+  "peopleHelped": "Personnes Aidées",
+  "requestsSupported": "Demandes Soutenues",
+  "memberSince": "Membre Depuis",
+  "proudDonor": "Donateur Fier",
+
+  "featuredUrgentRequests": "Demandes Urgentes en Vedette",
+
+  "heartSurgery": "Chirurgie Cardiaque pour Enfant",
+  "floodRelief": "Aide d’Urgence aux Inondations",
+  "educationSupport": "Soutien Éducatif",
+  "medicalAid": "Aide Médicale",
+  "foodHelp": "Aide Alimentaire",
+  "cleanWater": "Eau Potable",
+
+  "floodReliefDesc": "Aidez les familles touchées par les inondations à recevoir une aide urgente.",
+  "supportEducationDesc": "Aidez les enfants à accéder à de meilleures opportunités éducatives.",
+
+  "medicalAidDesc": "Aidez à fournir un traitement médical urgent.",
+  "foodSupportDesc": "Fournir une aide alimentaire aux familles dans le besoin.",
+  "cleanWaterDesc": "Aider les communautés à accéder à l’eau potable.",
+
+  "healthFoundation": "Fondation Santé",
+  "helpingHandsOrg": "Organisation Helping Hands",
+  "educationOrg": "Organisation Éducation",
+  "waterReliefOrg": "Organisation Eau Solidaire",
+
+  "medical": "Médical",
+  "disasterRelief": "Aide Humanitaire",
+  "education": "Éducation",
+  "communityHelp": "Aide Communautaire",
+  "water": "Eau",
+
+  "goal": "Objectif",
+
+  "funded": "Financé",
+
+  "donateNow": "Faire un Don",
+
+  "yourDonationTrend": "Votre Tendance de Don",
+
+  "thisMonth": "Ce Mois-ci",
+
+  "transparentTitle": "100% Transparent",
+  "transparentDesc": "Tous les dons et l’utilisation des fonds sont suivis en temps réel.",
+
+  "learnMore": "En Savoir Plus",
+ 
+  "yourKindness": "Votre Gentillesse",
+"createsMiracles": "Crée des Miracles",
+"causesByCategory": "Causes par Catégorie",
+"all": "Tous",
+"medical": "Médical",
+"education": "Éducation",
+"disasterRelief": "Aide aux catastrophes",
+"hunger": "Faim",
+"browseSubtitle": "Découvrez de vraies personnes ayant besoin de votre soutien",
+"searchCauses": "Rechercher des campagnes...",
+"requests": "Demandes",
+"newest": "Les plus récentes",
+"highestRaised": "Montant collecté le plus élevé",
+"goalAmount": "Objectif",
+"donate": "Faire un don",
+"view": "Voir",
+"save": "Enregistrer",
+"saved": "Enregistré",
+"noRequestsFound": "Aucune demande trouvée",
+"tryChangingFilters": "Essayez de modifier les filtres ou les mots-clés",
+"thankYouSupport": "Merci pour votre soutien",
+"openingRequest": "Ouverture de la demande",
+"browseRequests": "Parcourir les demandes",
+"causesByCategory": "Causes par catégorie",
+"heartSurgery": "Chirurgie cardiaque pour enfants",
+"floodRelief": "Aide d'urgence contre les inondations",
+"educationSupport": "Soutien éducatif pour les enfants",
+"foodHelp": "Campagne d'aide alimentaire",
+"medicalAidDesc": "Aidez les enfants à recevoir un traitement médical urgent.",
+"floodReliefDesc": "Soutenez les familles touchées par les inondations et catastrophes naturelles.",
+"supportEducationDesc": "Fournissez des fournitures scolaires et un soutien éducatif aux enfants.",
+"foodSupportDesc": "Aidez à fournir des colis alimentaires aux familles dans le besoin.",
+"healthFoundation": "Fondation Santé",
+"helpingHandsOrg": "Organisation Helping Hands",
+"educationOrg": "Organisation Éducation",
+"foodAidOrg": "Organisation d'Aide Alimentaire",
+"all": "Tous",
+"medical": "Médical",
+"disasterRelief": "Aide aux catastrophes",
+"education": "Éducation",
+"hunger": "Faim",
+"trendingRequests": "Demandes tendance",
+"categoriesOverview": "Vue des catégories",
+"filters": "Filtres",
+"categories": "Catégories",
+"trackDonations": "Suivez vos dons et votre impact en temps réel.",
+  "acrossCampaigns": "À travers toutes les campagnes et demandes",
+  "causesSupported": "Causes soutenues",
+  "donationAnalytics": "Analyse des dons",
+  "donationCampaign": "Campagne de dons",
+  "educationSupport": "Soutien à l'éducation",
+  "viewDonationHistory": "Voir l’historique des dons",
+  "certificate": "Certificat",
+  "appreciationCertificate": "Certificat de reconnaissance",
+  "certificateDescription": "Ce certificat honore votre générosité et votre soutien.",
+  "downloadCertificate": "Télécharger le certificat",
+  "downloadCertificate": "Télécharger le certificat",
+  "topCausesSupport": "Principales causes soutenues",
+  "educationSupport": "Soutien à l'éducation",
+  "donationCampaign": "Campagne de dons"
+,
+  "topCausesSupport": "Principales causes soutenues",
+  "educationSupport": "Soutien à l'éducation",
+  "donationCampaign": "Campagne de dons",
+    "starDonor": "Vous êtes un donateur étoile ! ⭐",
+  "starDonorDesc": "Votre générosité transforme des vies",
+   "certificate": "Certificat",
+  "starDonor": "Vous êtes un donateur étoile ! ⭐",
+  "starDonorDesc": "Votre générosité transforme des vies",
+   "starDonor": "Vous êtes un donateur étoile ! ⭐",
+  "starDonorDesc": "Votre générosité transforme des vies",
+  "appreciationCertificate": "Certificat de reconnaissance",
+  "certificateDescription": "Ce certificat honore votre générosité et votre soutien.",
+  "downloadCertificate": "Télécharger le certificat",
+  "yourRealImpact": "Votre impact réel",
+"yourDonations": "Vos dons",
+"createRealChange": "Créer un vrai changement",
+"impactHeroDesc": "Chaque don que vous faites aide à transformer des vies dans le monde entier.",
+"verifiedDonations": "Dons vérifiés",
+
+"foodDonations": "Dons alimentaires",
+"waterDonations": "Dons d'eau",
+"educationDonations": "Dons pour l'éducation",
+
+"realDonationActivity": "Activité réelle des dons issus de vos contributions.",
+
+"allTime": "Depuis toujours",
+
+"yourDonationTrend": "Tendance de vos dons",
+"total": "Total",
+
+"impactByRegion": "Impact par région",
+"impactMapDesc": "Vos dons aident les communautés à travers le monde.",
+
+"asia": "Asie",
+"africa": "Afrique",
+"southAmerica": "Amérique du Sud",
+"europe": "Europe",
+
+"yourDonationActivity": "Votre activité de dons",
+"youHaveMade": "Vous avez effectué",
+"verifiedDonationPlatform": "dons vérifiés sur la plateforme.",
+
+"viewFullImpact": "Voir l'impact complet",
+
+"supportedCauses": "Causes soutenues",
+"appreciationCertificate": "Certificat d'appréciation",
+"certificateDescription": "Ce certificat reconnaît votre générosité et votre impact positif grâce à vos dons.",
+"downloadCertificate": "Télécharger le certificat",
+"failedDownloadCertificate": "Échec du téléchargement du certificat.",
+
+"yourDonationTrend": "Tendance de vos dons",
+"yourBadge": "Votre badge",
+"impactBadge": "Badge d'impact",
+
+"nextGoal": "Prochain objectif",
+"reachTotalDonations": "Atteindre un total de dons de 1000$",
+
+"goal": "Objectif",
+
+"livesHelped": "Vies aidées",
+
+"realDonationSummary": "Résumé réel des dons",
+
+"totalGiven": "Total donné",
+"estimatedLivesHelped": "Nombre estimé de vies aidées",
+"medicalHelp": "Aide Médicale",
+"goldSupporter": "Supporter Or",
+"realDonationSummary": "Résumé réel des dons",
+
+"yourBadge": "Votre badge",
+
+"goldSupporter": "Supporter Or",
+
+"livesHelped": "Vies aidées",
+
+"nextGoal": "Prochain objectif",
+
+"reachTotalDonations": "Atteindre le total des dons",
+
+"totalGiven": "Total donné",
+
+"estimatedLivesHelped": "Nombre estimé de vies aidées",
+"yourBadge": "Votre badge",
+"goldSupporter": "Supporter Or",
+"realDonationSummary": "Résumé réel des dons",
+"nextGoal": "Prochain objectif",
+"reachTotalDonations": "Atteindre le total des dons",
+"totalGiven": "Total donné",
+"estimatedLivesHelped": "Nombre estimé de vies aidées",
+"livesHelped": "Vies aidées",
+"favoritesOverview": "Aperçu des favoris",
+"savedImpactSummary": "Impact de vos demandes et causes sauvegardées",
+"favoritesStatistics": "Statistiques des favoris",
+"savedRequests": "Demandes sauvegardées",
+"savedCauses": "Causes sauvegardées",
+"totalSaved": "Total sauvegardé",
+"totalRaised": "Total collecté",
+"favoritesCanChangeLives": "Vos favoris peuvent changer des vies",
+"favoritesMotivation": "Chaque demande sauvegardée est un pas vers le changement.",
+"exploreMore": "Explorer plus",
+"quickActions": "Actions rapides",
+"browseRequests": "Parcourir les demandes",
+"exploreCauses": "Explorer les causes",
+"needHelp": "Besoin d'aide ?",
+"supportAnytime": "Nous sommes là pour vous à tout moment.",
+"contactSupport": "Contacter le support",
+"favoritesSubtitle": "Vos causes et demandes de dons sauvegardées",
+"openOverview": "Ouvrir l’aperçu",
+"searchFavorites": "Rechercher dans les favoris...",
+"noFavoritesFound": "Aucun favori trouvé",
+"tryAnotherSearch": "Essayez un autre mot-clé",
+"donate": "Faire un don",
+"view": "Voir",
+"remove": "Supprimer",
+"medicalAidDesc": "Aider les enfants à recevoir des chirurgies et traitements médicaux urgents.",
+"cleanWaterDesc": "Fournir de l’eau potable propre aux communautés dans le besoin.",
+"heartSurgery": "Chirurgie cardiaque",
+"cleanWater": "Eau potable",
+"healthFoundation": "Fondation Santé",
+"waterReliefOrg": "Organisation d’aide à l’eau",
+"medical": "Médical",
+"water": "Eau",
+"goal": "Objectif",
+"completedFundraising": "collecte de fonds terminée",
+"by": "par"
+
+
+
+
+
+
+
+
+
+
+
+
+}
